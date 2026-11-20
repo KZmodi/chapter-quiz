@@ -4,6 +4,7 @@
   "questions": [
     {
       "id": 1,
+      "number": 69,
       "type": "multiple",
       "prompt": "对人工智能常见的误解有哪些?( )",
       "options": [
@@ -38,6 +39,7 @@
     },
     {
       "id": 2,
+      "number": 100,
       "type": "boolean",
       "prompt": "哲学思维对于人工智能的重要性表现在,哲学所强调的批判性思维有助于认清人工智能发展中的问题。( )",
       "options": [
@@ -63,6 +65,7 @@
     },
     {
       "id": 3,
+      "number": 101,
       "type": "boolean",
       "prompt": "深度学习在人工智能领域的表现并不突出。( )",
       "options": [
@@ -88,6 +91,7 @@
     },
     {
       "id": 4,
+      "number": 1,
       "type": "single",
       "prompt": "计算机之父是( )。",
       "options": [
@@ -121,6 +125,7 @@
     },
     {
       "id": 5,
+      "number": 2,
       "type": "single",
       "prompt": "人工智能与计算机学科的关系是( )。",
       "options": [
@@ -154,6 +159,7 @@
     },
     {
       "id": 6,
+      "number": 3,
       "type": "single",
       "prompt": "人工智能作为一门学科的建立时间是( )。",
       "options": [
@@ -187,6 +193,7 @@
     },
     {
       "id": 7,
+      "number": 70,
       "type": "multiple",
       "prompt": "下列哪些选项是符号 AI 的技术路线( )?",
       "options": [
@@ -221,6 +228,7 @@
     },
     {
       "id": 8,
+      "number": 102,
       "type": "boolean",
       "prompt": "符号 AI 是将人的思维通过逻辑语言制成流形图让计算机去执行。( )",
       "options": [
@@ -246,6 +254,7 @@
     },
     {
       "id": 9,
+      "number": 103,
       "type": "boolean",
       "prompt": "通用问题求解器需要寻找全局最优解。( )",
       "options": [
@@ -271,6 +280,7 @@
     },
     {
       "id": 10,
+      "number": 104,
       "type": "boolean",
       "prompt": "符号 AI 无法面对人类经验的变动性。( )",
       "options": [
@@ -296,6 +306,7 @@
     },
     {
       "id": 11,
+      "number": 4,
       "type": "single",
       "prompt": "( )是现在新出现的人工智能的研究方向。",
       "options": [
@@ -329,6 +340,7 @@
     },
     {
       "id": 12,
+      "number": 5,
       "type": "single",
       "prompt": "深度学习中的“深度”是指( )。",
       "options": [
@@ -362,6 +374,7 @@
     },
     {
       "id": 13,
+      "number": 71,
       "type": "multiple",
       "prompt": "人工神经元网络与深度学习的关系是( )。",
       "options": [
@@ -396,6 +409,7 @@
     },
     {
       "id": 14,
+      "number": 72,
       "type": "multiple",
       "prompt": "人工神经元网络的运作可以粗略分为( )三个层面。",
       "options": [
@@ -431,6 +445,7 @@
     },
     {
       "id": 15,
+      "number": 105,
       "type": "boolean",
       "prompt": "符号 AI 不是人工智能的正统。( )",
       "options": [
@@ -456,6 +471,7 @@
     },
     {
       "id": 16,
+      "number": 106,
       "type": "boolean",
       "prompt": "人工神经元网络是对人类的神经元运作进行一种非常粗糙的数学模拟。( )",
       "options": [
@@ -481,6 +497,7 @@
     },
     {
       "id": 17,
+      "number": 107,
       "type": "boolean",
       "prompt": "相比于人工神经元网络和深度学习,类脑人工智能对人类大脑的神经回路具有更深入的了解。( )",
       "options": [
@@ -506,6 +523,7 @@
     },
     {
       "id": 18,
+      "number": 6,
       "type": "single",
       "prompt": "深度学习的实质是( )。",
       "options": [
@@ -539,6 +557,7 @@
     },
     {
       "id": 19,
+      "number": 73,
       "type": "multiple",
       "prompt": "符号 AI 的问题在于( )。",
       "options": [
@@ -574,6 +593,7 @@
     },
     {
       "id": 20,
+      "number": 108,
       "type": "boolean",
       "prompt": "推理的本质是在信息不足的情况下能够最大程度的得到最靠谱的结论。( )",
       "options": [
@@ -599,6 +619,7 @@
     },
     {
       "id": 21,
+      "number": 109,
       "type": "boolean",
       "prompt": "计算机具有触类旁通的能力,可以根据具体语境对事件进行分类。( )",
       "options": [
@@ -624,6 +645,7 @@
     },
     {
       "id": 22,
+      "number": 110,
       "type": "boolean",
       "prompt": "人工神经元网络会遭遇“框架问题”。( )",
       "options": [
@@ -649,6 +671,7 @@
     },
     {
       "id": 23,
+      "number": 7,
       "type": "single",
       "prompt": "日本五代计算机泡沫关注的核心问题是( )。",
       "options": [
@@ -682,6 +705,7 @@
     },
     {
       "id": 24,
+      "number": 111,
       "type": "boolean",
       "prompt": "制造人工智能的规划、计划和方案本身应该能根据情况的变化进行自我调整。( )",
       "options": [
@@ -707,6 +731,7 @@
     },
     {
       "id": 25,
+      "number": 74,
       "type": "multiple",
       "prompt": "目前对人工智能的发展所持有的观点有( )。",
       "options": [
@@ -742,6 +767,7 @@
     },
     {
       "id": 26,
+      "number": 112,
       "type": "boolean",
       "prompt": "现在的人工智能系统都是专用人工智能而非通用人工智能。( )",
       "options": [
@@ -767,6 +793,7 @@
     },
     {
       "id": 27,
+      "number": 8,
       "type": "single",
       "prompt": "一个真正的通用人工智能系统应具备处理( )问题的能力。",
       "options": [
@@ -800,6 +827,7 @@
     },
     {
       "id": 28,
+      "number": 9,
       "type": "single",
       "prompt": "目前的人工智能研发的动力主要来源于( )。",
       "options": [
@@ -833,6 +861,7 @@
     },
     {
       "id": 29,
+      "number": 113,
       "type": "boolean",
       "prompt": "现有的人工神经元网络或深度学习无法处理全局性问题。( )",
       "options": [
@@ -858,6 +887,7 @@
     },
     {
       "id": 30,
+      "number": 114,
       "type": "boolean",
       "prompt": "人工神经元网络只需要很少的数据便可掌握处理特定问题的能力。( )",
       "options": [
@@ -883,6 +913,7 @@
     },
     {
       "id": 31,
+      "number": 10,
       "type": "single",
       "prompt": "能够推进人工智能智能的研究最好方法是( )。",
       "options": [
@@ -916,6 +947,7 @@
     },
     {
       "id": 32,
+      "number": 75,
       "type": "multiple",
       "prompt": "下列哪些选项属于通用智力因素?( )",
       "options": [
@@ -952,6 +984,7 @@
     },
     {
       "id": 33,
+      "number": 115,
       "type": "boolean",
       "prompt": "类脑人工智能是指模拟人类大脑的人工智能。( )",
       "options": [
@@ -977,6 +1010,7 @@
     },
     {
       "id": 34,
+      "number": 116,
       "type": "boolean",
       "prompt": "人类自己的智能体现了通用性。( )",
       "options": [
@@ -1002,6 +1036,7 @@
     },
     {
       "id": 35,
+      "number": 76,
       "type": "multiple",
       "prompt": "以下哪些选项属于自然智能?( )",
       "options": [
@@ -1037,6 +1072,7 @@
     },
     {
       "id": 36,
+      "number": 77,
       "type": "multiple",
       "prompt": "智能的特点是( )。",
       "options": [
@@ -1071,6 +1107,7 @@
     },
     {
       "id": 37,
+      "number": 117,
       "type": "boolean",
       "prompt": "智能与神经元网络的存在具有必然关系。( )",
       "options": [
@@ -1096,6 +1133,7 @@
     },
     {
       "id": 38,
+      "number": 118,
       "type": "boolean",
       "prompt": "类脑人工智能及人工神经元网络只是智能展现的一种形式。( )",
       "options": [
@@ -1121,6 +1159,7 @@
     },
     {
       "id": 39,
+      "number": 11,
       "type": "single",
       "prompt": "提出强人工智能与弱人工智能的人是( )。",
       "options": [
@@ -1154,6 +1193,7 @@
     },
     {
       "id": 40,
+      "number": 119,
       "type": "boolean",
       "prompt": "通用人工智能就是强人工智能。( )",
       "options": [
@@ -1179,6 +1219,7 @@
     },
     {
       "id": 41,
+      "number": 12,
       "type": "single",
       "prompt": "深度学习的数据材料来源于( )。",
       "options": [
@@ -1212,6 +1253,7 @@
     },
     {
       "id": 42,
+      "number": 13,
       "type": "single",
       "prompt": "大数据技术的样本空间是( )。",
       "options": [
@@ -1245,6 +1287,7 @@
     },
     {
       "id": 43,
+      "number": 120,
       "type": "boolean",
       "prompt": "统计学研究首先要确立样本空间,进行合理抽样,然后估测出相关的情况。( )",
       "options": [
@@ -1270,6 +1313,7 @@
     },
     {
       "id": 44,
+      "number": 121,
       "type": "boolean",
       "prompt": "当前的主流人工智能是通向真正的通用人工智能的康庄大道。( )",
       "options": [
@@ -1295,6 +1339,7 @@
     },
     {
       "id": 45,
+      "number": 193,
       "type": "short",
       "prompt": "大数据技术与统计学的不同在于?",
       "options": [],
@@ -1309,6 +1354,7 @@
     },
     {
       "id": 46,
+      "number": 14,
       "type": "single",
       "prompt": "大数据所搜集到的用户群体都是( )。",
       "options": [
@@ -1342,6 +1388,7 @@
     },
     {
       "id": 47,
+      "number": 15,
       "type": "single",
       "prompt": "人类心智比较容易适应( )环境。",
       "options": [
@@ -1375,6 +1422,7 @@
     },
     {
       "id": 48,
+      "number": 78,
       "type": "multiple",
       "prompt": "技术问题背后还有着( )问题",
       "options": [
@@ -1409,6 +1457,7 @@
     },
     {
       "id": 49,
+      "number": 122,
       "type": "boolean",
       "prompt": "由于大数据只能体现出数量而不能进行质量上的判断,所以在采样并不完整的情况下给出的结论未必准确。( )",
       "options": [
@@ -1434,6 +1483,7 @@
     },
     {
       "id": 50,
+      "number": 123,
       "type": "boolean",
       "prompt": "大数据会使人类的行为逐渐趋同。( )",
       "options": [
@@ -1459,6 +1509,7 @@
     },
     {
       "id": 51,
+      "number": 16,
       "type": "single",
       "prompt": "“节俭性理性”是( )提出的。",
       "options": [
@@ -1492,6 +1543,7 @@
     },
     {
       "id": 52,
+      "number": 17,
       "type": "single",
       "prompt": "利用自己的认知本能来进行判断的思维算法是( )。",
       "options": [
@@ -1525,6 +1577,7 @@
     },
     {
       "id": 53,
+      "number": 79,
       "type": "multiple",
       "prompt": "绿色人工智能是指( )。",
       "options": [
@@ -1560,6 +1613,7 @@
     },
     {
       "id": 54,
+      "number": 124,
       "type": "boolean",
       "prompt": "面临信息过载的情况,最好的判断方法是通过本能运用原始算法。( )",
       "options": [
@@ -1585,6 +1639,7 @@
     },
     {
       "id": 55,
+      "number": 125,
       "type": "boolean",
       "prompt": "大量信息的提供,尤其是彼此矛盾的信息的提供并不会导致我们的思维过载。( )",
       "options": [
@@ -1610,6 +1665,7 @@
     },
     {
       "id": 56,
+      "number": 126,
       "type": "boolean",
       "prompt": "赫伯特•西蒙提出了有限理性理论。( )",
       "options": [
@@ -1635,6 +1691,7 @@
     },
     {
       "id": 57,
+      "number": 18,
       "type": "single",
       "prompt": "过度开采社会人文资源,是指在大数据的环境下对( )的侵犯。",
       "options": [
@@ -1668,6 +1725,7 @@
     },
     {
       "id": 58,
+      "number": 127,
       "type": "boolean",
       "prompt": "大数据无法维持人类社会的隐私和公开之间的张力平衡。( )",
       "options": [
@@ -1693,6 +1751,7 @@
     },
     {
       "id": 59,
+      "number": 128,
       "type": "boolean",
       "prompt": "深度学习就是一种绿色人工智能。( )",
       "options": [
@@ -1718,6 +1777,7 @@
     },
     {
       "id": 60,
+      "number": 19,
       "type": "single",
       "prompt": "在人工智能的所有子课题中,所牵涉范围最广的是( )",
       "options": [
@@ -1751,6 +1811,7 @@
     },
     {
       "id": 61,
+      "number": 80,
       "type": "multiple",
       "prompt": "真正的通用人工智能系统具有把握( )的能力。",
       "options": [
@@ -1785,6 +1846,7 @@
     },
     {
       "id": 62,
+      "number": 129,
       "type": "boolean",
       "prompt": "语言是检测人工智能是否真正厉害的试金石。( )",
       "options": [
@@ -1810,6 +1872,7 @@
     },
     {
       "id": 63,
+      "number": 130,
       "type": "boolean",
       "prompt": "机器语言的特点是有丰富的修辞手段。( )",
       "options": [
@@ -1835,6 +1898,7 @@
     },
     {
       "id": 64,
+      "number": 20,
       "type": "single",
       "prompt": "聊天机器人 ELIZA 的运作,很大程度上采用了将计就计的策略,它本身并没有一个完整的( )。",
       "options": [
@@ -1868,6 +1932,7 @@
     },
     {
       "id": 65,
+      "number": 81,
       "type": "multiple",
       "prompt": "下列属于行为主义心理学家的是( )。",
       "options": [
@@ -1902,6 +1967,7 @@
     },
     {
       "id": 66,
+      "number": 131,
       "type": "boolean",
       "prompt": "图灵测验本身具有浓重的行为主义色彩。( )",
       "options": [
@@ -1927,6 +1993,7 @@
     },
     {
       "id": 67,
+      "number": 132,
       "type": "boolean",
       "prompt": "聊天机器人某种程度上具备人类的心智。( )",
       "options": [
@@ -1952,6 +2019,7 @@
     },
     {
       "id": 68,
+      "number": 21,
       "type": "single",
       "prompt": "SHRDLU 系统实际上是一个( )。",
       "options": [
@@ -1985,6 +2053,7 @@
     },
     {
       "id": 69,
+      "number": 22,
       "type": "single",
       "prompt": "SHRDLU 系统是由( )发明的。",
       "options": [
@@ -2018,6 +2087,7 @@
     },
     {
       "id": 70,
+      "number": 133,
       "type": "boolean",
       "prompt": "SHRDLU 系统预设了在哲学上语词和外部对象具有对应关系。( )",
       "options": [
@@ -2043,6 +2113,7 @@
     },
     {
       "id": 71,
+      "number": 134,
       "type": "boolean",
       "prompt": "外在主义的语义模型在哲学上的意思是每个语词的真正含义都要通过与其对应的外在对象来加以编码。( )",
       "options": [
@@ -2068,6 +2139,7 @@
     },
     {
       "id": 72,
+      "number": 23,
       "type": "single",
       "prompt": "语言不仅仅是句法问题,更是( )。",
       "options": [
@@ -2101,6 +2173,7 @@
     },
     {
       "id": 73,
+      "number": 24,
       "type": "single",
       "prompt": "实际的翻译中有时要破坏句子原有的句法结构,根据( )重新组织句子。",
       "options": [
@@ -2134,6 +2207,7 @@
     },
     {
       "id": 74,
+      "number": 82,
       "type": "multiple",
       "prompt": "乔姆斯基认为人类的语法都有哪两个层面?( )",
       "options": [
@@ -2168,6 +2242,7 @@
     },
     {
       "id": 75,
+      "number": 135,
       "type": "boolean",
       "prompt": "大数据对于语言学习来说,其解释能力非常有限。( )",
       "options": [
@@ -2193,6 +2268,7 @@
     },
     {
       "id": 76,
+      "number": 136,
       "type": "boolean",
       "prompt": "0-3 岁的小孩通过贫乏的语言样本就能够进行有效的语言学习,说明了基于大数据的心智模型是有问题的。( )",
       "options": [
@@ -2218,6 +2294,7 @@
     },
     {
       "id": 77,
+      "number": 25,
       "type": "single",
       "prompt": "可以用来界定因果关系的是( )。",
       "options": [
@@ -2251,6 +2328,7 @@
     },
     {
       "id": 78,
+      "number": 26,
       "type": "single",
       "prompt": "把归纳逻辑抬到比较高的位置的哲学家是( )。",
       "options": [
@@ -2284,6 +2362,7 @@
     },
     {
       "id": 79,
+      "number": 83,
       "type": "multiple",
       "prompt": "下列属于基于规则的自然语言处理进路的是( )。",
       "options": [
@@ -2318,6 +2397,7 @@
     },
     {
       "id": 80,
+      "number": 84,
       "type": "multiple",
       "prompt": "下列属于外语翻译专业术语的是( )。",
       "options": [
@@ -2352,6 +2432,7 @@
     },
     {
       "id": 81,
+      "number": 137,
       "type": "boolean",
       "prompt": "先验概率是指根据以往经验和分析得到的概率。( )",
       "options": [
@@ -2377,6 +2458,7 @@
     },
     {
       "id": 82,
+      "number": 138,
       "type": "boolean",
       "prompt": "休谟认为在因果推理中只有或然性。( )",
       "options": [
@@ -2402,6 +2484,7 @@
     },
     {
       "id": 83,
+      "number": 139,
       "type": "boolean",
       "prompt": "同一个语词在不同的语境当中具有不同的含义。( )",
       "options": [
@@ -2427,6 +2510,7 @@
     },
     {
       "id": 84,
+      "number": 140,
       "type": "boolean",
       "prompt": "贝叶斯公式适合于人工智能的自然语言处理。( )",
       "options": [
@@ -2452,6 +2536,7 @@
     },
     {
       "id": 85,
+      "number": 27,
       "type": "single",
       "prompt": "下列属于基于统计的自然语言处理进路的是( )。",
       "options": [
@@ -2485,6 +2570,7 @@
     },
     {
       "id": 86,
+      "number": 28,
       "type": "single",
       "prompt": "基于规则与统计的混合进路的日然语言处理进路背后的哲学根据是( )的哲学。",
       "options": [
@@ -2518,6 +2604,7 @@
     },
     {
       "id": 87,
+      "number": 85,
       "type": "multiple",
       "prompt": "康德认为知识的来源有哪两部分?( )",
       "options": [
@@ -2552,6 +2639,7 @@
     },
     {
       "id": 88,
+      "number": 141,
       "type": "boolean",
       "prompt": "多引擎翻译系统是指本身由很多不同的原则所驱动的混合翻译。( )",
       "options": [
@@ -2577,6 +2665,7 @@
     },
     {
       "id": 89,
+      "number": 142,
       "type": "boolean",
       "prompt": "混合式自然语言处理进路的问题在于如何将基于规则的自然语言处理与基于规则的语言处理很好地融合在一起。( )",
       "options": [
@@ -2602,6 +2691,7 @@
     },
     {
       "id": 90,
+      "number": 29,
       "type": "single",
       "prompt": "影响基于中间语的机器翻译思路的哲学家是( )。",
       "options": [
@@ -2635,6 +2725,7 @@
     },
     {
       "id": 91,
+      "number": 30,
       "type": "single",
       "prompt": "影响基于统计学自然语言处理的哲学家是( )。",
       "options": [
@@ -2668,6 +2759,7 @@
     },
     {
       "id": 92,
+      "number": 31,
       "type": "single",
       "prompt": "与基于实际语例的自然语言处理进路有关的哲学家是( )。",
       "options": [
@@ -2701,6 +2793,7 @@
     },
     {
       "id": 93,
+      "number": 143,
       "type": "boolean",
       "prompt": "基于实例的自然语言处理会出现不对齐问题。( )",
       "options": [
@@ -2726,6 +2819,7 @@
     },
     {
       "id": 94,
+      "number": 144,
       "type": "boolean",
       "prompt": "基于实例的自然语言处理的问题是它会由两种语言之间的对应关系所决定,而有时两种语言之间的对应关系比较难以把捉。( )",
       "options": [
@@ -2751,6 +2845,7 @@
     },
     {
       "id": 95,
+      "number": 145,
       "type": "boolean",
       "prompt": "基于实例的自然语言处理在语言翻译上具有灵活性。( )",
       "options": [
@@ -2776,6 +2871,7 @@
     },
     {
       "id": 96,
+      "number": 146,
       "type": "boolean",
       "prompt": "基于实例的自然语言处理需要事先对语用材料的规则性有所把握。( )",
       "options": [
@@ -2801,6 +2897,7 @@
     },
     {
       "id": 97,
+      "number": 32,
       "type": "single",
       "prompt": "提出强人工智能与弱人工智能的人是( )。",
       "options": [
@@ -2834,6 +2931,7 @@
     },
     {
       "id": 98,
+      "number": 33,
       "type": "single",
       "prompt": "专用与通用人工智能讨论的是智能的( )问题。",
       "options": [
@@ -2867,6 +2965,7 @@
     },
     {
       "id": 99,
+      "number": 34,
       "type": "single",
       "prompt": "弱人工智能是指仅仅模拟人类大脑的( );强人工智能是指其本身就是一个( )。",
       "options": [
@@ -2900,6 +2999,7 @@
     },
     {
       "id": 100,
+      "number": 147,
       "type": "boolean",
       "prompt": "强人工智能与弱人工智能就等于专业人工智能与通用人工智能。( )",
       "options": [
@@ -2925,6 +3025,7 @@
     },
     {
       "id": 101,
+      "number": 148,
       "type": "boolean",
       "prompt": "现有的深度学习进路的人工智能并不能达到通用人工智能。( )",
       "options": [
@@ -2950,6 +3051,7 @@
     },
     {
       "id": 102,
+      "number": 35,
       "type": "single",
       "prompt": "( )的思想激发了基于中间语的机器翻译思路。",
       "options": [
@@ -2983,6 +3085,7 @@
     },
     {
       "id": 103,
+      "number": 36,
       "type": "single",
       "prompt": "磨坊论证出自( )。",
       "options": [
@@ -3016,6 +3119,7 @@
     },
     {
       "id": 104,
+      "number": 37,
       "type": "single",
       "prompt": "机械主义的说明方式不能囊括人类的( )。",
       "options": [
@@ -3049,6 +3153,7 @@
     },
     {
       "id": 105,
+      "number": 149,
       "type": "boolean",
       "prompt": "灵活理解语句的能力是人类智能的标准。( )",
       "options": [
@@ -3074,6 +3179,7 @@
     },
     {
       "id": 106,
+      "number": 150,
       "type": "boolean",
       "prompt": "多重可实现主义是指用什么东西来执行计算机的抽象程序来说是不重要的,可以通过很多途径来执行计算机程序。( )",
       "options": [
@@ -3099,6 +3205,7 @@
     },
     {
       "id": 107,
+      "number": 38,
       "type": "single",
       "prompt": "汉字屋论证是( )提出的。",
       "options": [
@@ -3132,6 +3239,7 @@
     },
     {
       "id": 108,
+      "number": 86,
       "type": "multiple",
       "prompt": "塞尔区分了( )和( )。",
       "options": [
@@ -3166,6 +3274,7 @@
     },
     {
       "id": 109,
+      "number": 151,
       "type": "boolean",
       "prompt": "任何一个精心编程的计算机,它本身的句法操作不足以支持起语义理解。( )",
       "options": [
@@ -3191,6 +3300,7 @@
     },
     {
       "id": 110,
+      "number": 39,
       "type": "single",
       "prompt": "丹尼尔•丹尼特对塞尔“中文屋论证”的批评是( )。",
       "options": [
@@ -3224,6 +3334,7 @@
     },
     {
       "id": 111,
+      "number": 40,
       "type": "single",
       "prompt": "塞尔论证的合法性前提是,他的中文屋系统和一般的计算机系统之间是( )。",
       "options": [
@@ -3257,6 +3368,7 @@
     },
     {
       "id": 112,
+      "number": 41,
       "type": "single",
       "prompt": "( )无法得知,因为他人的行为和表现有伪装性。",
       "options": [
@@ -3290,6 +3402,7 @@
     },
     {
       "id": 113,
+      "number": 152,
       "type": "boolean",
       "prompt": "塞尔认为一个人具有一门语言表达的外部行为就代表其真正懂得这门语言。( )",
       "options": [
@@ -3315,6 +3428,7 @@
     },
     {
       "id": 114,
+      "number": 153,
       "type": "boolean",
       "prompt": "人类的感官处理也具有机械性。( )",
       "options": [
@@ -3340,6 +3454,7 @@
     },
     {
       "id": 115,
+      "number": 87,
       "type": "multiple",
       "prompt": "机器翻译的局限性在于( )。",
       "options": [
@@ -3374,6 +3489,7 @@
     },
     {
       "id": 116,
+      "number": 154,
       "type": "boolean",
       "prompt": "人类译员一定会被机器所取代。( )",
       "options": [
@@ -3399,6 +3515,7 @@
     },
     {
       "id": 117,
+      "number": 194,
       "type": "short",
       "prompt": "深度学习是什么?它是如何运作的?",
       "options": [],
@@ -3413,6 +3530,7 @@
     },
     {
       "id": 118,
+      "number": 155,
       "type": "boolean",
       "prompt": "现有的机器翻译无法对人类语用环境的丰富性进行处理。( )",
       "options": [
@@ -3438,6 +3556,7 @@
     },
     {
       "id": 119,
+      "number": 156,
       "type": "boolean",
       "prompt": "文化差异不一定会影响翻译结果。( )",
       "options": [
@@ -3463,6 +3582,7 @@
     },
     {
       "id": 120,
+      "number": 42,
       "type": "single",
       "prompt": "认知语言学关心的是我们在使用某个概念时,心中浮现出的( )。",
       "options": [
@@ -3496,6 +3616,7 @@
     },
     {
       "id": 121,
+      "number": 88,
       "type": "multiple",
       "prompt": "认知语言学更多地是考虑( )。",
       "options": [
@@ -3530,6 +3651,7 @@
     },
     {
       "id": 122,
+      "number": 157,
       "type": "boolean",
       "prompt": "翻译不一定发生在不同语言的人之间。( )",
       "options": [
@@ -3555,6 +3677,7 @@
     },
     {
       "id": 123,
+      "number": 158,
       "type": "boolean",
       "prompt": "翻译机器在进行翻译时会考虑到用户的文化背景。( )",
       "options": [
@@ -3580,6 +3703,7 @@
     },
     {
       "id": 124,
+      "number": 43,
       "type": "single",
       "prompt": "框架与框架之间的粘接剂叫做( )。",
       "options": [
@@ -3613,6 +3737,7 @@
     },
     {
       "id": 125,
+      "number": 159,
       "type": "boolean",
       "prompt": "框架之间的相互关系构成了人类语言的基本推理系统。( )",
       "options": [
@@ -3638,6 +3763,7 @@
     },
     {
       "id": 126,
+      "number": 160,
       "type": "boolean",
       "prompt": "框架需要使用整个框架网络,但有时也可单独使用。( )",
       "options": [
@@ -3663,6 +3789,7 @@
     },
     {
       "id": 127,
+      "number": 44,
       "type": "single",
       "prompt": "计算机的编程语言是以( )语为模仿对象的。",
       "options": [
@@ -3696,6 +3823,7 @@
     },
     {
       "id": 128,
+      "number": 89,
       "type": "multiple",
       "prompt": "人工智能主要依赖的学科有( )。",
       "options": [
@@ -3730,6 +3858,7 @@
     },
     {
       "id": 129,
+      "number": 161,
       "type": "boolean",
       "prompt": "计算机自身的编程母语是多语种的。( )",
       "options": [
@@ -3755,6 +3884,7 @@
     },
     {
       "id": 130,
+      "number": 162,
       "type": "boolean",
       "prompt": "人工智能不会受到“母语意识”的影响。( )",
       "options": [
@@ -3780,6 +3910,7 @@
     },
     {
       "id": 131,
+      "number": 45,
       "type": "single",
       "prompt": "第一个注意到东方语言中量词问题的语言哲学家是( )。",
       "options": [
@@ -3813,6 +3944,7 @@
     },
     {
       "id": 132,
+      "number": 90,
       "type": "multiple",
       "prompt": "英语重视哪两个问题的区分?( )",
       "options": [
@@ -3847,6 +3979,7 @@
     },
     {
       "id": 133,
+      "number": 163,
       "type": "boolean",
       "prompt": "通过海量的数据输入及学习人工智能在量词的指派方面会达到相对准确的程度。( )",
       "options": [
@@ -3872,6 +4005,7 @@
     },
     {
       "id": 134,
+      "number": 164,
       "type": "boolean",
       "prompt": "基于统计学的和数据训练的人工智能系统是无法对语词背后的含义进行深入的理解的。( )",
       "options": [
@@ -3897,6 +4031,7 @@
     },
     {
       "id": 135,
+      "number": 46,
       "type": "single",
       "prompt": "量词在汉语中的演化史,以( )时代作为一个重要的转折点。",
       "options": [
@@ -3930,6 +4065,7 @@
     },
     {
       "id": 136,
+      "number": 91,
       "type": "multiple",
       "prompt": "汉语的演化史表明,量词的真实功用可能与( )没有任何关系。",
       "options": [
@@ -3964,6 +4100,7 @@
     },
     {
       "id": 137,
+      "number": 165,
       "type": "boolean",
       "prompt": "通用量词就是只能和特定的名词进行搭配的量词。( )",
       "options": [
@@ -3989,6 +4126,7 @@
     },
     {
       "id": 138,
+      "number": 166,
       "type": "boolean",
       "prompt": "通用量词的出现提升了古汉语的韵律上的齐一性。( )",
       "options": [
@@ -4014,6 +4152,7 @@
     },
     {
       "id": 139,
+      "number": 167,
       "type": "boolean",
       "prompt": "按照认知语言学的看法,我们对整个世界当中的事物的描述都是一种隐喻投射机制。( )",
       "options": [
@@ -4039,6 +4178,7 @@
     },
     {
       "id": 140,
+      "number": 168,
       "type": "boolean",
       "prompt": "站在整个全球人类语言演化的大方向上来看,量词现象是具有地方性的。( )",
       "options": [
@@ -4064,6 +4204,7 @@
     },
     {
       "id": 141,
+      "number": 195,
       "type": "short",
       "prompt": "为什么东亚国家的语言需要量词,而西方民族不需要量词?",
       "options": [],
@@ -4078,6 +4219,7 @@
     },
     {
       "id": 142,
+      "number": 47,
       "type": "single",
       "prompt": "“中文屋”是( )提出的思想实验。",
       "options": [
@@ -4111,6 +4253,7 @@
     },
     {
       "id": 143,
+      "number": 169,
       "type": "boolean",
       "prompt": "汉语在塞尔的论证中所扮演的角色是非常“功能性”的,即塞尔只是借用“汉语”指涉任何他不懂的语言。( )",
       "options": [
@@ -4136,6 +4279,7 @@
     },
     {
       "id": 144,
+      "number": 48,
       "type": "single",
       "prompt": "金谷武洋认为日本人是( )看待世界的。",
       "options": [
@@ -4169,6 +4313,7 @@
     },
     {
       "id": 145,
+      "number": 49,
       "type": "single",
       "prompt": "与汉语相比,日语对于(身体感受性)的强调更加明显。",
       "options": [
@@ -4202,6 +4347,7 @@
     },
     {
       "id": 146,
+      "number": 92,
       "type": "multiple",
       "prompt": "日语是( )的混合体。",
       "options": [
@@ -4236,6 +4382,7 @@
     },
     {
       "id": 147,
+      "number": 170,
       "type": "boolean",
       "prompt": "塞尔的规则书很大程度上是指语言符号的输入和语言符号的输出之间的关系。( )",
       "options": [
@@ -4261,6 +4408,7 @@
     },
     {
       "id": 148,
+      "number": 171,
       "type": "boolean",
       "prompt": "对语言的把握和体会很大程度上是一个语言符号的问题,并不依赖于对语境的观察。( )",
       "options": [
@@ -4286,6 +4434,7 @@
     },
     {
       "id": 149,
+      "number": 50,
       "type": "single",
       "prompt": "提出“包容构架”理论的是( )。",
       "options": [
@@ -4319,6 +4468,7 @@
     },
     {
       "id": 150,
+      "number": 51,
       "type": "single",
       "prompt": "日语具有强烈的( )。",
       "options": [
@@ -4352,6 +4502,7 @@
     },
     {
       "id": 151,
+      "number": 52,
       "type": "single",
       "prompt": "深度学习归根结底是一个( )。",
       "options": [
@@ -4385,6 +4536,7 @@
     },
     {
       "id": 152,
+      "number": 172,
       "type": "boolean",
       "prompt": "深度学习能够很好地处理语境性的信息。( )",
       "options": [
@@ -4410,6 +4562,7 @@
     },
     {
       "id": 153,
+      "number": 173,
       "type": "boolean",
       "prompt": "深度学习无法从客观数据达到主观体验。( )",
       "options": [
@@ -4435,6 +4588,7 @@
     },
     {
       "id": 154,
+      "number": 53,
       "type": "single",
       "prompt": "( )是非常接近欧陆现象学运动的语言学流派。",
       "options": [
@@ -4468,6 +4622,7 @@
     },
     {
       "id": 155,
+      "number": 54,
       "type": "single",
       "prompt": "现有的主流人工智能对自然语言的处理是基于( )视角的。",
       "options": [
@@ -4501,6 +4656,7 @@
     },
     {
       "id": 156,
+      "number": 93,
       "type": "multiple",
       "prompt": "下列哪些哲学家是从人类真实接受到的现象学体验出发来理解人类生活的方方面面?( )",
       "options": [
@@ -4536,6 +4692,7 @@
     },
     {
       "id": 157,
+      "number": 174,
       "type": "boolean",
       "prompt": "计算机永远无法处理日语所具有的暧昧性。( )",
       "options": [
@@ -4561,6 +4718,7 @@
     },
     {
       "id": 158,
+      "number": 175,
       "type": "boolean",
       "prompt": "认知语言学是对我们进行语言处理的认知图式进行精确的把握。( )",
       "options": [
@@ -4586,6 +4744,7 @@
     },
     {
       "id": 159,
+      "number": 55,
       "type": "single",
       "prompt": "阿西莫夫三定律出自( )。",
       "options": [
@@ -4619,6 +4778,7 @@
     },
     {
       "id": 160,
+      "number": 94,
       "type": "multiple",
       "prompt": "人工智能伦理学包括( )。",
       "options": [
@@ -4653,6 +4813,7 @@
     },
     {
       "id": 161,
+      "number": 176,
       "type": "boolean",
       "prompt": "伦理道德规范编程的语义内容本身需要具身性加以奠基。( )",
       "options": [
@@ -4678,6 +4839,7 @@
     },
     {
       "id": 162,
+      "number": 177,
       "type": "boolean",
       "prompt": "机器伦理学是指造人工智能的主体自身的道德。( )",
       "options": [
@@ -4703,6 +4865,7 @@
     },
     {
       "id": 163,
+      "number": 56,
       "type": "single",
       "prompt": "金谷武洋认为日本人是用虫子的视角看待世界的,这是一种( )解释。",
       "options": [
@@ -4736,6 +4899,7 @@
     },
     {
       "id": 164,
+      "number": 57,
       "type": "single",
       "prompt": "认知语言学认为“意义”的核心观点在于( )。",
       "options": [
@@ -4769,6 +4933,7 @@
     },
     {
       "id": 165,
+      "number": 95,
       "type": "multiple",
       "prompt": "下列与“汉密尔顿理论”相关的是( )",
       "options": [
@@ -4804,6 +4969,7 @@
     },
     {
       "id": 166,
+      "number": 178,
       "type": "boolean",
       "prompt": "麦金泰尔在《依赖性的理性动物》一书中指出动物的社群活动具有很深的生物学根基。( )",
       "options": [
@@ -4829,6 +4995,7 @@
     },
     {
       "id": 167,
+      "number": 179,
       "type": "boolean",
       "prompt": "认知语言学认为一个句子的意义具有唯一的答案。( )",
       "options": [
@@ -4854,6 +5021,7 @@
     },
     {
       "id": 168,
+      "number": 180,
       "type": "boolean",
       "prompt": "人类作为社会性动物的原因是建立于生物学事实的,即人类的身体具有一种生物学意义上的脆弱性。( )",
       "options": [
@@ -4879,6 +5047,7 @@
     },
     {
       "id": 169,
+      "number": 58,
       "type": "single",
       "prompt": "伦理学命题本身的意义是奠基在( )之上的。",
       "options": [
@@ -4912,6 +5081,7 @@
     },
     {
       "id": 170,
+      "number": 59,
       "type": "single",
       "prompt": "根据认知语言学,并不存在与具体的( )相脱离的语义。",
       "options": [
@@ -4945,6 +5115,7 @@
     },
     {
       "id": 171,
+      "number": 96,
       "type": "multiple",
       "prompt": "对人类自身的( )的研究,有助于人工智能伦理学的研究。",
       "options": [
@@ -4980,6 +5151,7 @@
     },
     {
       "id": 172,
+      "number": 181,
       "type": "boolean",
       "prompt": "伦理学也基于互助原则,只有两种彼此力量相近的力量才能通过互助来互惠。( )",
       "options": [
@@ -5005,6 +5177,7 @@
     },
     {
       "id": 173,
+      "number": 182,
       "type": "boolean",
       "prompt": "找不到一个程序性的方法我们不可能把阿西莫夫三定律预先输入到计算机的软件中去。( )",
       "options": [
@@ -5030,6 +5203,7 @@
     },
     {
       "id": 174,
+      "number": 60,
       "type": "single",
       "prompt": "德性论者关心的是( )。",
       "options": [
@@ -5063,6 +5237,7 @@
     },
     {
       "id": 175,
+      "number": 61,
       "type": "single",
       "prompt": "从儒家的立场来看,德性是靠( )的。",
       "options": [
@@ -5096,6 +5271,7 @@
     },
     {
       "id": 176,
+      "number": 97,
       "type": "multiple",
       "prompt": "下列属于伦理学理论的是( )。",
       "options": [
@@ -5131,6 +5307,7 @@
     },
     {
       "id": 177,
+      "number": 183,
       "type": "boolean",
       "prompt": "行动者德性伦理学认为德性来源于行为者的美好的动机。( )",
       "options": [
@@ -5156,6 +5333,7 @@
     },
     {
       "id": 178,
+      "number": 184,
       "type": "boolean",
       "prompt": "《春秋公羊传》是孔子的著作。( )",
       "options": [
@@ -5181,6 +5359,7 @@
     },
     {
       "id": 179,
+      "number": 62,
       "type": "single",
       "prompt": "击靶德性论致力于将“德性”兑换成平时我们所经常用到的( )。",
       "options": [
@@ -5214,6 +5393,7 @@
     },
     {
       "id": 180,
+      "number": 63,
       "type": "single",
       "prompt": "创立“神经哲学”的是( )。",
       "options": [
@@ -5247,6 +5427,7 @@
     },
     {
       "id": 181,
+      "number": 64,
       "type": "single",
       "prompt": "与重视动机反省机制的行为者德性论尤其不同的是,击靶德性论特别看重( )的实现。",
       "options": [
@@ -5280,6 +5461,7 @@
     },
     {
       "id": 182,
+      "number": 185,
       "type": "boolean",
       "prompt": "儒家的德性名目有“四维”、“五德”、“八德”等。( )",
       "options": [
@@ -5305,6 +5487,7 @@
     },
     {
       "id": 183,
+      "number": 65,
       "type": "single",
       "prompt": "道德识别的矢量空间是( )提出的。",
       "options": [
@@ -5338,6 +5521,7 @@
     },
     {
       "id": 184,
+      "number": 98,
       "type": "multiple",
       "prompt": "人工神经元网络包括( )。",
       "options": [
@@ -5373,6 +5557,7 @@
     },
     {
       "id": 185,
+      "number": 186,
       "type": "boolean",
       "prompt": "在人类道德的培养中道德样板起到了很重要的作用。( )",
       "options": [
@@ -5398,6 +5583,7 @@
     },
     {
       "id": 186,
+      "number": 187,
       "type": "boolean",
       "prompt": "人类的认知过程具有从底层特征到高层特征这种单向过程的特征。( )",
       "options": [
@@ -5423,6 +5609,7 @@
     },
     {
       "id": 187,
+      "number": 66,
       "type": "single",
       "prompt": "在信息匮乏的情况下能够提供有效的问题解决路径的重要思想把手是( )。",
       "options": [
@@ -5456,6 +5643,7 @@
     },
     {
       "id": 188,
+      "number": 67,
       "type": "single",
       "prompt": "视频中的第一个数据库是完成对( )的评价的。",
       "options": [
@@ -5489,6 +5677,7 @@
     },
     {
       "id": 189,
+      "number": 188,
       "type": "boolean",
       "prompt": "类比思维需要很强大的直觉。",
       "options": [
@@ -5514,6 +5703,7 @@
     },
     {
       "id": 190,
+      "number": 189,
       "type": "boolean",
       "prompt": "道德熏养不需要使用类比思维。( )",
       "options": [
@@ -5539,6 +5729,7 @@
     },
     {
       "id": 191,
+      "number": 68,
       "type": "single",
       "prompt": "最近几年人工智能的发展是由于( )的崛起。",
       "options": [
@@ -5572,6 +5763,7 @@
     },
     {
       "id": 192,
+      "number": 99,
       "type": "multiple",
       "prompt": "对人工智能的发展持“末世论”的科学家是( )。",
       "options": [
@@ -5606,6 +5798,7 @@
     },
     {
       "id": 193,
+      "number": 190,
       "type": "boolean",
       "prompt": "当前人工智能的发展具有学科基础薄弱的问题。( )",
       "options": [
@@ -5631,6 +5824,7 @@
     },
     {
       "id": 194,
+      "number": 191,
       "type": "boolean",
       "prompt": "当前人工智能的研究更多地受到科学研究的推动而商业的推动。( )",
       "options": [
@@ -5656,6 +5850,7 @@
     },
     {
       "id": 195,
+      "number": 192,
       "type": "boolean",
       "prompt": "人工智能解决的是资源的配置问题而非资源的来源问题。( )",
       "options": [

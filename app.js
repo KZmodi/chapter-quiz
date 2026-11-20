@@ -1,4 +1,4 @@
-const STORAGE = 'chapter-quiz:v1';
+const STORAGE = 'chapter-quiz:v2';
 const courseIds = ['fudan', 'xmu'];
 const courseLabels = { fudan: '复旦 · 人工智能，语言与伦理', xmu: '厦大 · 大数据与人工智能导论' };
 const modeNames = { ordered: '顺序刷题', random: '随机刷题', wrong: '错题练习' };
@@ -286,15 +286,15 @@ function renderAnswerCard(active, statuses) {
       .map(([status, label]) => group('span', 'answer-key',
         element('span', 'answer-swatch ' + status), label)));
   const cellsByType = Object.fromEntries(Object.keys(typeNames).map(type => [type, []]));
-  active.ids.forEach((id, index) => {
-    const { type } = course().byId.get(id);
+  const entries = active.ids.map((id, index) => ({ question: course().byId.get(id), index }));
+  entries.sort((a, b) => a.question.number - b.question.number);
+  for (const { question: { type, number }, index } of entries) {
     const status = statuses[index];
-    const position = index + 1;
-    const cell = button(position, () => jumpTo(index), 'answer-number ' + status);
-    cell.setAttribute('aria-label', '第 ' + position + ' 题，' + statusLabels[status]);
+    const cell = button(number, () => jumpTo(index), 'answer-number ' + status);
+    cell.setAttribute('aria-label', '第 ' + number + ' 题，' + statusLabels[status]);
     if (index === active.index) cell.setAttribute('aria-current', 'true');
     cellsByType[type].push(cell);
-  });
+  }
   const shortcuts = group('div', 'row answer-shortcuts');
   const sections = group('div', 'answer-sections stacked');
   for (const [type, cells] of Object.entries(cellsByType)) {
@@ -344,7 +344,7 @@ function renderPractice() {
   bar.value = active.index + 1;
   bar.setAttribute('aria-label', '练习进度');
   const content = group('article', 'card stack',
-    element('p', 'metadata', typeNames[question.type] + ' · 题库 #' + question.id),
+    element('p', 'metadata', typeNames[question.type] + ' · 题库 #' + question.number),
     title);
   if (question.review) content.append(element('p', 'feedback review', question.review));
   if (question.options.length) content.append(renderOptions(question, attempt));
@@ -430,7 +430,7 @@ function renderWrong() {
   const header = group('div', 'row between', heading('错题本'), element('span', 'metadata', count + ' 道'));
   const items = course().questions.filter(q => record().wrong.includes(q.id)).map(question =>
     group('li', 'card wrong-item',
-      element('p', 'metadata', '题库 #' + question.id + ' · ' + typeNames[question.type]),
+      element('p', 'metadata', '题库 #' + question.number + ' · ' + typeNames[question.type]),
       element('h2', '', question.prompt),
       button('移出错题本', () => removeWrong(question.id))));
   const controls = button('练习错题', () => start('wrong'), 'primary full');
@@ -492,7 +492,7 @@ importFile.addEventListener('change', async () => {
 async function init() {
   try {
     await Promise.all(courseIds.map(async id => {
-      const response = await fetch('./data/' + id + '.json', { cache: 'no-cache' });
+      const response = await fetch('./data/' + id + '.json?v=4', { cache: 'no-cache' });
       if (!response.ok) throw new Error('题库加载失败');
       const bank = await response.json();
       courses[id] = { ...bank, byId: new Map(bank.questions.map(q => [q.id, q])) };
@@ -507,6 +507,7 @@ async function init() {
 
   state = freshState();
   try {
+    localStorage.removeItem('chapter-quiz:v1');
     const raw = localStorage.getItem(STORAGE);
     if (raw) {
       try {

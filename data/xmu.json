@@ -4,6 +4,7 @@
   "questions": [
     {
       "id": 1,
+      "number": 132,
       "type": "boolean",
       "prompt": "数据是构成信息的基本单位，离散的数据没有任何实用价值。",
       "options": [
@@ -29,6 +30,7 @@
     },
     {
       "id": 2,
+      "number": 74,
       "type": "multiple",
       "prompt": "常见的数据类型有()。",
       "options": [
@@ -65,6 +67,7 @@
     },
     {
       "id": 3,
+      "number": 1,
       "type": "single",
       "prompt": "第一次信息化浪潮的时间发生在()。",
       "options": [
@@ -98,6 +101,7 @@
     },
     {
       "id": 4,
+      "number": 133,
       "type": "boolean",
       "prompt": "截止 2023 年 10 月底，我国 4G 网络模全球第一。",
       "options": [
@@ -123,6 +127,7 @@
     },
     {
       "id": 5,
+      "number": 2,
       "type": "single",
       "prompt": "纵观大数据的发展历程，2010 年以后是大数据的什么发展阶段?()",
       "options": [
@@ -156,6 +161,7 @@
     },
     {
       "id": 6,
+      "number": 3,
       "type": "single",
       "prompt": "2018 年 4 月 22 日-24 日，首届“数字中国”建设峰会在()举行。",
       "options": [
@@ -189,6 +195,7 @@
     },
     {
       "id": 7,
+      "number": 4,
       "type": "single",
       "prompt": "()的智能终端普及率以及移动互联网接入速度一直位居世界前列。",
       "options": [
@@ -222,6 +229,7 @@
     },
     {
       "id": 8,
+      "number": 134,
       "type": "boolean",
       "prompt": "美国是率先将大数据从商业概念上升至国家战略的国家。",
       "options": [
@@ -247,6 +255,7 @@
     },
     {
       "id": 9,
+      "number": 75,
       "type": "multiple",
       "prompt": "以下选项属于大数据的属性的有()。",
       "options": [
@@ -283,6 +292,7 @@
     },
     {
       "id": 10,
+      "number": 135,
       "type": "boolean",
       "prompt": "大数据的价值密度远远高于传统关系数据库中已经有的数据。",
       "options": [
@@ -308,6 +318,7 @@
     },
     {
       "id": 11,
+      "number": 136,
       "type": "boolean",
       "prompt": "随着数据量的不断增加，数据所蕴的价值会从量变发展到质变。",
       "options": [
@@ -333,6 +344,7 @@
     },
     {
       "id": 12,
+      "number": 5,
       "type": "single",
       "prompt": "伽利略的两个铁球落地实验属于哪种科学研究范式。()",
       "options": [
@@ -366,6 +378,7 @@
     },
     {
       "id": 13,
+      "number": 137,
       "type": "boolean",
       "prompt": "牛顿三大定律属于科学研究的第三种范式:计算",
       "options": [
@@ -391,6 +404,7 @@
     },
     {
       "id": 14,
+      "number": 138,
       "type": "boolean",
       "prompt": "大数据无处不在，社会各行各业都已经融入了大数据的印迹。",
       "options": [
@@ -416,6 +430,7 @@
     },
     {
       "id": 15,
+      "number": 76,
       "type": "multiple",
       "prompt": "按照数据开发应用深入程度的不同，大数据应用的三个层次包括()。",
       "options": [
@@ -451,6 +466,7 @@
     },
     {
       "id": 16,
+      "number": 139,
       "type": "boolean",
       "prompt": "大数据产业是指一切与支撑大数据组织管理与价值发现相关的企业经济活动的集合。",
       "options": [
@@ -476,6 +492,7 @@
     },
     {
       "id": 17,
+      "number": 140,
       "type": "boolean",
       "prompt": "“数字经济“一词最早出现于 20 世纪 50 年代。",
       "options": [
@@ -501,6 +518,7 @@
     },
     {
       "id": 18,
+      "number": 141,
       "type": "boolean",
       "prompt": "5G 技术是移动通信技术的最新发展，它代表着更快、更稳定、更智能的通信体验。",
       "options": [
@@ -526,6 +544,7 @@
     },
     {
       "id": 19,
+      "number": 77,
       "type": "multiple",
       "prompt": "关于大数据与新质生产力的关系，描述正确的有",
       "options": [
@@ -561,6 +580,7 @@
     },
     {
       "id": 20,
+      "number": 78,
       "type": "multiple",
       "prompt": "新质生产力是在现代数字技术快速发展的背景下，由新一轮科技革命和产业变革驱动，以()、绿色化为主要特征的一种全新的生产力形态。",
       "options": [
@@ -597,6 +617,7 @@
     },
     {
       "id": 21,
+      "number": 142,
       "type": "boolean",
       "prompt": "数据可视化功能是指对分析结果进行可视化呈现，帮助人们更好的理解数据，分析数据。",
       "options": [
@@ -622,6 +643,7 @@
     },
     {
       "id": 22,
+      "number": 79,
       "type": "multiple",
       "prompt": "传统的数据采集主要的缺点包括()。",
       "options": [
@@ -657,6 +679,7 @@
     },
     {
       "id": 23,
+      "number": 80,
       "type": "multiple",
       "prompt": "以下选项属于数据采集的数据源的是()",
       "options": [
@@ -693,6 +716,7 @@
     },
     {
       "id": 24,
+      "number": 6,
       "type": "single",
       "prompt": "()是数据系统必不可少的关键部分，也是数据平台的根基。",
       "options": [
@@ -726,6 +750,7 @@
     },
     {
       "id": 25,
+      "number": 143,
       "type": "boolean",
       "prompt": "数据质量管理贯穿数据生命周期的全过程，数据清洗是决定数据质量好坏的重要因素。",
       "options": [
@@ -751,6 +776,7 @@
     },
     {
       "id": 26,
+      "number": 81,
       "type": "multiple",
       "prompt": "数据清洗的内容包括()。",
       "options": [
@@ -787,6 +813,7 @@
     },
     {
       "id": 27,
+      "number": 7,
       "type": "single",
       "prompt": "()就是将数据进行转换或归并，从而构成一个适合数据处理的形式。",
       "options": [
@@ -820,6 +847,7 @@
     },
     {
       "id": 28,
+      "number": 144,
       "type": "boolean",
       "prompt": "数据脱敏原则必须达成脱敏前后的数据一致性和有效性。",
       "options": [
@@ -845,6 +873,7 @@
     },
     {
       "id": 29,
+      "number": 145,
       "type": "boolean",
       "prompt": "操作系统中负责管理和存储文件信息的软件机构称为文件管理系统，简称“文件系统”。",
       "options": [
@@ -870,6 +899,7 @@
     },
     {
       "id": 30,
+      "number": 8,
       "type": "single",
       "prompt": "()是一种通过网络实现文件在多台主机上进行分布式存储的文件系统。",
       "options": [
@@ -903,6 +933,7 @@
     },
     {
       "id": 31,
+      "number": 146,
       "type": "boolean",
       "prompt": "NoSQL 数据库有固定的表结构。",
       "options": [
@@ -928,6 +959,7 @@
     },
     {
       "id": 32,
+      "number": 82,
       "type": "multiple",
       "prompt": "以下选项属于 NoSQL 数据库优点的有()。",
       "options": [
@@ -963,6 +995,7 @@
     },
     {
       "id": 33,
+      "number": 147,
       "type": "boolean",
       "prompt": "云数据库可以比较方便、快捷和低成本的存储海量数据。",
       "options": [
@@ -988,6 +1021,7 @@
     },
     {
       "id": 34,
+      "number": 148,
       "type": "boolean",
       "prompt": "数据湖的本质，是由“数据存储架构+数据处理工具”组成的解决方案，而不是某个单一独立产品。",
       "options": [
@@ -1013,6 +1047,7 @@
     },
     {
       "id": 35,
+      "number": 83,
       "type": "multiple",
       "prompt": "数据分析是为了最大化地开发数据的功能，数据分析在日常经营分析中主要有三大作用。()",
       "options": [
@@ -1048,6 +1083,7 @@
     },
     {
       "id": 36,
+      "number": 9,
       "type": "single",
       "prompt": "()是指从大量数据中通过算法搜索隐藏于其中信息的过程。",
       "options": [
@@ -1081,6 +1117,7 @@
     },
     {
       "id": 37,
+      "number": 149,
       "type": "boolean",
       "prompt": "批处理计算模式主要是针对大规模数据的批量处理。",
       "options": [
@@ -1106,6 +1143,7 @@
     },
     {
       "id": 38,
+      "number": 84,
       "type": "multiple",
       "prompt": "数据可视化的重要作用有()。",
       "options": [
@@ -1142,6 +1180,7 @@
     },
     {
       "id": 39,
+      "number": 150,
       "type": "boolean",
       "prompt": "可视化图表主要有柱状图、折线图、饼图、散点图和气泡图和雷达图等。",
       "options": [
@@ -1167,6 +1206,7 @@
     },
     {
       "id": 40,
+      "number": 85,
       "type": "multiple",
       "prompt": "以下选项属于数据安全技术的有()。",
       "options": [
@@ -1203,6 +1243,7 @@
     },
     {
       "id": 41,
+      "number": 10,
       "type": "single",
       "prompt": "()，易于实现，但对用户个性化偏好的描述能力较弱。",
       "options": [
@@ -1236,6 +1277,7 @@
     },
     {
       "id": 42,
+      "number": 86,
       "type": "multiple",
       "prompt": "智慧医疗的优点包括()。",
       "options": [
@@ -1271,6 +1313,7 @@
     },
     {
       "id": 43,
+      "number": 87,
       "type": "multiple",
       "prompt": "()都旨在说明物流活动的模糊性和巨大潜力。",
       "options": [
@@ -1305,6 +1348,7 @@
     },
     {
       "id": 44,
+      "number": 151,
       "type": "boolean",
       "prompt": "安防领域的数据仅包括视频监控数据、结构化数据、半结构化数据，不包括非结构化数据。()",
       "options": [
@@ -1330,6 +1374,7 @@
     },
     {
       "id": 45,
+      "number": 11,
       "type": "single",
       "prompt": "()是指从那些人们无法利用的极为短暂的市场变化中寻求获利的计算机化交易。",
       "options": [
@@ -1363,6 +1408,7 @@
     },
     {
       "id": 46,
+      "number": 152,
       "type": "boolean",
       "prompt": "大数据分析技术将帮助无人驾驶系统做出更加智能的驾驶动作决策，比人类驾车更加安全、舒适、节能、环保。",
       "options": [
@@ -1388,6 +1434,7 @@
     },
     {
       "id": 47,
+      "number": 12,
       "type": "single",
       "prompt": "大数据在零售领域中，“啤酒与尿布“的案例体现了大数据在()方面的成功应用。",
       "options": [
@@ -1421,6 +1468,7 @@
     },
     {
       "id": 48,
+      "number": 13,
       "type": "single",
       "prompt": "()模式是指无缝整合线上线下资源，形成以数据驱动的闭环运营模式。",
       "options": [
@@ -1454,6 +1502,7 @@
     },
     {
       "id": 49,
+      "number": 88,
       "type": "multiple",
       "prompt": "电信客户离网分析的步骤包括()等。",
       "options": [
@@ -1490,6 +1539,7 @@
     },
     {
       "id": 50,
+      "number": 153,
       "type": "boolean",
       "prompt": "大数据技术是组成整个智能电网的技术基石。()",
       "options": [
@@ -1515,6 +1565,7 @@
     },
     {
       "id": 51,
+      "number": 154,
       "type": "boolean",
       "prompt": "大数据预测仅是基于大数据去预测未来某件事情的概率。",
       "options": [
@@ -1540,6 +1591,7 @@
     },
     {
       "id": 52,
+      "number": 89,
       "type": "multiple",
       "prompt": "基于()技术的云杀毒软件，已经广泛应用于企业信息安全保护。",
       "options": [
@@ -1574,6 +1626,7 @@
     },
     {
       "id": 53,
+      "number": 155,
       "type": "boolean",
       "prompt": "在信息化社会，我们每个人的一言一行都会留下以数据形式存在的轨迹。",
       "options": [
@@ -1599,6 +1652,7 @@
     },
     {
       "id": 54,
+      "number": 14,
       "type": "single",
       "prompt": "以下不属于机械思维特点的是()。",
       "options": [
@@ -1632,6 +1686,7 @@
     },
     {
       "id": 55,
+      "number": 15,
       "type": "single",
       "prompt": "以下不属于大数据思维方式的是()。",
       "options": [
@@ -1665,6 +1720,7 @@
     },
     {
       "id": 56,
+      "number": 16,
       "type": "single",
       "prompt": "案例“商品比价网站 Decide.com”对应的思维方式是 ()。",
       "options": [
@@ -1698,6 +1754,7 @@
     },
     {
       "id": 57,
+      "number": 17,
       "type": "single",
       "prompt": "基于大数据的药品研发运用了大数据的()思维方式。",
       "options": [
@@ -1731,6 +1788,7 @@
     },
     {
       "id": 58,
+      "number": 156,
       "type": "boolean",
       "prompt": "小数据的复杂算法比大数据的简单算法更有效。 ()",
       "options": [
@@ -1756,6 +1814,7 @@
     },
     {
       "id": 59,
+      "number": 90,
       "type": "multiple",
       "prompt": "政府数据孤岛的产生原因包括()。",
       "options": [
@@ -1791,6 +1850,7 @@
     },
     {
       "id": 60,
+      "number": 157,
       "type": "boolean",
       "prompt": "打通企业之间的数据孤岛，实现不同企业的数据共享，有利于企业获得更好的经营发展能力。 ()",
       "options": [
@@ -1816,6 +1876,7 @@
     },
     {
       "id": 61,
+      "number": 18,
       "type": "single",
       "prompt": "在企业层面，数据共享面临的挑战不包括()。",
       "options": [
@@ -1849,6 +1910,7 @@
     },
     {
       "id": 62,
+      "number": 158,
       "type": "boolean",
       "prompt": "建立数据共享联盟是推进企业之间数据共享的重要举措。()",
       "options": [
@@ -1874,6 +1936,7 @@
     },
     {
       "id": 63,
+      "number": 159,
       "type": "boolean",
       "prompt": "建立数据共享联盟是推进企业之间数据共享的重要举措。()",
       "options": [
@@ -1900,6 +1963,7 @@
     },
     {
       "id": 64,
+      "number": 91,
       "type": "multiple",
       "prompt": "政府与企业之间的数据共享应遵循的一般性原则包括 ()。",
       "options": [
@@ -1934,6 +1998,7 @@
     },
     {
       "id": 65,
+      "number": 160,
       "type": "boolean",
       "prompt": "菜鸟核心作用的发挥，关键在于对多方物流数据的有效整合。()",
       "options": [
@@ -1959,6 +2024,7 @@
     },
     {
       "id": 66,
+      "number": 19,
       "type": "single",
       "prompt": "以下关于数据权理论，叙述错误的是()。",
       "options": [
@@ -1992,6 +2058,7 @@
     },
     {
       "id": 67,
+      "number": 20,
       "type": "single",
       "prompt": "以下关于政府信息公开与政府数据开放，叙述错误的是()。",
       "options": [
@@ -2025,6 +2092,7 @@
     },
     {
       "id": 68,
+      "number": 92,
       "type": "multiple",
       "prompt": "政府开放数据的()代表着政府开放的程度。",
       "options": [
@@ -2060,6 +2128,7 @@
     },
     {
       "id": 69,
+      "number": 21,
       "type": "single",
       "prompt": "通过开放商业数据，可以()。",
       "options": [
@@ -2093,6 +2162,7 @@
     },
     {
       "id": 70,
+      "number": 22,
       "type": "single",
       "prompt": "我国第一部地方性政府数据开放法规是()。",
       "options": [
@@ -2126,6 +2196,7 @@
     },
     {
       "id": 71,
+      "number": 23,
       "type": "single",
       "prompt": "()是国内首个基于云计算建成省级数据统一管理、支持共享平台的省份。",
       "options": [
@@ -2159,6 +2230,7 @@
     },
     {
       "id": 72,
+      "number": 24,
       "type": "single",
       "prompt": "中航信将民航相关数据统一委托给航旅纵横属于 ()。",
       "options": [
@@ -2192,6 +2264,7 @@
     },
     {
       "id": 73,
+      "number": 161,
       "type": "boolean",
       "prompt": "当前数据开放的重点是加大数据使用、安全和隐私保护等法律法规和规则的制定。()",
       "options": [
@@ -2217,6 +2290,7 @@
     },
     {
       "id": 74,
+      "number": 25,
       "type": "single",
       "prompt": "是数据交易的起点，也是数据交易 的基础。",
       "options": [
@@ -2250,6 +2324,7 @@
     },
     {
       "id": 75,
+      "number": 162,
       "type": "boolean",
       "prompt": "第三方大数据交易平台为用户提供定制化的数据服务，由于需要涉及数据的处理加工，因此，该类型平台的业务相对复杂。",
       "options": [
@@ -2275,6 +2350,7 @@
     },
     {
       "id": 76,
+      "number": 93,
       "type": "multiple",
       "prompt": "通常可以从()几个纬度来评价数据的价值。",
       "options": [
@@ -2311,6 +2387,7 @@
     },
     {
       "id": 77,
+      "number": 163,
       "type": "boolean",
       "prompt": "目前，政府数据资源开发共享步伐比较缓慢，已经成为制约我国大数据发展的主要障碍。()",
       "options": [
@@ -2336,6 +2413,7 @@
     },
     {
       "id": 78,
+      "number": 94,
       "type": "multiple",
       "prompt": "确立数据产权制度，需要解决数据产权在()两大层面清晰的问题。",
       "options": [
@@ -2370,6 +2448,7 @@
     },
     {
       "id": 79,
+      "number": 26,
       "type": "single",
       "prompt": "传统的数据安全威胁不包括()。",
       "options": [
@@ -2403,6 +2482,7 @@
     },
     {
       "id": 80,
+      "number": 164,
       "type": "boolean",
       "prompt": "大数据时代，自媒体平台成为影响国家意识形态安全的重要因素。()",
       "options": [
@@ -2428,6 +2508,7 @@
     },
     {
       "id": 81,
+      "number": 95,
       "type": "multiple",
       "prompt": "大数据基础设施安全威胁包括()。",
       "options": [
@@ -2463,6 +2544,7 @@
     },
     {
       "id": 82,
+      "number": 165,
       "type": "boolean",
       "prompt": "数据使用风险主要是由数据分类分级不当、数据脱敏质量较低、恶意篡改、误操作等情况导致的。",
       "options": [
@@ -2488,6 +2570,7 @@
     },
     {
       "id": 83,
+      "number": 27,
       "type": "single",
       "prompt": "全球共有()台管理互联网的根服务器。",
       "options": [
@@ -2521,6 +2604,7 @@
     },
     {
       "id": 84,
+      "number": 166,
       "type": "boolean",
       "prompt": "在生物技术快速发展的今天，利用基因重组、基因芯片、细胞工程等技术来扩大某一基因缺陷并非危言耸听。()",
       "options": [
@@ -2546,6 +2630,7 @@
     },
     {
       "id": 85,
+      "number": 28,
       "type": "single",
       "prompt": "是大数据包括的首要原则。",
       "options": [
@@ -2579,6 +2664,7 @@
     },
     {
       "id": 86,
+      "number": 167,
       "type": "boolean",
       "prompt": "大数据时代，可以从国家法制层面进行管控，从企业端源头进行遏制，以及提高个人意识等方面加强数据安全与隐私保护。()",
       "options": [
@@ -2604,6 +2690,7 @@
     },
     {
       "id": 87,
+      "number": 29,
       "type": "single",
       "prompt": "()描述的对象、是数据的业务含义、业务规则等。",
       "options": [
@@ -2637,6 +2724,7 @@
     },
     {
       "id": 88,
+      "number": 30,
       "type": "single",
       "prompt": "数据治理“三大件”的形成是数据治理进入()的标志。",
       "options": [
@@ -2670,6 +2758,7 @@
     },
     {
       "id": 89,
+      "number": 168,
       "type": "boolean",
       "prompt": "在组织中，所有的数据都构成数据资产。()",
       "options": [
@@ -2695,6 +2784,7 @@
     },
     {
       "id": 90,
+      "number": 96,
       "type": "multiple",
       "prompt": "数据治理对于企业的重要作用包括()。",
       "options": [
@@ -2731,6 +2821,7 @@
     },
     {
       "id": 91,
+      "number": 31,
       "type": "single",
       "prompt": "以下关于“治理”和“管理”叙述错误的是()。",
       "options": [
@@ -2764,6 +2855,7 @@
     },
     {
       "id": 92,
+      "number": 32,
       "type": "single",
       "prompt": "是数据治理实施的保障。",
       "options": [
@@ -2797,6 +2889,7 @@
     },
     {
       "id": 93,
+      "number": 169,
       "type": "boolean",
       "prompt": "在权利层次方面，企业外部的大数据治理强调经营权分配，企业内部的大数据治理强调所有权分配。()",
       "options": [
@@ -2822,6 +2915,7 @@
     },
     {
       "id": 94,
+      "number": 97,
       "type": "multiple",
       "prompt": "()属于大数据治理的促成要素。",
       "options": [
@@ -2856,6 +2950,7 @@
     },
     {
       "id": 95,
+      "number": 33,
       "type": "single",
       "prompt": "是大数据架构的基础。",
       "options": [
@@ -2889,6 +2984,7 @@
     },
     {
       "id": 96,
+      "number": 170,
       "type": "boolean",
       "prompt": "大数据治理组织中，服务组织主要是数据管理的专业人员组成，主要负责实施数据治理各个领域的具体工作。",
       "options": [
@@ -2914,6 +3010,7 @@
     },
     {
       "id": 97,
+      "number": 171,
       "type": "boolean",
       "prompt": "多元智能理论认为每个人身上最多存在一种类型的智能。",
       "options": [
@@ -2939,6 +3036,7 @@
     },
     {
       "id": 98,
+      "number": 98,
       "type": "multiple",
       "prompt": "下列关于“人工智能”的表述正确的是()。",
       "options": [
@@ -2974,6 +3072,7 @@
     },
     {
       "id": 99,
+      "number": 34,
       "type": "single",
       "prompt": "艾伦·图灵在论文《计算机器与智能》的开篇，提出了一个令人深思的问题()。",
       "options": [
@@ -3007,6 +3106,7 @@
     },
     {
       "id": 100,
+      "number": 99,
       "type": "multiple",
       "prompt": "下列关于“图灵测试”正确的表述是()。",
       "options": [
@@ -3042,6 +3142,7 @@
     },
     {
       "id": 101,
+      "number": 100,
       "type": "multiple",
       "prompt": "人工智能的四要素指的是()。",
       "options": [
@@ -3078,6 +3179,7 @@
     },
     {
       "id": 102,
+      "number": 35,
       "type": "single",
       "prompt": "人工智能的核心指的是()。",
       "options": [
@@ -3111,6 +3213,7 @@
     },
     {
       "id": 103,
+      "number": 172,
       "type": "boolean",
       "prompt": "人工智能元年指的是 1956 年。",
       "options": [
@@ -3136,6 +3239,7 @@
     },
     {
       "id": 104,
+      "number": 173,
       "type": "boolean",
       "prompt": "机器学习的三个关键词分别是算法、经验和性能。",
       "options": [
@@ -3161,6 +3265,7 @@
     },
     {
       "id": 105,
+      "number": 36,
       "type": "single",
       "prompt": "研究如何使机器“看”的科学属于人工智能关键技术中的哪一种()。",
       "options": [
@@ -3194,6 +3299,7 @@
     },
     {
       "id": 106,
+      "number": 37,
       "type": "single",
       "prompt": "大模型的优点不包括下列哪一项()。",
       "options": [
@@ -3227,6 +3333,7 @@
     },
     {
       "id": 107,
+      "number": 38,
       "type": "single",
       "prompt": "“安防系统”、“室内外监控”、“防盗报警”等属于人工智能的哪种应用?()",
       "options": [
@@ -3260,6 +3367,7 @@
     },
     {
       "id": 108,
+      "number": 174,
       "type": "boolean",
       "prompt": "在人工智能数据采集、存储、处理和分析方面的企业只有数据集提供商这一种。",
       "options": [
@@ -3285,6 +3393,7 @@
     },
     {
       "id": 109,
+      "number": 101,
       "type": "multiple",
       "prompt": "下列关于人工智能与大数据的表述正确的是()。",
       "options": [
@@ -3320,6 +3429,7 @@
     },
     {
       "id": 110,
+      "number": 39,
       "type": "single",
       "prompt": "小模型的特点不包括下列哪一项()。",
       "options": [
@@ -3353,6 +3463,7 @@
     },
     {
       "id": 111,
+      "number": 102,
       "type": "multiple",
       "prompt": "相较于小模型，大模型通常具有下列哪些特点()。",
       "options": [
@@ -3388,6 +3499,7 @@
     },
     {
       "id": 112,
+      "number": 175,
       "type": "boolean",
       "prompt": "大模型发展的萌芽期是以卷积神经网络为代表的传统神经网络模型阶段。",
       "options": [
@@ -3413,6 +3525,7 @@
     },
     {
       "id": 113,
+      "number": 176,
       "type": "boolean",
       "prompt": "人工智能包含了机器学习，机器学习包含了深度学习。",
       "options": [
@@ -3438,6 +3551,7 @@
     },
     {
       "id": 114,
+      "number": 103,
       "type": "multiple",
       "prompt": "大模型在人工智能领域的重要性体现在()。",
       "options": [
@@ -3474,6 +3588,7 @@
     },
     {
       "id": 115,
+      "number": 177,
       "type": "boolean",
       "prompt": "人工智能进入全新发展时期的重要标志是 GAN。",
       "options": [
@@ -3499,6 +3614,7 @@
     },
     {
       "id": 116,
+      "number": 104,
       "type": "multiple",
       "prompt": "大模型与 AIGC 的关系包括()。",
       "options": [
@@ -3534,6 +3650,7 @@
     },
     {
       "id": 117,
+      "number": 40,
       "type": "single",
       "prompt": "下列关于 ChatGPT 说法错误的一项是()。",
       "options": [
@@ -3567,6 +3684,7 @@
     },
     {
       "id": 118,
+      "number": 105,
       "type": "multiple",
       "prompt": "Gemini 包括哪三种不同规模的模型()。",
       "options": [
@@ -3602,6 +3720,7 @@
     },
     {
       "id": 119,
+      "number": 41,
       "type": "single",
       "prompt": "阿里云推出的超大规模语言模型通义千问具备的能力不包括下列哪一项()。",
       "options": [
@@ -3635,6 +3754,7 @@
     },
     {
       "id": 120,
+      "number": 178,
       "type": "boolean",
       "prompt": "在 Transformer 架构中，编码器和解码器是一个核心组件。",
       "options": [
@@ -3660,6 +3780,7 @@
     },
     {
       "id": 121,
+      "number": 106,
       "type": "multiple",
       "prompt": "大模型的基本原理包括()。",
       "options": [
@@ -3696,6 +3817,7 @@
     },
     {
       "id": 122,
+      "number": 42,
       "type": "single",
       "prompt": "大模型的特点不包括下列哪一项()。",
       "options": [
@@ -3729,6 +3851,7 @@
     },
     {
       "id": 123,
+      "number": 179,
       "type": "boolean",
       "prompt": "自监督学习使大模型能够从大量数中自动学习到语言的内在结构和模式，不需要人工标注和干预。",
       "options": [
@@ -3754,6 +3877,7 @@
     },
     {
       "id": 124,
+      "number": 43,
       "type": "single",
       "prompt": "大模型的分类不包括下列哪一项()。",
       "options": [
@@ -3787,6 +3911,7 @@
     },
     {
       "id": 125,
+      "number": 180,
       "type": "boolean",
       "prompt": "按照应用领域的不同，大模型主要为 L0、L1、L3、L4 四个层级。",
       "options": [
@@ -3812,6 +3937,7 @@
     },
     {
       "id": 126,
+      "number": 44,
       "type": "single",
       "prompt": "为了确保数据的准确性和有效性，对数据进行验证和校验，属于大模型哪个方面的成本()。",
       "options": [
@@ -3845,6 +3971,7 @@
     },
     {
       "id": 127,
+      "number": 45,
       "type": "single",
       "prompt": "下列哪一项不属于大模型在计算机视觉领域的应用()。",
       "options": [
@@ -3878,6 +4005,7 @@
     },
     {
       "id": 128,
+      "number": 107,
       "type": "multiple",
       "prompt": "大模型对工作的影响主要体现在()。",
       "options": [
@@ -3914,6 +4042,7 @@
     },
     {
       "id": 129,
+      "number": 46,
       "type": "single",
       "prompt": "大模型对生活的影响不包括下列哪一项()。",
       "options": [
@@ -3947,6 +4076,7 @@
     },
     {
       "id": 130,
+      "number": 181,
       "type": "boolean",
       "prompt": "随着全球人工智能研究的不断深入与发展，大模型将成为人工智能领域的重要基石。",
       "options": [
@@ -3972,6 +4102,7 @@
     },
     {
       "id": 131,
+      "number": 47,
       "type": "single",
       "prompt": "下列关于 AIGC 的表述错误的一项是()。",
       "options": [
@@ -4005,6 +4136,7 @@
     },
     {
       "id": 132,
+      "number": 108,
       "type": "multiple",
       "prompt": "AIGC 大模型提示词的重要作用包().",
       "options": [
@@ -4040,6 +4172,7 @@
     },
     {
       "id": 133,
+      "number": 48,
       "type": "single",
       "prompt": "下列哪一项不属于文本类 AIGC 应用实践?",
       "options": [
@@ -4073,6 +4206,7 @@
     },
     {
       "id": 134,
+      "number": 182,
       "type": "boolean",
       "prompt": "在使用文心一言创作文档的时候，在输入提示词时，应该明确指定希望生成的文容风格。",
       "options": [
@@ -4098,6 +4232,7 @@
     },
     {
       "id": 135,
+      "number": 109,
       "type": "multiple",
       "prompt": "图片类 AIGC 的应用场景包括哪些方面()。",
       "options": [
@@ -4134,6 +4269,7 @@
     },
     {
       "id": 136,
+      "number": 183,
       "type": "boolean",
       "prompt": "文心一言提供丰富的 AI 编辑功能，可以对图片进行智能化处理，但是不能进行图片展。",
       "options": [
@@ -4159,6 +4295,7 @@
     },
     {
       "id": 137,
+      "number": 49,
       "type": "single",
       "prompt": "下列关于语音类 AIGC 应用实践说法错误的一项是()。",
       "options": [
@@ -4192,6 +4329,7 @@
     },
     {
       "id": 138,
+      "number": 110,
       "type": "multiple",
       "prompt": "语音类 AIGC 的应用场景包括()",
       "options": [
@@ -4228,6 +4366,7 @@
     },
     {
       "id": 139,
+      "number": 111,
       "type": "multiple",
       "prompt": "下列关于视频类 AIGC 说法正确的有()。",
       "options": [
@@ -4263,6 +4402,7 @@
     },
     {
       "id": 140,
+      "number": 50,
       "type": "single",
       "prompt": "视频类 AIGC 大模型发端于()。",
       "options": [
@@ -4296,6 +4436,7 @@
     },
     {
       "id": 141,
+      "number": 184,
       "type": "boolean",
       "prompt": "目前国内的视频类 AIGC 大模型都可以免费开放给大众使用。",
       "options": [
@@ -4321,6 +4462,7 @@
     },
     {
       "id": 142,
+      "number": 112,
       "type": "multiple",
       "prompt": "AIGC 技术在辅助变成中的应用主要包括()。",
       "options": [
@@ -4357,6 +4499,7 @@
     },
     {
       "id": 143,
+      "number": 185,
       "type": "boolean",
       "prompt": "传统 IT 资源的获取方式是自建机房。",
       "options": [
@@ -4382,6 +4525,7 @@
     },
     {
       "id": 144,
+      "number": 51,
       "type": "single",
       "prompt": "下列哪一项不属于云计算的特点()。",
       "options": [
@@ -4415,6 +4559,7 @@
     },
     {
       "id": 145,
+      "number": 113,
       "type": "multiple",
       "prompt": "云计算服务模式的类型有()。",
       "options": [
@@ -4450,6 +4595,7 @@
     },
     {
       "id": 146,
+      "number": 52,
       "type": "single",
       "prompt": "下列关于云计算数据中心的说法错误的一项是()。",
       "options": [
@@ -4483,6 +4629,7 @@
     },
     {
       "id": 147,
+      "number": 114,
       "type": "multiple",
       "prompt": "云计算的应用有哪些()。",
       "options": [
@@ -4519,6 +4666,7 @@
     },
     {
       "id": 148,
+      "number": 53,
       "type": "single",
       "prompt": "下列关于物联网说法错误的一项是()。",
       "options": [
@@ -4552,6 +4700,7 @@
     },
     {
       "id": 149,
+      "number": 115,
       "type": "multiple",
       "prompt": "物联网中的关键技术包括()。",
       "options": [
@@ -4587,6 +4736,7 @@
     },
     {
       "id": 150,
+      "number": 186,
       "type": "boolean",
       "prompt": "矩阵式二维码更为常见。",
       "options": [
@@ -4612,6 +4762,7 @@
     },
     {
       "id": 151,
+      "number": 54,
       "type": "single",
       "prompt": "“京东智能分拣”属于物联网在()方面的应用。",
       "options": [
@@ -4645,6 +4796,7 @@
     },
     {
       "id": 152,
+      "number": 116,
       "type": "multiple",
       "prompt": "完整的物联网产业包括包含下列哪些环节()。",
       "options": [
@@ -4681,6 +4833,7 @@
     },
     {
       "id": 153,
+      "number": 55,
       "type": "single",
       "prompt": "下列关于大数据、云计算以及物联网之间的关系说法错误的是()。",
       "options": [
@@ -4714,6 +4867,7 @@
     },
     {
       "id": 154,
+      "number": 56,
       "type": "single",
       "prompt": "在世界上哪个国家的服务器上生成了第一个比特币区块()。",
       "options": [
@@ -4747,6 +4901,7 @@
     },
     {
       "id": 155,
+      "number": 187,
       "type": "boolean",
       "prompt": "比特币要解决的第一个问题是防篡改。",
       "options": [
@@ -4772,6 +4927,7 @@
     },
     {
       "id": 156,
+      "number": 188,
       "type": "boolean",
       "prompt": "去中心化记账中，因为网络传播，同一时间，不同记账节点的交易不一定相同。",
       "options": [
@@ -4797,6 +4953,7 @@
     },
     {
       "id": 157,
+      "number": 117,
       "type": "multiple",
       "prompt": "下列关于地址与私钥的表述正确的()。",
       "options": [
@@ -4834,6 +4991,7 @@
     },
     {
       "id": 158,
+      "number": 57,
       "type": "single",
       "prompt": "下列关于区块链的定义说法错误的一项是()。",
       "options": [
@@ -4867,6 +5025,7 @@
     },
     {
       "id": 159,
+      "number": 118,
       "type": "multiple",
       "prompt": "区块链可以分为哪几类()。",
       "options": [
@@ -4902,6 +5061,7 @@
     },
     {
       "id": 160,
+      "number": 189,
       "type": "boolean",
       "prompt": "从科技层面来看，区块链涉及数学、密码学/互联网和计算机编程等很多科学技术问题。",
       "options": [
@@ -4927,6 +5087,7 @@
     },
     {
       "id": 161,
+      "number": 58,
       "type": "single",
       "prompt": "区块链 1.0 阶段是区块链技术的开创阶段，以()的出现为标志。",
       "options": [
@@ -4960,6 +5121,7 @@
     },
     {
       "id": 162,
+      "number": 59,
       "type": "single",
       "prompt": "下列关于大数据与区块链的区别表述错误的一项是()。",
       "options": [
@@ -4993,6 +5155,7 @@
     },
     {
       "id": 163,
+      "number": 190,
       "type": "boolean",
       "prompt": "CAP 理论告诉我们，一个分布式系不可能同时满足一致性、可用性和分区容忍性。",
       "options": [
@@ -5018,6 +5181,7 @@
     },
     {
       "id": 164,
+      "number": 191,
       "type": "boolean",
       "prompt": "智能合约是一套以电脑语言形式来编写的预定规则，一旦规则以数字形式被签署，便会在区块链上产生具有法律效力的合约。",
       "options": [
@@ -5043,6 +5207,7 @@
     },
     {
       "id": 165,
+      "number": 119,
       "type": "multiple",
       "prompt": "区块链技术面临的挑战和问题包括()。",
       "options": [
@@ -5078,6 +5243,7 @@
     },
     {
       "id": 166,
+      "number": 60,
       "type": "single",
       "prompt": "下列关于区块链技术的未来展望说法错误的一项是()。",
       "options": [
@@ -5111,6 +5277,7 @@
     },
     {
       "id": 167,
+      "number": 192,
       "type": "boolean",
       "prompt": "2020 年被称为元宇宙的元年。",
       "options": [
@@ -5136,6 +5303,7 @@
     },
     {
       "id": 168,
+      "number": 120,
       "type": "multiple",
       "prompt": "下列关于元宇宙的表述正确的是()。",
       "options": [
@@ -5172,6 +5340,7 @@
     },
     {
       "id": 169,
+      "number": 61,
       "type": "single",
       "prompt": "下列关于元宇宙与大数据的关系说法错误的是()。",
       "options": [
@@ -5205,6 +5374,7 @@
     },
     {
       "id": 170,
+      "number": 193,
       "type": "boolean",
       "prompt": "满足人类对物质的需求是元宇宙存在的根本原因。",
       "options": [
@@ -5230,6 +5400,7 @@
     },
     {
       "id": 171,
+      "number": 194,
       "type": "boolean",
       "prompt": "在元宇宙的世界中，虚拟并不等于虚幻。",
       "options": [
@@ -5255,6 +5426,7 @@
     },
     {
       "id": 172,
+      "number": 121,
       "type": "multiple",
       "prompt": "元宇宙的核心技术包括()。",
       "options": [
@@ -5291,6 +5463,7 @@
     },
     {
       "id": 173,
+      "number": 62,
       "type": "single",
       "prompt": "元宇宙最基础的保障技术是()。",
       "options": [
@@ -5324,6 +5497,7 @@
     },
     {
       "id": 174,
+      "number": 122,
       "type": "multiple",
       "prompt": "元宇宙在数字货币与金融领域的应用主要体现在()。",
       "options": [
@@ -5359,6 +5533,7 @@
     },
     {
       "id": 175,
+      "number": 63,
       "type": "single",
       "prompt": "“虚拟公共交通”属于元宇宙在哪个领域的具体应用()。",
       "options": [
@@ -5392,6 +5567,7 @@
     },
     {
       "id": 176,
+      "number": 64,
       "type": "single",
       "prompt": "元宇宙在技术风险与挑战方面面临的问题不包括()。",
       "options": [
@@ -5425,6 +5601,7 @@
     },
     {
       "id": 177,
+      "number": 65,
       "type": "single",
       "prompt": "元宇宙在社会接受度上面临的问题于下列哪个方面的挑战与风险()。",
       "options": [
@@ -5458,6 +5635,7 @@
     },
     {
       "id": 178,
+      "number": 66,
       "type": "single",
       "prompt": "关于元宇宙的描述，以下哪项是正确的?",
       "options": [
@@ -5491,6 +5669,7 @@
     },
     {
       "id": 179,
+      "number": 123,
       "type": "multiple",
       "prompt": "虚拟数字人按照应用分类，可以分为哪几类()。",
       "options": [
@@ -5526,6 +5705,7 @@
     },
     {
       "id": 180,
+      "number": 67,
       "type": "single",
       "prompt": "智能驱动型虚拟数字人最大的特点是() 。",
       "options": [
@@ -5559,6 +5739,7 @@
     },
     {
       "id": 181,
+      "number": 124,
       "type": "multiple",
       "prompt": "数字孪生行业面临的挑战包括()。",
       "options": [
@@ -5595,6 +5776,7 @@
     },
     {
       "id": 182,
+      "number": 195,
       "type": "boolean",
       "prompt": "撞库攻击是因为很多用户在不同网站使用的是相同的账户密码，这才让黑客有了可乘之机。",
       "options": [
@@ -5620,6 +5802,7 @@
     },
     {
       "id": 183,
+      "number": 68,
       "type": "single",
       "prompt": "同样的商品和服务，新顾客比老顾客更便宜这属于大数据伦理案例中的哪一种()。",
       "options": [
@@ -5653,6 +5836,7 @@
     },
     {
       "id": 184,
+      "number": 125,
       "type": "multiple",
       "prompt": "大数据的伦理问题主要包含哪几种()。",
       "options": [
@@ -5688,6 +5872,7 @@
     },
     {
       "id": 185,
+      "number": 69,
       "type": "single",
       "prompt": "信息时代的“马太效应”会造成什么后果?",
       "options": [
@@ -5721,6 +5906,7 @@
     },
     {
       "id": 186,
+      "number": 126,
       "type": "multiple",
       "prompt": "大数据伦理问题产生的原因有()。",
       "options": [
@@ -5757,6 +5943,7 @@
     },
     {
       "id": 187,
+      "number": 127,
       "type": "multiple",
       "prompt": "如何实现以技术治理大数据伦理问题()。",
       "options": [
@@ -5792,6 +5979,7 @@
     },
     {
       "id": 188,
+      "number": 70,
       "type": "single",
       "prompt": "下列关于提高个人隐私保护数据库意识的表述不正确的是()。",
       "options": [
@@ -5825,6 +6013,7 @@
     },
     {
       "id": 189,
+      "number": 71,
       "type": "single",
       "prompt": "下列关于人工智能伦理的说法错误的一项是()。",
       "options": [
@@ -5858,6 +6047,7 @@
     },
     {
       "id": 190,
+      "number": 196,
       "type": "boolean",
       "prompt": "传统的伦理秩序中，机器是人类的附属品，由人类决定其运作方式。",
       "options": [
@@ -5883,6 +6073,7 @@
     },
     {
       "id": 191,
+      "number": 128,
       "type": "multiple",
       "prompt": "AI 系统的不稳定性和风险性主要体现在哪些方面 ()。",
       "options": [
@@ -5918,6 +6109,7 @@
     },
     {
       "id": 192,
+      "number": 72,
       "type": "single",
       "prompt": "人工智能伦理中的一个核心议题是()。",
       "options": [
@@ -5951,6 +6143,7 @@
     },
     {
       "id": 193,
+      "number": 197,
       "type": "boolean",
       "prompt": "如果行为人为了悼念目的，用 AI“复活”自己的亲人原则上不构成侵权。",
       "options": [
@@ -5976,6 +6169,7 @@
     },
     {
       "id": 194,
+      "number": 198,
       "type": "boolean",
       "prompt": "人工智能伦理的原则是人工智能伦理的核心。",
       "options": [
@@ -6001,6 +6195,7 @@
     },
     {
       "id": 195,
+      "number": 129,
       "type": "multiple",
       "prompt": "人工智能伦理必须坚持公正性的基本原则，原因有()。",
       "options": [
@@ -6037,6 +6232,7 @@
     },
     {
       "id": 196,
+      "number": 130,
       "type": "multiple",
       "prompt": "解决人工智能伦理问题的策略包括下列哪几项 ()。",
       "options": [
@@ -6073,6 +6269,7 @@
     },
     {
       "id": 197,
+      "number": 199,
       "type": "boolean",
       "prompt": "透明度是确保人工智能系统行为可预测和可解释的关键。",
       "options": [
@@ -6098,6 +6295,7 @@
     },
     {
       "id": 198,
+      "number": 73,
       "type": "single",
       "prompt": "下列关于提高公众对 AI 伦理问题的认识和意识的说法错误的一项是()。",
       "options": [
@@ -6131,6 +6329,7 @@
     },
     {
       "id": 199,
+      "number": 200,
       "type": "boolean",
       "prompt": "区块链技术本身具备价值判断能力。",
       "options": [
@@ -6156,6 +6355,7 @@
     },
     {
       "id": 200,
+      "number": 131,
       "type": "multiple",
       "prompt": "区块链技术的伦理问题包括下列哪几项()。",
       "options": [
