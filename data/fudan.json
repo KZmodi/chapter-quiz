@@ -1,0 +1,5683 @@
+{
+  "id": "fudan",
+  "title": "人工智能，语言与伦理（复旦大学）",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple",
+      "prompt": "对人工智能常见的误解有哪些?( )",
+      "options": [
+        {
+          "id": "A",
+          "text": "人工智能就是机器学习"
+        },
+        {
+          "id": "B",
+          "text": "机器学习只是人工智能中的一个方向"
+        },
+        {
+          "id": "C",
+          "text": "人工智能最近十年受到深度学习的驱动较多"
+        },
+        {
+          "id": "D",
+          "text": "人工智能就是深度学习"
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.1 人工智能的历史",
+        "page": 1,
+        "endPage": 1,
+        "answer": "AD"
+      }
+    },
+    {
+      "id": 2,
+      "type": "boolean",
+      "prompt": "哲学思维对于人工智能的重要性表现在,哲学所强调的批判性思维有助于认清人工智能发展中的问题。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.1 人工智能的历史",
+        "page": 1,
+        "endPage": 1,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 3,
+      "type": "boolean",
+      "prompt": "深度学习在人工智能领域的表现并不突出。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "1.1 人工智能的历史",
+        "page": 1,
+        "endPage": 1,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "prompt": "计算机之父是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "约翰•麦卡锡"
+        },
+        {
+          "id": "B",
+          "text": "艾伦•图灵"
+        },
+        {
+          "id": "C",
+          "text": "赫尔伯•西蒙"
+        },
+        {
+          "id": "D",
+          "text": "马文•明斯基"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.2 符号人工智能",
+        "page": 1,
+        "endPage": 1,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "prompt": "人工智能与计算机学科的关系是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "计算机学科的主要驱动力是人工智能研究"
+        },
+        {
+          "id": "B",
+          "text": "计算机是人工智能研究的一个领域"
+        },
+        {
+          "id": "C",
+          "text": "人工智能是计算机学科的一个分支"
+        },
+        {
+          "id": "D",
+          "text": "人工智能与计算机学科没有联系"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.2 符号人工智能",
+        "page": 1,
+        "endPage": 2,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "prompt": "人工智能作为一门学科的建立时间是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "1956 年"
+        },
+        {
+          "id": "B",
+          "text": "1930 年"
+        },
+        {
+          "id": "C",
+          "text": "1960 年"
+        },
+        {
+          "id": "D",
+          "text": "1952 年"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "1.2 符号人工智能",
+        "page": 2,
+        "endPage": 2,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 7,
+      "type": "multiple",
+      "prompt": "下列哪些选项是符号 AI 的技术路线( )?",
+      "options": [
+        {
+          "id": "A",
+          "text": "通用问题求解器"
+        },
+        {
+          "id": "B",
+          "text": "深度学习"
+        },
+        {
+          "id": "C",
+          "text": "机器学习"
+        },
+        {
+          "id": "D",
+          "text": "贝叶斯网络"
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "1.2 符号人工智能",
+        "page": 2,
+        "endPage": 2,
+        "answer": "AD"
+      }
+    },
+    {
+      "id": 8,
+      "type": "boolean",
+      "prompt": "符号 AI 是将人的思维通过逻辑语言制成流形图让计算机去执行。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "1.2 符号人工智能",
+        "page": 2,
+        "endPage": 2,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 9,
+      "type": "boolean",
+      "prompt": "通用问题求解器需要寻找全局最优解。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 6,
+        "chapter": "1.2 符号人工智能",
+        "page": 2,
+        "endPage": 2,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 10,
+      "type": "boolean",
+      "prompt": "符号 AI 无法面对人类经验的变动性。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 7,
+        "chapter": "1.2 符号人工智能",
+        "page": 2,
+        "endPage": 2,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "prompt": "( )是现在新出现的人工智能的研究方向。",
+      "options": [
+        {
+          "id": "A",
+          "text": "深度学习"
+        },
+        {
+          "id": "B",
+          "text": "人工神经元网络"
+        },
+        {
+          "id": "C",
+          "text": "贝叶斯网络"
+        },
+        {
+          "id": "D",
+          "text": "类脑人工智能"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.3 人工神经元网络",
+        "page": 2,
+        "endPage": 3,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "prompt": "深度学习中的“深度”是指( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "计算机理解的深度"
+        },
+        {
+          "id": "B",
+          "text": "中间神经元网络的层次很多"
+        },
+        {
+          "id": "C",
+          "text": "计算机的求解更加精准"
+        },
+        {
+          "id": "D",
+          "text": "计算机对问题的处理更加灵活"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.3 人工神经元网络",
+        "page": 3,
+        "endPage": 3,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 13,
+      "type": "multiple",
+      "prompt": "人工神经元网络与深度学习的关系是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "人工神经元网络是深度学习的前身"
+        },
+        {
+          "id": "B",
+          "text": "深度学习是人工神经元网络的一个分支"
+        },
+        {
+          "id": "C",
+          "text": "深度学习是人工神经元网络的一个发展"
+        },
+        {
+          "id": "D",
+          "text": "深度学习与人工神经元网络无关"
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "1.3 人工神经元网络",
+        "page": 3,
+        "endPage": 3,
+        "answer": "AC"
+      }
+    },
+    {
+      "id": 14,
+      "type": "multiple",
+      "prompt": "人工神经元网络的运作可以粗略分为( )三个层面。",
+      "options": [
+        {
+          "id": "A",
+          "text": "输入层"
+        },
+        {
+          "id": "B",
+          "text": "映射机制"
+        },
+        {
+          "id": "C",
+          "text": "中间处理层"
+        },
+        {
+          "id": "D",
+          "text": "输出层"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "1.3 人工神经元网络",
+        "page": 3,
+        "endPage": 3,
+        "answer": "ACD"
+      }
+    },
+    {
+      "id": 15,
+      "type": "boolean",
+      "prompt": "符号 AI 不是人工智能的正统。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "1.3 人工神经元网络",
+        "page": 3,
+        "endPage": 4,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 16,
+      "type": "boolean",
+      "prompt": "人工神经元网络是对人类的神经元运作进行一种非常粗糙的数学模拟。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 6,
+        "chapter": "1.3 人工神经元网络",
+        "page": 4,
+        "endPage": 4,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 17,
+      "type": "boolean",
+      "prompt": "相比于人工神经元网络和深度学习,类脑人工智能对人类大脑的神经回路具有更深入的了解。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 7,
+        "chapter": "1.3 人工神经元网络",
+        "page": 4,
+        "endPage": 4,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "prompt": "深度学习的实质是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "推理机制"
+        },
+        {
+          "id": "B",
+          "text": "映射机制"
+        },
+        {
+          "id": "C",
+          "text": "识别机制"
+        },
+        {
+          "id": "D",
+          "text": "模拟机制"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.4 框架问题",
+        "page": 4,
+        "endPage": 4,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 19,
+      "type": "multiple",
+      "prompt": "符号 AI 的问题在于( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "缺少推理必要的信息"
+        },
+        {
+          "id": "B",
+          "text": "把推理所依赖的公理系统全部锁死"
+        },
+        {
+          "id": "C",
+          "text": "缺少推理的灵活性"
+        },
+        {
+          "id": "D",
+          "text": "会遭遇“框架问题”"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.4 框架问题",
+        "page": 4,
+        "endPage": 4,
+        "answer": "BCD"
+      }
+    },
+    {
+      "id": 20,
+      "type": "boolean",
+      "prompt": "推理的本质是在信息不足的情况下能够最大程度的得到最靠谱的结论。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "1.4 框架问题",
+        "page": 4,
+        "endPage": 4,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 21,
+      "type": "boolean",
+      "prompt": "计算机具有触类旁通的能力,可以根据具体语境对事件进行分类。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "1.4 框架问题",
+        "page": 4,
+        "endPage": 5,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 22,
+      "type": "boolean",
+      "prompt": "人工神经元网络会遭遇“框架问题”。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "1.4 框架问题",
+        "page": 5,
+        "endPage": 5,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 23,
+      "type": "single",
+      "prompt": "日本五代计算机泡沫关注的核心问题是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "人工神经元网络"
+        },
+        {
+          "id": "B",
+          "text": "符号 AI"
+        },
+        {
+          "id": "C",
+          "text": "贝叶斯网络"
+        },
+        {
+          "id": "D",
+          "text": "自然语言处理"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.5 顺便聊聊五代计算机泡沫",
+        "page": 5,
+        "endPage": 5,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 24,
+      "type": "boolean",
+      "prompt": "制造人工智能的规划、计划和方案本身应该能根据情况的变化进行自我调整。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.5 顺便聊聊五代计算机泡沫",
+        "page": 5,
+        "endPage": 5,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 25,
+      "type": "multiple",
+      "prompt": "目前对人工智能的发展所持有的观点有( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "乌托邦论"
+        },
+        {
+          "id": "B",
+          "text": "模块论"
+        },
+        {
+          "id": "C",
+          "text": "末世论"
+        },
+        {
+          "id": "D",
+          "text": "泡沫论"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.1 专用人工智能与通用人工智能",
+        "page": 5,
+        "endPage": 5,
+        "answer": "ACD"
+      }
+    },
+    {
+      "id": 26,
+      "type": "boolean",
+      "prompt": "现在的人工智能系统都是专用人工智能而非通用人工智能。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "2.1 专用人工智能与通用人工智能",
+        "page": 5,
+        "endPage": 5,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 27,
+      "type": "single",
+      "prompt": "一个真正的通用人工智能系统应具备处理( )问题的能力。",
+      "options": [
+        {
+          "id": "A",
+          "text": "全局性"
+        },
+        {
+          "id": "B",
+          "text": "局部性"
+        },
+        {
+          "id": "C",
+          "text": "专业性"
+        },
+        {
+          "id": "D",
+          "text": "统一性"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.2 深度学习能够升级为通用人工智能系统吗?",
+        "page": 5,
+        "endPage": 6,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 28,
+      "type": "single",
+      "prompt": "目前的人工智能研发的动力主要来源于( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "科学"
+        },
+        {
+          "id": "B",
+          "text": "商业"
+        },
+        {
+          "id": "C",
+          "text": "学术"
+        },
+        {
+          "id": "D",
+          "text": "军事"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "2.2 深度学习能够升级为通用人工智能系统吗?",
+        "page": 6,
+        "endPage": 6,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 29,
+      "type": "boolean",
+      "prompt": "现有的人工神经元网络或深度学习无法处理全局性问题。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "2.2 深度学习能够升级为通用人工智能系统吗?",
+        "page": 6,
+        "endPage": 6,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 30,
+      "type": "boolean",
+      "prompt": "人工神经元网络只需要很少的数据便可掌握处理特定问题的能力。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "2.2 深度学习能够升级为通用人工智能系统吗?",
+        "page": 6,
+        "endPage": 6,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 31,
+      "type": "single",
+      "prompt": "能够推进人工智能智能的研究最好方法是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "继续完善深度学习"
+        },
+        {
+          "id": "B",
+          "text": "提升计算机处理数据的能力"
+        },
+        {
+          "id": "C",
+          "text": "研究人类自己的智能"
+        },
+        {
+          "id": "D",
+          "text": "研发通用人工智能"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.3 向自然智能学习(上)",
+        "page": 6,
+        "endPage": 6,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 32,
+      "type": "multiple",
+      "prompt": "下列哪些选项属于通用智力因素?( )",
+      "options": [
+        {
+          "id": "A",
+          "text": "短期记忆"
+        },
+        {
+          "id": "B",
+          "text": "流体智力"
+        },
+        {
+          "id": "C",
+          "text": "晶体智力"
+        },
+        {
+          "id": "D",
+          "text": "反应速度"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "2.3 向自然智能学习(上)",
+        "page": 6,
+        "endPage": 7,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 33,
+      "type": "boolean",
+      "prompt": "类脑人工智能是指模拟人类大脑的人工智能。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "2.3 向自然智能学习(上)",
+        "page": 7,
+        "endPage": 7,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 34,
+      "type": "boolean",
+      "prompt": "人类自己的智能体现了通用性。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "2.3 向自然智能学习(上)",
+        "page": 7,
+        "endPage": 7,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 35,
+      "type": "multiple",
+      "prompt": "以下哪些选项属于自然智能?( )",
+      "options": [
+        {
+          "id": "A",
+          "text": "植物"
+        },
+        {
+          "id": "B",
+          "text": "动物"
+        },
+        {
+          "id": "C",
+          "text": "细菌"
+        },
+        {
+          "id": "D",
+          "text": "机器"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.4 向自然智能学习(下)",
+        "page": 7,
+        "endPage": 7,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 36,
+      "type": "multiple",
+      "prompt": "智能的特点是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "能对环境进行灵活的应对"
+        },
+        {
+          "id": "B",
+          "text": "能够不断创新"
+        },
+        {
+          "id": "C",
+          "text": "具有十分牢固的记忆力"
+        },
+        {
+          "id": "D",
+          "text": "经济高效"
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "2.4 向自然智能学习(下)",
+        "page": 7,
+        "endPage": 7,
+        "answer": "AC"
+      }
+    },
+    {
+      "id": 37,
+      "type": "boolean",
+      "prompt": "智能与神经元网络的存在具有必然关系。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "2.4 向自然智能学习(下)",
+        "page": 7,
+        "endPage": 8,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 38,
+      "type": "boolean",
+      "prompt": "类脑人工智能及人工神经元网络只是智能展现的一种形式。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "2.4 向自然智能学习(下)",
+        "page": 8,
+        "endPage": 8,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 39,
+      "type": "single",
+      "prompt": "提出强人工智能与弱人工智能的人是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "约翰•塞尔"
+        },
+        {
+          "id": "B",
+          "text": "彼得卡鲁瑟斯"
+        },
+        {
+          "id": "C",
+          "text": "杰瑞•佛多"
+        },
+        {
+          "id": "D",
+          "text": "埃隆•马斯克"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.5 再论“强人工智能”与“超级人工智能”",
+        "page": 8,
+        "endPage": 8,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 40,
+      "type": "boolean",
+      "prompt": "通用人工智能就是强人工智能。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "2.5 再论“强人工智能”与“超级人工智能”",
+        "page": 8,
+        "endPage": 8,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 41,
+      "type": "single",
+      "prompt": "深度学习的数据材料来源于( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "人工搜集"
+        },
+        {
+          "id": "B",
+          "text": "已有数据库"
+        },
+        {
+          "id": "C",
+          "text": "抽样调查"
+        },
+        {
+          "id": "D",
+          "text": "互联网"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.1 大数据的优点",
+        "page": 8,
+        "endPage": 8,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 42,
+      "type": "single",
+      "prompt": "大数据技术的样本空间是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "针对所有相关数据"
+        },
+        {
+          "id": "B",
+          "text": "需要确立样本范围"
+        },
+        {
+          "id": "C",
+          "text": "不做样本控制"
+        },
+        {
+          "id": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "3.1 大数据的优点",
+        "page": 8,
+        "endPage": 9,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 43,
+      "type": "boolean",
+      "prompt": "统计学研究首先要确立样本空间,进行合理抽样,然后估测出相关的情况。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "3.1 大数据的优点",
+        "page": 9,
+        "endPage": 9,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 44,
+      "type": "boolean",
+      "prompt": "当前的主流人工智能是通向真正的通用人工智能的康庄大道。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "3.1 大数据的优点",
+        "page": 9,
+        "endPage": 9,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 45,
+      "type": "short",
+      "prompt": "大数据技术与统计学的不同在于?",
+      "options": [],
+      "answer": "在样本控制方面,统计学要进行样本控制,大数据技术则不需要;在思维模式方面,统计学会预先确定范围,大数据技术则会随时调整范围。",
+      "source": {
+        "number": 5,
+        "chapter": "3.1 大数据的优点",
+        "page": 9,
+        "endPage": 9,
+        "answer": "在样本控制方面,统计学要进行样本控制,大数据技术则不需要;在思维模式方面,统计学会预先确定范围,大数据技术则会随时调整范围。"
+      }
+    },
+    {
+      "id": 46,
+      "type": "single",
+      "prompt": "大数据所搜集到的用户群体都是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "具有线上行为的用户"
+        },
+        {
+          "id": "B",
+          "text": "具有线下行为的用户"
+        },
+        {
+          "id": "C",
+          "text": "参与调研的用户"
+        },
+        {
+          "id": "D",
+          "text": "不参与调研的用户"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.2 大数据的缺点",
+        "page": 9,
+        "endPage": 9,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 47,
+      "type": "single",
+      "prompt": "人类心智比较容易适应( )环境。",
+      "options": [
+        {
+          "id": "A",
+          "text": "大数据"
+        },
+        {
+          "id": "B",
+          "text": "小数据"
+        },
+        {
+          "id": "C",
+          "text": "多数据"
+        },
+        {
+          "id": "D",
+          "text": "单一数据"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "3.2 大数据的缺点",
+        "page": 9,
+        "endPage": 9,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 48,
+      "type": "multiple",
+      "prompt": "技术问题背后还有着( )问题",
+      "options": [
+        {
+          "id": "A",
+          "text": "如何取样"
+        },
+        {
+          "id": "B",
+          "text": "社会的公平正义"
+        },
+        {
+          "id": "C",
+          "text": "社会的价值导向"
+        },
+        {
+          "id": "D",
+          "text": "健康的网上习惯"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "3.2 大数据的缺点",
+        "page": 9,
+        "endPage": 10,
+        "answer": "BC"
+      }
+    },
+    {
+      "id": 49,
+      "type": "boolean",
+      "prompt": "由于大数据只能体现出数量而不能进行质量上的判断,所以在采样并不完整的情况下给出的结论未必准确。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "3.2 大数据的缺点",
+        "page": 10,
+        "endPage": 10,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 50,
+      "type": "boolean",
+      "prompt": "大数据会使人类的行为逐渐趋同。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "3.2 大数据的缺点",
+        "page": 10,
+        "endPage": 10,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 51,
+      "type": "single",
+      "prompt": "“节俭性理性”是( )提出的。",
+      "options": [
+        {
+          "id": "A",
+          "text": "赫伯特•西蒙"
+        },
+        {
+          "id": "B",
+          "text": "吉仁泽"
+        },
+        {
+          "id": "C",
+          "text": "司马贺"
+        },
+        {
+          "id": "D",
+          "text": "拉普拉斯"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.3 节俭性理性",
+        "page": 10,
+        "endPage": 10,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 52,
+      "type": "single",
+      "prompt": "利用自己的认知本能来进行判断的思维算法是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "科学法"
+        },
+        {
+          "id": "B",
+          "text": "逻辑法"
+        },
+        {
+          "id": "C",
+          "text": "捷思法"
+        },
+        {
+          "id": "D",
+          "text": "大数据"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "3.3 节俭性理性",
+        "page": 10,
+        "endPage": 10,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 53,
+      "type": "multiple",
+      "prompt": "绿色人工智能是指( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "对环境友好"
+        },
+        {
+          "id": "B",
+          "text": "所需数据小"
+        },
+        {
+          "id": "C",
+          "text": "消耗资源少"
+        },
+        {
+          "id": "D",
+          "text": "效率高"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "3.3 节俭性理性",
+        "page": 10,
+        "endPage": 11,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 54,
+      "type": "boolean",
+      "prompt": "面临信息过载的情况,最好的判断方法是通过本能运用原始算法。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "3.3 节俭性理性",
+        "page": 11,
+        "endPage": 11,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 55,
+      "type": "boolean",
+      "prompt": "大量信息的提供,尤其是彼此矛盾的信息的提供并不会导致我们的思维过载。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "3.3 节俭性理性",
+        "page": 11,
+        "endPage": 11,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 56,
+      "type": "boolean",
+      "prompt": "赫伯特•西蒙提出了有限理性理论。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 6,
+        "chapter": "3.3 节俭性理性",
+        "page": 11,
+        "endPage": 11,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 57,
+      "type": "single",
+      "prompt": "过度开采社会人文资源,是指在大数据的环境下对( )的侵犯。",
+      "options": [
+        {
+          "id": "A",
+          "text": "个人隐私"
+        },
+        {
+          "id": "B",
+          "text": "大众心理"
+        },
+        {
+          "id": "C",
+          "text": "个人的行为规范"
+        },
+        {
+          "id": "D",
+          "text": "大众消费习惯"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.4 对绿色人工智能的展望",
+        "page": 11,
+        "endPage": 11,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 58,
+      "type": "boolean",
+      "prompt": "大数据无法维持人类社会的隐私和公开之间的张力平衡。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "3.4 对绿色人工智能的展望",
+        "page": 11,
+        "endPage": 11,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 59,
+      "type": "boolean",
+      "prompt": "深度学习就是一种绿色人工智能。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "3.4 对绿色人工智能的展望",
+        "page": 11,
+        "endPage": 11,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 60,
+      "type": "single",
+      "prompt": "在人工智能的所有子课题中,所牵涉范围最广的是( )",
+      "options": [
+        {
+          "id": "A",
+          "text": "机器视觉"
+        },
+        {
+          "id": "B",
+          "text": "非确定条件下的推理"
+        },
+        {
+          "id": "C",
+          "text": "机器听觉"
+        },
+        {
+          "id": "D",
+          "text": "自然语言处理"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.1 自然语言处理理论概论",
+        "page": 12,
+        "endPage": 12,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 61,
+      "type": "multiple",
+      "prompt": "真正的通用人工智能系统具有把握( )的能力。",
+      "options": [
+        {
+          "id": "A",
+          "text": "专业性"
+        },
+        {
+          "id": "B",
+          "text": "跨领域"
+        },
+        {
+          "id": "C",
+          "text": "局部性"
+        },
+        {
+          "id": "D",
+          "text": "全局性"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "4.1 自然语言处理理论概论",
+        "page": 12,
+        "endPage": 12,
+        "answer": "BD"
+      }
+    },
+    {
+      "id": 62,
+      "type": "boolean",
+      "prompt": "语言是检测人工智能是否真正厉害的试金石。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "4.1 自然语言处理理论概论",
+        "page": 12,
+        "endPage": 12,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 63,
+      "type": "boolean",
+      "prompt": "机器语言的特点是有丰富的修辞手段。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "4.1 自然语言处理理论概论",
+        "page": 12,
+        "endPage": 12,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 64,
+      "type": "single",
+      "prompt": "聊天机器人 ELIZA 的运作,很大程度上采用了将计就计的策略,它本身并没有一个完整的( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "神经元"
+        },
+        {
+          "id": "B",
+          "text": "符号建模"
+        },
+        {
+          "id": "C",
+          "text": "语义建模"
+        },
+        {
+          "id": "D",
+          "text": "数据库"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.2 行为主义的自然语言处理路径",
+        "page": 12,
+        "endPage": 12,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 65,
+      "type": "multiple",
+      "prompt": "下列属于行为主义心理学家的是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "约翰•华生"
+        },
+        {
+          "id": "B",
+          "text": "博尔赫斯•斯金纳"
+        },
+        {
+          "id": "C",
+          "text": "巴普洛夫"
+        },
+        {
+          "id": "D",
+          "text": "冯特"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "4.2 行为主义的自然语言处理路径",
+        "page": 13,
+        "endPage": 13,
+        "answer": "AB"
+      }
+    },
+    {
+      "id": 66,
+      "type": "boolean",
+      "prompt": "图灵测验本身具有浓重的行为主义色彩。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "4.2 行为主义的自然语言处理路径",
+        "page": 13,
+        "endPage": 13,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 67,
+      "type": "boolean",
+      "prompt": "聊天机器人某种程度上具备人类的心智。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "4.2 行为主义的自然语言处理路径",
+        "page": 13,
+        "endPage": 13,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 68,
+      "type": "single",
+      "prompt": "SHRDLU 系统实际上是一个( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "积木系统"
+        },
+        {
+          "id": "B",
+          "text": "语义模型"
+        },
+        {
+          "id": "C",
+          "text": "人工装置"
+        },
+        {
+          "id": "D",
+          "text": "人工神经元网络"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.3 外在主义的语义建模",
+        "page": 13,
+        "endPage": 13,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 69,
+      "type": "single",
+      "prompt": "SHRDLU 系统是由( )发明的。",
+      "options": [
+        {
+          "id": "A",
+          "text": "杰瑞•佛多"
+        },
+        {
+          "id": "B",
+          "text": "约翰•塞尔"
+        },
+        {
+          "id": "C",
+          "text": "赫伯特•西蒙"
+        },
+        {
+          "id": "D",
+          "text": "特里•威诺格拉格"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "4.3 外在主义的语义建模",
+        "page": 13,
+        "endPage": 13,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 70,
+      "type": "boolean",
+      "prompt": "SHRDLU 系统预设了在哲学上语词和外部对象具有对应关系。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "4.3 外在主义的语义建模",
+        "page": 14,
+        "endPage": 14,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 71,
+      "type": "boolean",
+      "prompt": "外在主义的语义模型在哲学上的意思是每个语词的真正含义都要通过与其对应的外在对象来加以编码。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "4.3 外在主义的语义建模",
+        "page": 14,
+        "endPage": 14,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 72,
+      "type": "single",
+      "prompt": "语言不仅仅是句法问题,更是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "语义"
+        },
+        {
+          "id": "B",
+          "text": "结构"
+        },
+        {
+          "id": "C",
+          "text": "音韵"
+        },
+        {
+          "id": "D",
+          "text": "逻辑"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.4 基于理想语设想的语义建模",
+        "page": 14,
+        "endPage": 14,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 73,
+      "type": "single",
+      "prompt": "实际的翻译中有时要破坏句子原有的句法结构,根据( )重新组织句子。",
+      "options": [
+        {
+          "id": "A",
+          "text": "音韵"
+        },
+        {
+          "id": "B",
+          "text": "意义"
+        },
+        {
+          "id": "C",
+          "text": "逻辑"
+        },
+        {
+          "id": "D",
+          "text": "效果"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "4.4 基于理想语设想的语义建模",
+        "page": 14,
+        "endPage": 14,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 74,
+      "type": "multiple",
+      "prompt": "乔姆斯基认为人类的语法都有哪两个层面?( )",
+      "options": [
+        {
+          "id": "A",
+          "text": "语义层面"
+        },
+        {
+          "id": "B",
+          "text": "深层语法"
+        },
+        {
+          "id": "C",
+          "text": "句法层面"
+        },
+        {
+          "id": "D",
+          "text": "浅层语法"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "4.4 基于理想语设想的语义建模",
+        "page": 14,
+        "endPage": 14,
+        "answer": "BD"
+      }
+    },
+    {
+      "id": 75,
+      "type": "boolean",
+      "prompt": "大数据对于语言学习来说,其解释能力非常有限。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "4.4 基于理想语设想的语义建模",
+        "page": 15,
+        "endPage": 15,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 76,
+      "type": "boolean",
+      "prompt": "0-3 岁的小孩通过贫乏的语言样本就能够进行有效的语言学习,说明了基于大数据的心智模型是有问题的。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "4.4 基于理想语设想的语义建模",
+        "page": 15,
+        "endPage": 15,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 77,
+      "type": "single",
+      "prompt": "可以用来界定因果关系的是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "贝叶斯公式"
+        },
+        {
+          "id": "B",
+          "text": "先验概率"
+        },
+        {
+          "id": "C",
+          "text": "后验概率"
+        },
+        {
+          "id": "D",
+          "text": "归纳逻辑"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.5 统计学进路的语义处理方式",
+        "page": 15,
+        "endPage": 15,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 78,
+      "type": "single",
+      "prompt": "把归纳逻辑抬到比较高的位置的哲学家是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "海德格尔"
+        },
+        {
+          "id": "B",
+          "text": "大卫•休谟"
+        },
+        {
+          "id": "C",
+          "text": "康德"
+        },
+        {
+          "id": "D",
+          "text": "莱布尼茨"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "4.5 统计学进路的语义处理方式",
+        "page": 15,
+        "endPage": 15,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 79,
+      "type": "multiple",
+      "prompt": "下列属于基于规则的自然语言处理进路的是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "基于中间语的翻译"
+        },
+        {
+          "id": "B",
+          "text": "基于浅层语法的翻译"
+        },
+        {
+          "id": "C",
+          "text": "基于外在语言的翻译"
+        },
+        {
+          "id": "D",
+          "text": "基于深层语法的翻译"
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "4.5 统计学进路的语义处理方式",
+        "page": 15,
+        "endPage": 15,
+        "answer": "AD"
+      }
+    },
+    {
+      "id": 80,
+      "type": "multiple",
+      "prompt": "下列属于外语翻译专业术语的是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "外在语言"
+        },
+        {
+          "id": "B",
+          "text": "中间语言"
+        },
+        {
+          "id": "C",
+          "text": "源语言"
+        },
+        {
+          "id": "D",
+          "text": "目标语言"
+        }
+      ],
+      "answer": [
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "4.5 统计学进路的语义处理方式",
+        "page": 16,
+        "endPage": 16,
+        "answer": "CD"
+      }
+    },
+    {
+      "id": 81,
+      "type": "boolean",
+      "prompt": "先验概率是指根据以往经验和分析得到的概率。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "4.5 统计学进路的语义处理方式",
+        "page": 16,
+        "endPage": 16,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 82,
+      "type": "boolean",
+      "prompt": "休谟认为在因果推理中只有或然性。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 6,
+        "chapter": "4.5 统计学进路的语义处理方式",
+        "page": 16,
+        "endPage": 16,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 83,
+      "type": "boolean",
+      "prompt": "同一个语词在不同的语境当中具有不同的含义。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 7,
+        "chapter": "4.5 统计学进路的语义处理方式",
+        "page": 16,
+        "endPage": 16,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 84,
+      "type": "boolean",
+      "prompt": "贝叶斯公式适合于人工智能的自然语言处理。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 8,
+        "chapter": "4.5 统计学进路的语义处理方式",
+        "page": 16,
+        "endPage": 16,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 85,
+      "type": "single",
+      "prompt": "下列属于基于统计的自然语言处理进路的是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "基于中间语的翻译"
+        },
+        {
+          "id": "B",
+          "text": "基于浅层语法的翻译"
+        },
+        {
+          "id": "C",
+          "text": "基于贝叶斯公式"
+        },
+        {
+          "id": "D",
+          "text": "基于深层语法的翻译"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.6 混合式进路",
+        "page": 16,
+        "endPage": 16,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 86,
+      "type": "single",
+      "prompt": "基于规则与统计的混合进路的日然语言处理进路背后的哲学根据是( )的哲学。",
+      "options": [
+        {
+          "id": "A",
+          "text": "莱布尼茨"
+        },
+        {
+          "id": "B",
+          "text": "海德格尔"
+        },
+        {
+          "id": "C",
+          "text": "大卫•休谟"
+        },
+        {
+          "id": "D",
+          "text": "康德"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "4.6 混合式进路",
+        "page": 16,
+        "endPage": 17,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 87,
+      "type": "multiple",
+      "prompt": "康德认为知识的来源有哪两部分?( )",
+      "options": [
+        {
+          "id": "A",
+          "text": "心之自发性"
+        },
+        {
+          "id": "B",
+          "text": "先天范畴"
+        },
+        {
+          "id": "C",
+          "text": "感官的杂多性"
+        },
+        {
+          "id": "D",
+          "text": "感性材料"
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "4.6 混合式进路",
+        "page": 17,
+        "endPage": 17,
+        "answer": "AC"
+      }
+    },
+    {
+      "id": 88,
+      "type": "boolean",
+      "prompt": "多引擎翻译系统是指本身由很多不同的原则所驱动的混合翻译。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "4.6 混合式进路",
+        "page": 17,
+        "endPage": 17,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 89,
+      "type": "boolean",
+      "prompt": "混合式自然语言处理进路的问题在于如何将基于规则的自然语言处理与基于规则的语言处理很好地融合在一起。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "4.6 混合式进路",
+        "page": 17,
+        "endPage": 17,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 90,
+      "type": "single",
+      "prompt": "影响基于中间语的机器翻译思路的哲学家是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "康德"
+        },
+        {
+          "id": "B",
+          "text": "大卫•休谟"
+        },
+        {
+          "id": "C",
+          "text": "长尾真"
+        },
+        {
+          "id": "D",
+          "text": "莱布尼茨"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.7 基于实际语例的进路",
+        "page": 17,
+        "endPage": 17,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 91,
+      "type": "single",
+      "prompt": "影响基于统计学自然语言处理的哲学家是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "康德"
+        },
+        {
+          "id": "B",
+          "text": "大卫•休谟"
+        },
+        {
+          "id": "C",
+          "text": "长尾真"
+        },
+        {
+          "id": "D",
+          "text": "莱布尼茨"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "4.7 基于实际语例的进路",
+        "page": 17,
+        "endPage": 18,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 92,
+      "type": "single",
+      "prompt": "与基于实际语例的自然语言处理进路有关的哲学家是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "康德"
+        },
+        {
+          "id": "B",
+          "text": "大卫•休谟"
+        },
+        {
+          "id": "C",
+          "text": "长尾真"
+        },
+        {
+          "id": "D",
+          "text": "莱布尼茨"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "4.7 基于实际语例的进路",
+        "page": 18,
+        "endPage": 18,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 93,
+      "type": "boolean",
+      "prompt": "基于实例的自然语言处理会出现不对齐问题。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "4.7 基于实际语例的进路",
+        "page": 18,
+        "endPage": 18,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 94,
+      "type": "boolean",
+      "prompt": "基于实例的自然语言处理的问题是它会由两种语言之间的对应关系所决定,而有时两种语言之间的对应关系比较难以把捉。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "4.7 基于实际语例的进路",
+        "page": 18,
+        "endPage": 18,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 95,
+      "type": "boolean",
+      "prompt": "基于实例的自然语言处理在语言翻译上具有灵活性。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 6,
+        "chapter": "4.7 基于实际语例的进路",
+        "page": 18,
+        "endPage": 18,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 96,
+      "type": "boolean",
+      "prompt": "基于实例的自然语言处理需要事先对语用材料的规则性有所把握。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 7,
+        "chapter": "4.7 基于实际语例的进路",
+        "page": 18,
+        "endPage": 18,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 97,
+      "type": "single",
+      "prompt": "提出强人工智能与弱人工智能的人是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "约翰•塞尔"
+        },
+        {
+          "id": "B",
+          "text": "彼得卡鲁瑟斯"
+        },
+        {
+          "id": "C",
+          "text": "杰瑞•福多"
+        },
+        {
+          "id": "D",
+          "text": "埃隆•马斯克"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "5.1 再谈强人工智能与弱人工智能",
+        "page": 18,
+        "endPage": 19,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 98,
+      "type": "single",
+      "prompt": "专用与通用人工智能讨论的是智能的( )问题。",
+      "options": [
+        {
+          "id": "A",
+          "text": "分层"
+        },
+        {
+          "id": "B",
+          "text": "深度"
+        },
+        {
+          "id": "C",
+          "text": "宽窄"
+        },
+        {
+          "id": "D",
+          "text": "语言处理"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "5.1 再谈强人工智能与弱人工智能",
+        "page": 19,
+        "endPage": 19,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 99,
+      "type": "single",
+      "prompt": "弱人工智能是指仅仅模拟人类大脑的( );强人工智能是指其本身就是一个( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "心智;智能"
+        },
+        {
+          "id": "B",
+          "text": "运作;大脑"
+        },
+        {
+          "id": "C",
+          "text": "智能;程序"
+        },
+        {
+          "id": "D",
+          "text": "智能;心智"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "5.1 再谈强人工智能与弱人工智能",
+        "page": 19,
+        "endPage": 19,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 100,
+      "type": "boolean",
+      "prompt": "强人工智能与弱人工智能就等于专业人工智能与通用人工智能。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "5.1 再谈强人工智能与弱人工智能",
+        "page": 19,
+        "endPage": 19,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 101,
+      "type": "boolean",
+      "prompt": "现有的深度学习进路的人工智能并不能达到通用人工智能。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "5.1 再谈强人工智能与弱人工智能",
+        "page": 19,
+        "endPage": 19,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 102,
+      "type": "single",
+      "prompt": "( )的思想激发了基于中间语的机器翻译思路。",
+      "options": [
+        {
+          "id": "A",
+          "text": "笛卡尔"
+        },
+        {
+          "id": "B",
+          "text": "塞尔"
+        },
+        {
+          "id": "C",
+          "text": "莱布尼茨"
+        },
+        {
+          "id": "D",
+          "text": "康德"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "5.2 塞尔论证的前身",
+        "page": 19,
+        "endPage": 20,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 103,
+      "type": "single",
+      "prompt": "磨坊论证出自( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "《纯粹理性批判》"
+        },
+        {
+          "id": "B",
+          "text": "《单子论》"
+        },
+        {
+          "id": "C",
+          "text": "《人类理智新论》"
+        },
+        {
+          "id": "D",
+          "text": "《神正论》"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "5.2 塞尔论证的前身",
+        "page": 20,
+        "endPage": 20,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 104,
+      "type": "single",
+      "prompt": "机械主义的说明方式不能囊括人类的( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "感觉"
+        },
+        {
+          "id": "B",
+          "text": "知识"
+        },
+        {
+          "id": "C",
+          "text": "思维"
+        },
+        {
+          "id": "D",
+          "text": "逻辑"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "5.2 塞尔论证的前身",
+        "page": 20,
+        "endPage": 20,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 105,
+      "type": "boolean",
+      "prompt": "灵活理解语句的能力是人类智能的标准。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "5.2 塞尔论证的前身",
+        "page": 20,
+        "endPage": 20,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 106,
+      "type": "boolean",
+      "prompt": "多重可实现主义是指用什么东西来执行计算机的抽象程序来说是不重要的,可以通过很多途径来执行计算机程序。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "5.2 塞尔论证的前身",
+        "page": 20,
+        "endPage": 20,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 107,
+      "type": "single",
+      "prompt": "汉字屋论证是( )提出的。",
+      "options": [
+        {
+          "id": "A",
+          "text": "埃隆•马斯克"
+        },
+        {
+          "id": "B",
+          "text": "杰瑞•福多"
+        },
+        {
+          "id": "C",
+          "text": "约翰•塞尔"
+        },
+        {
+          "id": "D",
+          "text": "彼得卡鲁瑟斯"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "5.3 塞尔的反证法",
+        "page": 20,
+        "endPage": 21,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 108,
+      "type": "multiple",
+      "prompt": "塞尔区分了( )和( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "强人工智能"
+        },
+        {
+          "id": "B",
+          "text": "弱人工智能"
+        },
+        {
+          "id": "C",
+          "text": "专用人工智能"
+        },
+        {
+          "id": "D",
+          "text": "通用人工智能"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "5.3 塞尔的反证法",
+        "page": 21,
+        "endPage": 21,
+        "answer": "AB"
+      }
+    },
+    {
+      "id": 109,
+      "type": "boolean",
+      "prompt": "任何一个精心编程的计算机,它本身的句法操作不足以支持起语义理解。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "5.3 塞尔的反证法",
+        "page": 21,
+        "endPage": 21,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 110,
+      "type": "single",
+      "prompt": "丹尼尔•丹尼特对塞尔“中文屋论证”的批评是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "过于依赖感官"
+        },
+        {
+          "id": "B",
+          "text": "过于依赖知觉"
+        },
+        {
+          "id": "C",
+          "text": "过于依赖概念"
+        },
+        {
+          "id": "D",
+          "text": "过于依赖直觉"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "5.4 重要的反驳",
+        "page": 21,
+        "endPage": 21,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 111,
+      "type": "single",
+      "prompt": "塞尔论证的合法性前提是,他的中文屋系统和一般的计算机系统之间是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "不同的"
+        },
+        {
+          "id": "B",
+          "text": "同构的"
+        },
+        {
+          "id": "C",
+          "text": "互补的"
+        },
+        {
+          "id": "D",
+          "text": "不相容的"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "5.4 重要的反驳",
+        "page": 21,
+        "endPage": 22,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 112,
+      "type": "single",
+      "prompt": "( )无法得知,因为他人的行为和表现有伪装性。",
+      "options": [
+        {
+          "id": "A",
+          "text": "“他心”"
+        },
+        {
+          "id": "B",
+          "text": "“他感”"
+        },
+        {
+          "id": "C",
+          "text": "“灵感”"
+        },
+        {
+          "id": "D",
+          "text": "“灵性”"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "5.4 重要的反驳",
+        "page": 22,
+        "endPage": 22,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 113,
+      "type": "boolean",
+      "prompt": "塞尔认为一个人具有一门语言表达的外部行为就代表其真正懂得这门语言。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "5.4 重要的反驳",
+        "page": 22,
+        "endPage": 22,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 114,
+      "type": "boolean",
+      "prompt": "人类的感官处理也具有机械性。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "5.4 重要的反驳",
+        "page": 22,
+        "endPage": 22,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 115,
+      "type": "multiple",
+      "prompt": "机器翻译的局限性在于( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "训练样本单一"
+        },
+        {
+          "id": "B",
+          "text": "只能处理简单句"
+        },
+        {
+          "id": "C",
+          "text": "基于已有的既成案例"
+        },
+        {
+          "id": "D",
+          "text": "错误较多"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.1 机器翻译进路产生的问题(上)",
+        "page": 22,
+        "endPage": 22,
+        "answer": "BC"
+      }
+    },
+    {
+      "id": 116,
+      "type": "boolean",
+      "prompt": "人类译员一定会被机器所取代。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "6.1 机器翻译进路产生的问题(上)",
+        "page": 22,
+        "endPage": 22,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 117,
+      "type": "short",
+      "prompt": "深度学习是什么?它是如何运作的?",
+      "options": [],
+      "answer": "深度学习是传统人工神经元网络的一个技术升级版,比原来的人工神经元网络复杂,但仍然是一种人工神经元网络。它的运作很大程度上需要外来的样本输入,然后根据样本输入进行映射,继而归类。",
+      "source": {
+        "number": 3,
+        "chapter": "6.1 机器翻译进路产生的问题(上)",
+        "page": 22,
+        "endPage": 23,
+        "answer": "深度学习是传统人工神经元网络的一个技术升级版,比原来的人工神经元网络复杂,但仍然是一种人工神经元网络。它的运作很大程度上需要外来的样本输入,然后根据样本输入进行映射,继而归类。"
+      }
+    },
+    {
+      "id": 118,
+      "type": "boolean",
+      "prompt": "现有的机器翻译无法对人类语用环境的丰富性进行处理。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.2 机器翻译进路产生的问题(下)",
+        "page": 23,
+        "endPage": 23,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 119,
+      "type": "boolean",
+      "prompt": "文化差异不一定会影响翻译结果。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "6.2 机器翻译进路产生的问题(下)",
+        "page": 23,
+        "endPage": 23,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 120,
+      "type": "single",
+      "prompt": "认知语言学关心的是我们在使用某个概念时,心中浮现出的( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "句法规则"
+        },
+        {
+          "id": "B",
+          "text": "字典上的定义"
+        },
+        {
+          "id": "C",
+          "text": "认知图式"
+        },
+        {
+          "id": "D",
+          "text": "具体语境"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.3 认知语言学关于翻译的洞见",
+        "page": 23,
+        "endPage": 23,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 121,
+      "type": "multiple",
+      "prompt": "认知语言学更多地是考虑( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "句法"
+        },
+        {
+          "id": "B",
+          "text": "音韵"
+        },
+        {
+          "id": "C",
+          "text": "语义"
+        },
+        {
+          "id": "D",
+          "text": "语用"
+        }
+      ],
+      "answer": [
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "6.3 认知语言学关于翻译的洞见",
+        "page": 23,
+        "endPage": 23,
+        "answer": "CD"
+      }
+    },
+    {
+      "id": 122,
+      "type": "boolean",
+      "prompt": "翻译不一定发生在不同语言的人之间。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "6.3 认知语言学关于翻译的洞见",
+        "page": 23,
+        "endPage": 23,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 123,
+      "type": "boolean",
+      "prompt": "翻译机器在进行翻译时会考虑到用户的文化背景。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "6.3 认知语言学关于翻译的洞见",
+        "page": 23,
+        "endPage": 24,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 124,
+      "type": "single",
+      "prompt": "框架与框架之间的粘接剂叫做( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "框间网络"
+        },
+        {
+          "id": "B",
+          "text": "框架结构"
+        },
+        {
+          "id": "C",
+          "text": "框架链接"
+        },
+        {
+          "id": "D",
+          "text": "框间关系"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.4 认知语言学技术刻画的“不可计算性”",
+        "page": 24,
+        "endPage": 24,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 125,
+      "type": "boolean",
+      "prompt": "框架之间的相互关系构成了人类语言的基本推理系统。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "6.4 认知语言学技术刻画的“不可计算性”",
+        "page": 24,
+        "endPage": 24,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 126,
+      "type": "boolean",
+      "prompt": "框架需要使用整个框架网络,但有时也可单独使用。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "6.4 认知语言学技术刻画的“不可计算性”",
+        "page": 24,
+        "endPage": 24,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 127,
+      "type": "single",
+      "prompt": "计算机的编程语言是以( )语为模仿对象的。",
+      "options": [
+        {
+          "id": "A",
+          "text": "西"
+        },
+        {
+          "id": "B",
+          "text": "法"
+        },
+        {
+          "id": "C",
+          "text": "日"
+        },
+        {
+          "id": "D",
+          "text": "英"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "7.1 隐蔽在计算机工业的“中立”面相之后的英语霸权",
+        "page": 24,
+        "endPage": 24,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 128,
+      "type": "multiple",
+      "prompt": "人工智能主要依赖的学科有( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "逻辑学"
+        },
+        {
+          "id": "B",
+          "text": "数学"
+        },
+        {
+          "id": "C",
+          "text": "统计学"
+        },
+        {
+          "id": "D",
+          "text": "信息与计算科学"
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "7.1 隐蔽在计算机工业的“中立”面相之后的英语霸权",
+        "page": 24,
+        "endPage": 25,
+        "answer": "AC"
+      }
+    },
+    {
+      "id": 129,
+      "type": "boolean",
+      "prompt": "计算机自身的编程母语是多语种的。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "7.1 隐蔽在计算机工业的“中立”面相之后的英语霸权",
+        "page": 25,
+        "endPage": 25,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 130,
+      "type": "boolean",
+      "prompt": "人工智能不会受到“母语意识”的影响。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "7.1 隐蔽在计算机工业的“中立”面相之后的英语霸权",
+        "page": 25,
+        "endPage": 25,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 131,
+      "type": "single",
+      "prompt": "第一个注意到东方语言中量词问题的语言哲学家是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "图灵"
+        },
+        {
+          "id": "B",
+          "text": "麦克德莫特"
+        },
+        {
+          "id": "C",
+          "text": "蒯因"
+        },
+        {
+          "id": "D",
+          "text": "罗素"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "7.2 被西语思维扭曲的汉语量词现象",
+        "page": 25,
+        "endPage": 25,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 132,
+      "type": "multiple",
+      "prompt": "英语重视哪两个问题的区分?( )",
+      "options": [
+        {
+          "id": "A",
+          "text": "谓语与非谓语"
+        },
+        {
+          "id": "B",
+          "text": "可数名词与不可数名词"
+        },
+        {
+          "id": "C",
+          "text": "冠词与数词"
+        },
+        {
+          "id": "D",
+          "text": "单复数"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "7.2 被西语思维扭曲的汉语量词现象",
+        "page": 25,
+        "endPage": 25,
+        "answer": "BD"
+      }
+    },
+    {
+      "id": 133,
+      "type": "boolean",
+      "prompt": "通过海量的数据输入及学习人工智能在量词的指派方面会达到相对准确的程度。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "7.2 被西语思维扭曲的汉语量词现象",
+        "page": 25,
+        "endPage": 25,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 134,
+      "type": "boolean",
+      "prompt": "基于统计学的和数据训练的人工智能系统是无法对语词背后的含义进行深入的理解的。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "7.2 被西语思维扭曲的汉语量词现象",
+        "page": 25,
+        "endPage": 26,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 135,
+      "type": "single",
+      "prompt": "量词在汉语中的演化史,以( )时代作为一个重要的转折点。",
+      "options": [
+        {
+          "id": "A",
+          "text": "西周"
+        },
+        {
+          "id": "B",
+          "text": "先秦"
+        },
+        {
+          "id": "C",
+          "text": "两汉"
+        },
+        {
+          "id": "D",
+          "text": "宋代"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "7.3 一种基于汉语演化史与认知语言学的复合式解释",
+        "page": 26,
+        "endPage": 26,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 136,
+      "type": "multiple",
+      "prompt": "汉语的演化史表明,量词的真实功用可能与( )没有任何关系。",
+      "options": [
+        {
+          "id": "A",
+          "text": "隐喻机制"
+        },
+        {
+          "id": "B",
+          "text": "个体化机制"
+        },
+        {
+          "id": "C",
+          "text": "单复数区分"
+        },
+        {
+          "id": "D",
+          "text": "补足音素"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "7.3 一种基于汉语演化史与认知语言学的复合式解释",
+        "page": 26,
+        "endPage": 26,
+        "answer": "BC"
+      }
+    },
+    {
+      "id": 137,
+      "type": "boolean",
+      "prompt": "通用量词就是只能和特定的名词进行搭配的量词。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "7.3 一种基于汉语演化史与认知语言学的复合式解释",
+        "page": 26,
+        "endPage": 26,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 138,
+      "type": "boolean",
+      "prompt": "通用量词的出现提升了古汉语的韵律上的齐一性。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "7.3 一种基于汉语演化史与认知语言学的复合式解释",
+        "page": 26,
+        "endPage": 26,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 139,
+      "type": "boolean",
+      "prompt": "按照认知语言学的看法,我们对整个世界当中的事物的描述都是一种隐喻投射机制。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "7.3 一种基于汉语演化史与认知语言学的复合式解释",
+        "page": 26,
+        "endPage": 26,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 140,
+      "type": "boolean",
+      "prompt": "站在整个全球人类语言演化的大方向上来看,量词现象是具有地方性的。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "7.4 以人工智能为武器来反抗地球的扁平化",
+        "page": 26,
+        "endPage": 27,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 141,
+      "type": "short",
+      "prompt": "为什么东亚国家的语言需要量词,而西方民族不需要量词?",
+      "options": [],
+      "answer": "这在很大程度上也许是因为,我们对世界的感性表达如果仅仅是通过形容词和名词的话,有可能不够用。因而要通过量词再制造一些新的信息槽口,把我们对于世界的其他的感性感受插入进去,使得我们对于世界的表达带有更多的信息。",
+      "source": {
+        "number": 2,
+        "chapter": "7.4 以人工智能为武器来反抗地球的扁平化",
+        "page": 27,
+        "endPage": 27,
+        "answer": "这在很大程度上也许是因为,我们对世界的感性表达如果仅仅是通过形容词和名词的话,有可能不够用。因而要通过量词再制造一些新的信息槽口,把我们对于世界的其他的感性感受插入进去,使得我们对于世界的表达带有更多的信息。"
+      }
+    },
+    {
+      "id": 142,
+      "type": "single",
+      "prompt": "“中文屋”是( )提出的思想实验。",
+      "options": [
+        {
+          "id": "A",
+          "text": "艾伦•图灵"
+        },
+        {
+          "id": "B",
+          "text": "马文•明斯基"
+        },
+        {
+          "id": "C",
+          "text": "乔姆斯基"
+        },
+        {
+          "id": "D",
+          "text": "约翰•塞尔"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.1 从“中文屋”到“日语屋”",
+        "page": 27,
+        "endPage": 27,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 143,
+      "type": "boolean",
+      "prompt": "汉语在塞尔的论证中所扮演的角色是非常“功能性”的,即塞尔只是借用“汉语”指涉任何他不懂的语言。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.1 从“中文屋”到“日语屋”",
+        "page": 27,
+        "endPage": 27,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 144,
+      "type": "single",
+      "prompt": "金谷武洋认为日本人是( )看待世界的。",
+      "options": [
+        {
+          "id": "A",
+          "text": "上帝的视角"
+        },
+        {
+          "id": "B",
+          "text": "他者的视角"
+        },
+        {
+          "id": "C",
+          "text": "虫子的视角"
+        },
+        {
+          "id": "D",
+          "text": "对象的视角"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.2 日语言说者对于具身性的敏感性",
+        "page": 27,
+        "endPage": 27,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 145,
+      "type": "single",
+      "prompt": "与汉语相比,日语对于(身体感受性)的强调更加明显。",
+      "options": [
+        {
+          "id": "A",
+          "text": "语法"
+        },
+        {
+          "id": "B",
+          "text": "量词"
+        },
+        {
+          "id": "C",
+          "text": "发音"
+        },
+        {
+          "id": "D",
+          "text": "身体感受性"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.2 日语言说者对于具身性的敏感性",
+        "page": 27,
+        "endPage": 28,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 146,
+      "type": "multiple",
+      "prompt": "日语是( )的混合体。",
+      "options": [
+        {
+          "id": "A",
+          "text": "平假名"
+        },
+        {
+          "id": "B",
+          "text": "汉字"
+        },
+        {
+          "id": "C",
+          "text": "片假名"
+        },
+        {
+          "id": "D",
+          "text": "假名"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "8.2 日语言说者对于具身性的敏感性",
+        "page": 28,
+        "endPage": 28,
+        "answer": "BC"
+      }
+    },
+    {
+      "id": 147,
+      "type": "boolean",
+      "prompt": "塞尔的规则书很大程度上是指语言符号的输入和语言符号的输出之间的关系。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "8.2 日语言说者对于具身性的敏感性",
+        "page": 28,
+        "endPage": 28,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 148,
+      "type": "boolean",
+      "prompt": "对语言的把握和体会很大程度上是一个语言符号的问题,并不依赖于对语境的观察。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "8.2 日语言说者对于具身性的敏感性",
+        "page": 28,
+        "endPage": 28,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 149,
+      "type": "single",
+      "prompt": "提出“包容构架”理论的是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "罗德尼•布鲁克斯"
+        },
+        {
+          "id": "B",
+          "text": "约翰•塞尔"
+        },
+        {
+          "id": "C",
+          "text": "马文•明斯基"
+        },
+        {
+          "id": "D",
+          "text": "艾伦•图灵"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.3“日语屋”给塞尔造成的麻烦",
+        "page": 28,
+        "endPage": 28,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 150,
+      "type": "single",
+      "prompt": "日语具有强烈的( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "第三人称性"
+        },
+        {
+          "id": "B",
+          "text": "第二人称性"
+        },
+        {
+          "id": "C",
+          "text": "客体性"
+        },
+        {
+          "id": "D",
+          "text": "第一人称性"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.3“日语屋”给塞尔造成的麻烦",
+        "page": 28,
+        "endPage": 29,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 151,
+      "type": "single",
+      "prompt": "深度学习归根结底是一个( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "推理机制"
+        },
+        {
+          "id": "B",
+          "text": "映射机制"
+        },
+        {
+          "id": "C",
+          "text": "识别机制"
+        },
+        {
+          "id": "D",
+          "text": "模拟机制"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "8.3“日语屋”给塞尔造成的麻烦",
+        "page": 29,
+        "endPage": 29,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 152,
+      "type": "boolean",
+      "prompt": "深度学习能够很好地处理语境性的信息。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "8.3“日语屋”给塞尔造成的麻烦",
+        "page": 29,
+        "endPage": 29,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 153,
+      "type": "boolean",
+      "prompt": "深度学习无法从客观数据达到主观体验。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "8.3“日语屋”给塞尔造成的麻烦",
+        "page": 29,
+        "endPage": 29,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 154,
+      "type": "single",
+      "prompt": "( )是非常接近欧陆现象学运动的语言学流派。",
+      "options": [
+        {
+          "id": "A",
+          "text": "结构主义语言学"
+        },
+        {
+          "id": "B",
+          "text": "转化-生成语言学"
+        },
+        {
+          "id": "C",
+          "text": "历史比较语言学"
+        },
+        {
+          "id": "D",
+          "text": "认知语言学"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.4 主流人工智能的自然语言处理技术为何处理不了具身性?",
+        "page": 29,
+        "endPage": 29,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 155,
+      "type": "single",
+      "prompt": "现有的主流人工智能对自然语言的处理是基于( )视角的。",
+      "options": [
+        {
+          "id": "A",
+          "text": "第二人称"
+        },
+        {
+          "id": "B",
+          "text": "第三人称"
+        },
+        {
+          "id": "C",
+          "text": "第一人称"
+        },
+        {
+          "id": "D",
+          "text": "对象"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.4 主流人工智能的自然语言处理技术为何处理不了具身性?",
+        "page": 29,
+        "endPage": 30,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 156,
+      "type": "multiple",
+      "prompt": "下列哪些哲学家是从人类真实接受到的现象学体验出发来理解人类生活的方方面面?( )",
+      "options": [
+        {
+          "id": "A",
+          "text": "胡塞尔"
+        },
+        {
+          "id": "B",
+          "text": "萨特"
+        },
+        {
+          "id": "C",
+          "text": "海德格尔"
+        },
+        {
+          "id": "D",
+          "text": "梅洛•庞蒂"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "8.4 主流人工智能的自然语言处理技术为何处理不了具身性?",
+        "page": 30,
+        "endPage": 30,
+        "answer": "ACD"
+      }
+    },
+    {
+      "id": 157,
+      "type": "boolean",
+      "prompt": "计算机永远无法处理日语所具有的暧昧性。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "8.4 主流人工智能的自然语言处理技术为何处理不了具身性?",
+        "page": 30,
+        "endPage": 30,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 158,
+      "type": "boolean",
+      "prompt": "认知语言学是对我们进行语言处理的认知图式进行精确的把握。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "8.4 主流人工智能的自然语言处理技术为何处理不了具身性?",
+        "page": 30,
+        "endPage": 30,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 159,
+      "type": "single",
+      "prompt": "阿西莫夫三定律出自( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "《曙光中的机器人》"
+        },
+        {
+          "id": "B",
+          "text": "《我,机器人》"
+        },
+        {
+          "id": "C",
+          "text": "《机器人与帝国》"
+        },
+        {
+          "id": "D",
+          "text": "《机器与伦理》"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.1 机器人伦理学概述",
+        "page": 30,
+        "endPage": 30,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 160,
+      "type": "multiple",
+      "prompt": "人工智能伦理学包括( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "机器伦理学"
+        },
+        {
+          "id": "B",
+          "text": "机器发明者的伦理学"
+        },
+        {
+          "id": "C",
+          "text": "编程伦理学"
+        },
+        {
+          "id": "D",
+          "text": "机器人伦理学"
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "9.1 机器人伦理学概述",
+        "page": 30,
+        "endPage": 31,
+        "answer": "AD"
+      }
+    },
+    {
+      "id": 161,
+      "type": "boolean",
+      "prompt": "伦理道德规范编程的语义内容本身需要具身性加以奠基。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "9.1 机器人伦理学概述",
+        "page": 31,
+        "endPage": 31,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 162,
+      "type": "boolean",
+      "prompt": "机器伦理学是指造人工智能的主体自身的道德。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "9.1 机器人伦理学概述",
+        "page": 31,
+        "endPage": 31,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 163,
+      "type": "single",
+      "prompt": "金谷武洋认为日本人是用虫子的视角看待世界的,这是一种( )解释。",
+      "options": [
+        {
+          "id": "A",
+          "text": "现象学"
+        },
+        {
+          "id": "B",
+          "text": "认知科学"
+        },
+        {
+          "id": "C",
+          "text": "认知哲学"
+        },
+        {
+          "id": "D",
+          "text": "生物学"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.2 从伦理学的“具身性”说起",
+        "page": 31,
+        "endPage": 31,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 164,
+      "type": "single",
+      "prompt": "认知语言学认为“意义”的核心观点在于( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "区域化"
+        },
+        {
+          "id": "B",
+          "text": "行动化"
+        },
+        {
+          "id": "C",
+          "text": "范畴化"
+        },
+        {
+          "id": "D",
+          "text": "理论化"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "9.2 从伦理学的“具身性”说起",
+        "page": 31,
+        "endPage": 31,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 165,
+      "type": "multiple",
+      "prompt": "下列与“汉密尔顿理论”相关的是( )",
+      "options": [
+        {
+          "id": "A",
+          "text": "利他行为是由于基因相似"
+        },
+        {
+          "id": "B",
+          "text": "道德德生物学起源很可能就是与“通过亲属的生存而完成家族基因的备份”这一隐蔽的生物学目的相关的。"
+        },
+        {
+          "id": "C",
+          "text": "在假定甲、乙两个生物学个体之间具有一定的遗传相似性的前提下,只要这种相似性与“乙从甲获得的好处“之间乘积能够抵消“甲自身因帮助乙而遭受到的损失”,那么,使得互助行为得以可能的那些基因就会在种群中传播。"
+        },
+        {
+          "id": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "9.2 从伦理学的“具身性”说起",
+        "page": 31,
+        "endPage": 32,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 166,
+      "type": "boolean",
+      "prompt": "麦金泰尔在《依赖性的理性动物》一书中指出动物的社群活动具有很深的生物学根基。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "9.2 从伦理学的“具身性”说起",
+        "page": 32,
+        "endPage": 32,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 167,
+      "type": "boolean",
+      "prompt": "认知语言学认为一个句子的意义具有唯一的答案。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "9.2 从伦理学的“具身性”说起",
+        "page": 32,
+        "endPage": 32,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 168,
+      "type": "boolean",
+      "prompt": "人类作为社会性动物的原因是建立于生物学事实的,即人类的身体具有一种生物学意义上的脆弱性。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 6,
+        "chapter": "9.2 从伦理学的“具身性”说起",
+        "page": 32,
+        "endPage": 32,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 169,
+      "type": "single",
+      "prompt": "伦理学命题本身的意义是奠基在( )之上的。",
+      "options": [
+        {
+          "id": "A",
+          "text": "概念图式"
+        },
+        {
+          "id": "B",
+          "text": "认知图式"
+        },
+        {
+          "id": "C",
+          "text": "身体图式"
+        },
+        {
+          "id": "D",
+          "text": "心理架构"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.3 认知语言学的“具身性”对于人工智能伦理学的启示",
+        "page": 32,
+        "endPage": 32,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 170,
+      "type": "single",
+      "prompt": "根据认知语言学,并不存在与具体的( )相脱离的语义。",
+      "options": [
+        {
+          "id": "A",
+          "text": "理性存在"
+        },
+        {
+          "id": "B",
+          "text": "感性存在"
+        },
+        {
+          "id": "C",
+          "text": "多面性存在"
+        },
+        {
+          "id": "D",
+          "text": "非理性存在"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "9.3 认知语言学的“具身性”对于人工智能伦理学的启示",
+        "page": 32,
+        "endPage": 33,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 171,
+      "type": "multiple",
+      "prompt": "对人类自身的( )的研究,有助于人工智能伦理学的研究。",
+      "options": [
+        {
+          "id": "A",
+          "text": "认知架构"
+        },
+        {
+          "id": "B",
+          "text": "认知图式"
+        },
+        {
+          "id": "C",
+          "text": "身体图式"
+        },
+        {
+          "id": "D",
+          "text": "心理架构"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "9.3 认知语言学的“具身性”对于人工智能伦理学的启示",
+        "page": 33,
+        "endPage": 33,
+        "answer": "ABD"
+      }
+    },
+    {
+      "id": 172,
+      "type": "boolean",
+      "prompt": "伦理学也基于互助原则,只有两种彼此力量相近的力量才能通过互助来互惠。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "9.3 认知语言学的“具身性”对于人工智能伦理学的启示",
+        "page": 33,
+        "endPage": 33,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 173,
+      "type": "boolean",
+      "prompt": "找不到一个程序性的方法我们不可能把阿西莫夫三定律预先输入到计算机的软件中去。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "9.3 认知语言学的“具身性”对于人工智能伦理学的启示",
+        "page": 33,
+        "endPage": 33,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 174,
+      "type": "single",
+      "prompt": "德性论者关心的是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "道德行为"
+        },
+        {
+          "id": "B",
+          "text": "道德主体"
+        },
+        {
+          "id": "C",
+          "text": "道德规则"
+        },
+        {
+          "id": "D",
+          "text": "行为后果"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "10.1 德性伦理学与儒家哲学的结合",
+        "page": 33,
+        "endPage": 33,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 175,
+      "type": "single",
+      "prompt": "从儒家的立场来看,德性是靠( )的。",
+      "options": [
+        {
+          "id": "A",
+          "text": "天性"
+        },
+        {
+          "id": "B",
+          "text": "遗传"
+        },
+        {
+          "id": "C",
+          "text": "熏养"
+        },
+        {
+          "id": "D",
+          "text": "感受"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "10.1 德性伦理学与儒家哲学的结合",
+        "page": 33,
+        "endPage": 34,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 176,
+      "type": "multiple",
+      "prompt": "下列属于伦理学理论的是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "义务论"
+        },
+        {
+          "id": "B",
+          "text": "后果论"
+        },
+        {
+          "id": "C",
+          "text": "德性论"
+        },
+        {
+          "id": "D",
+          "text": "行为论"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "10.1 德性伦理学与儒家哲学的结合",
+        "page": 34,
+        "endPage": 34,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 177,
+      "type": "boolean",
+      "prompt": "行动者德性伦理学认为德性来源于行为者的美好的动机。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "10.1 德性伦理学与儒家哲学的结合",
+        "page": 34,
+        "endPage": 34,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 178,
+      "type": "boolean",
+      "prompt": "《春秋公羊传》是孔子的著作。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "10.1 德性伦理学与儒家哲学的结合",
+        "page": 34,
+        "endPage": 34,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 179,
+      "type": "single",
+      "prompt": "击靶德性论致力于将“德性”兑换成平时我们所经常用到的( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "德性精神"
+        },
+        {
+          "id": "B",
+          "text": "德性习惯"
+        },
+        {
+          "id": "C",
+          "text": "德性名目"
+        },
+        {
+          "id": "D",
+          "text": "德性行为"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "10.2 击靶德性论及其与儒家学说中的关系",
+        "page": 34,
+        "endPage": 34,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 180,
+      "type": "single",
+      "prompt": "创立“神经哲学”的是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "丘奇兰夫妇"
+        },
+        {
+          "id": "B",
+          "text": "Swanton"
+        },
+        {
+          "id": "C",
+          "text": "麦金太尔"
+        },
+        {
+          "id": "D",
+          "text": "斯宾诺莎"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "10.2 击靶德性论及其与儒家学说中的关系",
+        "page": 34,
+        "endPage": 35,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 181,
+      "type": "single",
+      "prompt": "与重视动机反省机制的行为者德性论尤其不同的是,击靶德性论特别看重( )的实现。",
+      "options": [
+        {
+          "id": "A",
+          "text": "德性精神"
+        },
+        {
+          "id": "B",
+          "text": "德性培育"
+        },
+        {
+          "id": "C",
+          "text": "德性伦理"
+        },
+        {
+          "id": "D",
+          "text": "德性价值"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "10.2 击靶德性论及其与儒家学说中的关系",
+        "page": 35,
+        "endPage": 35,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 182,
+      "type": "boolean",
+      "prompt": "儒家的德性名目有“四维”、“五德”、“八德”等。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "10.2 击靶德性论及其与儒家学说中的关系",
+        "page": 35,
+        "endPage": 35,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 183,
+      "type": "single",
+      "prompt": "道德识别的矢量空间是( )提出的。",
+      "options": [
+        {
+          "id": "A",
+          "text": "斯宾诺莎"
+        },
+        {
+          "id": "B",
+          "text": "Swanton"
+        },
+        {
+          "id": "C",
+          "text": "麦金太尔"
+        },
+        {
+          "id": "D",
+          "text": "丘奇兰夫妇"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "10.3 从神经计算模型看德性熏养",
+        "page": 35,
+        "endPage": 35,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 184,
+      "type": "multiple",
+      "prompt": "人工神经元网络包括( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "输入层"
+        },
+        {
+          "id": "B",
+          "text": "中间隐藏层"
+        },
+        {
+          "id": "C",
+          "text": "映射层"
+        },
+        {
+          "id": "D",
+          "text": "输出层"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "10.3 从神经计算模型看德性熏养",
+        "page": 35,
+        "endPage": 36,
+        "answer": "ABD"
+      }
+    },
+    {
+      "id": 185,
+      "type": "boolean",
+      "prompt": "在人类道德的培养中道德样板起到了很重要的作用。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "10.3 从神经计算模型看德性熏养",
+        "page": 36,
+        "endPage": 36,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 186,
+      "type": "boolean",
+      "prompt": "人类的认知过程具有从底层特征到高层特征这种单向过程的特征。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "10.3 从神经计算模型看德性熏养",
+        "page": 36,
+        "endPage": 36,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 187,
+      "type": "single",
+      "prompt": "在信息匮乏的情况下能够提供有效的问题解决路径的重要思想把手是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "推理思想"
+        },
+        {
+          "id": "B",
+          "text": "知性思维"
+        },
+        {
+          "id": "C",
+          "text": "归纳思维"
+        },
+        {
+          "id": "D",
+          "text": "类比思维"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "10.4 通过基于“儒家德性样板库”的隐喻性投射来获取德性",
+        "page": 36,
+        "endPage": 36,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 188,
+      "type": "single",
+      "prompt": "视频中的第一个数据库是完成对( )的评价的。",
+      "options": [
+        {
+          "id": "A",
+          "text": "特定的人"
+        },
+        {
+          "id": "B",
+          "text": "特定的道德名目"
+        },
+        {
+          "id": "C",
+          "text": "道德行为"
+        },
+        {
+          "id": "D",
+          "text": "道德结果"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "10.4 通过基于“儒家德性样板库”的隐喻性投射来获取德性",
+        "page": 36,
+        "endPage": 36,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 189,
+      "type": "boolean",
+      "prompt": "类比思维需要很强大的直觉。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "10.4 通过基于“儒家德性样板库”的隐喻性投射来获取德性",
+        "page": 36,
+        "endPage": 36,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 190,
+      "type": "boolean",
+      "prompt": "道德熏养不需要使用类比思维。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "10.4 通过基于“儒家德性样板库”的隐喻性投射来获取德性",
+        "page": 37,
+        "endPage": 37,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 191,
+      "type": "single",
+      "prompt": "最近几年人工智能的发展是由于( )的崛起。",
+      "options": [
+        {
+          "id": "A",
+          "text": "深度学习"
+        },
+        {
+          "id": "B",
+          "text": "人工神经元网络"
+        },
+        {
+          "id": "C",
+          "text": "符号 AI"
+        },
+        {
+          "id": "D",
+          "text": "专用人工智能研究"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "10.5 课程总结",
+        "page": 37,
+        "endPage": 37,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 192,
+      "type": "multiple",
+      "prompt": "对人工智能的发展持“末世论”的科学家是( )。",
+      "options": [
+        {
+          "id": "A",
+          "text": "司马贺"
+        },
+        {
+          "id": "B",
+          "text": "霍金"
+        },
+        {
+          "id": "C",
+          "text": "埃隆•马斯克"
+        },
+        {
+          "id": "D",
+          "text": "约翰•塞尔"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "10.5 课程总结",
+        "page": 37,
+        "endPage": 37,
+        "answer": "BC"
+      }
+    },
+    {
+      "id": 193,
+      "type": "boolean",
+      "prompt": "当前人工智能的发展具有学科基础薄弱的问题。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "10.5 课程总结",
+        "page": 37,
+        "endPage": 37,
+        "answer": "√"
+      }
+    },
+    {
+      "id": 194,
+      "type": "boolean",
+      "prompt": "当前人工智能的研究更多地受到科学研究的推动而商业的推动。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 4,
+        "chapter": "10.5 课程总结",
+        "page": 37,
+        "endPage": 37,
+        "answer": "X"
+      }
+    },
+    {
+      "id": 195,
+      "type": "boolean",
+      "prompt": "人工智能解决的是资源的配置问题而非资源的来源问题。( )",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 5,
+        "chapter": "10.5 课程总结",
+        "page": 37,
+        "endPage": 37,
+        "answer": "√"
+      }
+    }
+  ]
+}

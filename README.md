@@ -1,0 +1,35 @@
+# 章节刷题
+
+手机浏览器里练习复旦和厦大两门课的章节测试题。网页使用静态 HTML、CSS、JavaScript 和 JSON，练习记录保存在当前浏览器。
+
+## 手机上使用
+
+1. 用常用浏览器打开 HTTPS 网页，选择课程，再进入顺序刷题、随机刷题或错题本。
+2. 单选和判断点选后立即判题。多选选完再提交。简答题和待核实题可以先在心里作答，再看原资料的参考答案并自评。
+3. 答错的题会自动收录。同一道题做对后仍保留，可在错题本中手动移出。每门课分别保存错题和进度。
+4. 回到首页点「继续上次」。换手机、换浏览器或清理浏览器数据前，先「导出记录」并保管下载的 JSON。新浏览器里点「导入记录」即可恢复。确认导入后会替换该浏览器的两门课记录。
+
+## 题库与文件
+
+| 文件 | 用途 |
+| --- | --- |
+| `index.html`、`style.css`、`app.js` | 网页入口、手机样式与练习逻辑 |
+| `data/fudan.json` | 复旦《人工智能，语言与伦理》195 条 |
+| `data/xmu.json` | 厦大《大数据与人工智能导论》200 条 |
+| `题库核对.md` | 原始 PDF 检查、重复题与待核实项 |
+
+若确认某题答案有误，在对应课程 JSON 的 `questions` 里按网页上的「题库 #编号」找到 `id`，修改同一条的 `answer`。
+
+- 单选例如 `["B"]`，多选例如 `["A", "D"]`。
+- 判断用 `["true"]` 表示正确，用 `["false"]` 表示错误。
+- 简答的 `answer` 是一段字符串。
+- `source.answer` 用于记录原 PDF 的答案，保留原值以便追溯。`source.page`、`source.chapter`、`source.number` 对应 PDF 页码、小节及原题号。保留已有 `id`，避免旧进度和错题失去对应关系。
+- 对厦大 #157，确认源资料缺失的标签和答案后，删除该题的 `review` 和 `source.missingOptionLabel` 即可启用正常选项显示和自动判分。
+
+## 运行与发布
+
+在此目录运行 `python -m http.server 8765`，在电脑浏览器打开 `http://127.0.0.1:8765/`。通过浏览器访问这个地址才能读取题库 JSON。
+
+GitHub Pages 发布时，在自己的 GitHub 仓库上传本目录内容，保留 `data/` 的目录结构。在 **Settings → Pages** 里选 **Deploy from a branch**，分支选 **main**，目录选 **/(root)**，保存并使用页面显示的 HTTPS 网址。后续修改题库后推送到同一分支，Pages 会重新发布。
+
+[GitHub Pages 发布来源说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)

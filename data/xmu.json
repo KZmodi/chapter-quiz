@@ -1,0 +1,6194 @@
+{
+  "id": "xmu",
+  "title": "大数据与人工智能导论（厦门大学）",
+  "questions": [
+    {
+      "id": 1,
+      "type": "boolean",
+      "prompt": "数据是构成信息的基本单位，离散的数据没有任何实用价值。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.1 数据",
+        "page": 1,
+        "endPage": 1,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 2,
+      "type": "multiple",
+      "prompt": "常见的数据类型有()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "文本"
+        },
+        {
+          "id": "B",
+          "text": "图片"
+        },
+        {
+          "id": "C",
+          "text": "音频"
+        },
+        {
+          "id": "D",
+          "text": "视频"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.1 数据",
+        "page": 1,
+        "endPage": 1,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "prompt": "第一次信息化浪潮的时间发生在()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "1950年前后"
+        },
+        {
+          "id": "B",
+          "text": "1980年前后"
+        },
+        {
+          "id": "C",
+          "text": "1995年前后"
+        },
+        {
+          "id": "D",
+          "text": "2005年前后"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.2 大数据时代",
+        "page": 2,
+        "endPage": 2,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 4,
+      "type": "boolean",
+      "prompt": "截止 2023 年 10 月底，我国 4G 网络模全球第一。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.2 大数据时代",
+        "page": 2,
+        "endPage": 2,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "prompt": "纵观大数据的发展历程，2010 年以后是大数据的什么发展阶段?()",
+      "options": [
+        {
+          "id": "A",
+          "text": "萌芽期"
+        },
+        {
+          "id": "B",
+          "text": "成熟期"
+        },
+        {
+          "id": "C",
+          "text": "大规模应用期"
+        },
+        {
+          "id": "D",
+          "text": "衰退期"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.3 大数据的发展历程",
+        "page": 2,
+        "endPage": 2,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "prompt": "2018 年 4 月 22 日-24 日，首届“数字中国”建设峰会在()举行。",
+      "options": [
+        {
+          "id": "A",
+          "text": "福建省福州市"
+        },
+        {
+          "id": "B",
+          "text": "四川省成都市"
+        },
+        {
+          "id": "C",
+          "text": "北京市"
+        },
+        {
+          "id": "D",
+          "text": "湖南省长沙市"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.4 世界各国的大数据发展战略",
+        "page": 3,
+        "endPage": 3,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "prompt": "()的智能终端普及率以及移动互联网接入速度一直位居世界前列。",
+      "options": [
+        {
+          "id": "A",
+          "text": "美国"
+        },
+        {
+          "id": "B",
+          "text": "英国"
+        },
+        {
+          "id": "C",
+          "text": "日本"
+        },
+        {
+          "id": "D",
+          "text": "韩国"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.4 世界各国的大数据发展战略",
+        "page": 3,
+        "endPage": 3,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 8,
+      "type": "boolean",
+      "prompt": "美国是率先将大数据从商业概念上升至国家战略的国家。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "1.4 世界各国的大数据发展战略",
+        "page": 3,
+        "endPage": 3,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 9,
+      "type": "multiple",
+      "prompt": "以下选项属于大数据的属性的有()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "大量化"
+        },
+        {
+          "id": "B",
+          "text": "快速化"
+        },
+        {
+          "id": "C",
+          "text": "多样化"
+        },
+        {
+          "id": "D",
+          "text": "价值密度低"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.5 大数据的概念",
+        "page": 3,
+        "endPage": 4,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 10,
+      "type": "boolean",
+      "prompt": "大数据的价值密度远远高于传统关系数据库中已经有的数据。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.5 大数据的概念",
+        "page": 4,
+        "endPage": 4,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 11,
+      "type": "boolean",
+      "prompt": "随着数据量的不断增加，数据所蕴的价值会从量变发展到质变。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "1.5 大数据的概念",
+        "page": 4,
+        "endPage": 4,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "prompt": "伽利略的两个铁球落地实验属于哪种科学研究范式。()",
+      "options": [
+        {
+          "id": "A",
+          "text": "实验"
+        },
+        {
+          "id": "B",
+          "text": "理论"
+        },
+        {
+          "id": "C",
+          "text": "计算"
+        },
+        {
+          "id": "D",
+          "text": "数据"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.6 大数据的影响",
+        "page": 4,
+        "endPage": 4,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 13,
+      "type": "boolean",
+      "prompt": "牛顿三大定律属于科学研究的第三种范式:计算",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.6 大数据的影响",
+        "page": 4,
+        "endPage": 4,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 14,
+      "type": "boolean",
+      "prompt": "大数据无处不在，社会各行各业都已经融入了大数据的印迹。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.7 大数据的应用",
+        "page": 5,
+        "endPage": 5,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 15,
+      "type": "multiple",
+      "prompt": "按照数据开发应用深入程度的不同，大数据应用的三个层次包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "描述性分析应用"
+        },
+        {
+          "id": "B",
+          "text": "预测性分析应用"
+        },
+        {
+          "id": "C",
+          "text": "指导性分析应用"
+        },
+        {
+          "id": "D",
+          "text": "实用性分析应用"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.7 大数据的应用",
+        "page": 5,
+        "endPage": 5,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 16,
+      "type": "boolean",
+      "prompt": "大数据产业是指一切与支撑大数据组织管理与价值发现相关的企业经济活动的集合。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.8 大数据产业",
+        "page": 5,
+        "endPage": 5,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 17,
+      "type": "boolean",
+      "prompt": "“数字经济“一词最早出现于 20 世纪 50 年代。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.9 大数据与数字经济",
+        "page": 6,
+        "endPage": 6,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 18,
+      "type": "boolean",
+      "prompt": "5G 技术是移动通信技术的最新发展，它代表着更快、更稳定、更智能的通信体验。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.10 大数据与 5G",
+        "page": 6,
+        "endPage": 6,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 19,
+      "type": "multiple",
+      "prompt": "关于大数据与新质生产力的关系，描述正确的有",
+      "options": [
+        {
+          "id": "A",
+          "text": "大数据是新质生产力的重要组成部分"
+        },
+        {
+          "id": "B",
+          "text": "新质生产力就是大数据"
+        },
+        {
+          "id": "C",
+          "text": "大数据是新质生产力的推动力"
+        },
+        {
+          "id": "D",
+          "text": "大数据是新质生产力的创新源泉"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "1.11 大数据与新质生产力",
+        "page": 6,
+        "endPage": 7,
+        "answer": "ACD"
+      }
+    },
+    {
+      "id": 20,
+      "type": "multiple",
+      "prompt": "新质生产力是在现代数字技术快速发展的背景下，由新一轮科技革命和产业变革驱动，以()、绿色化为主要特征的一种全新的生产力形态。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数字化"
+        },
+        {
+          "id": "B",
+          "text": "网络化"
+        },
+        {
+          "id": "C",
+          "text": "智能化"
+        },
+        {
+          "id": "D",
+          "text": "自动化"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "1.11 大数据与新质生产力",
+        "page": 7,
+        "endPage": 7,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 21,
+      "type": "boolean",
+      "prompt": "数据可视化功能是指对分析结果进行可视化呈现，帮助人们更好的理解数据，分析数据。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.1 大数据技术概述",
+        "page": 7,
+        "endPage": 7,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 22,
+      "type": "multiple",
+      "prompt": "传统的数据采集主要的缺点包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据源来源单一，数据量相对较少"
+        },
+        {
+          "id": "B",
+          "text": "数据来源广泛，数据量巨大"
+        },
+        {
+          "id": "C",
+          "text": "数据类型结构单一"
+        },
+        {
+          "id": "D",
+          "text": "数据储存主要是关系数据库和并行数据仓库"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.2.1 数据采集的概念和三大要点",
+        "page": 8,
+        "endPage": 8,
+        "answer": "ACD"
+      }
+    },
+    {
+      "id": 23,
+      "type": "multiple",
+      "prompt": "以下选项属于数据采集的数据源的是()",
+      "options": [
+        {
+          "id": "A",
+          "text": "传感器"
+        },
+        {
+          "id": "B",
+          "text": "互联网数据"
+        },
+        {
+          "id": "C",
+          "text": "企业业务系统数据"
+        },
+        {
+          "id": "D",
+          "text": "日志文件"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.2.2 数据采集的数据源",
+        "page": 8,
+        "endPage": 8,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 24,
+      "type": "single",
+      "prompt": "()是数据系统必不可少的关键部分，也是数据平台的根基。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据分析"
+        },
+        {
+          "id": "B",
+          "text": "数据采集"
+        },
+        {
+          "id": "C",
+          "text": "数据存储"
+        },
+        {
+          "id": "D",
+          "text": "数据运用"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.2.3 数据采集方法",
+        "page": 9,
+        "endPage": 9,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 25,
+      "type": "boolean",
+      "prompt": "数据质量管理贯穿数据生命周期的全过程，数据清洗是决定数据质量好坏的重要因素。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.2.4 数据清洗",
+        "page": 9,
+        "endPage": 9,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 26,
+      "type": "multiple",
+      "prompt": "数据清洗的内容包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "缺失值处理"
+        },
+        {
+          "id": "B",
+          "text": "异常值处理"
+        },
+        {
+          "id": "C",
+          "text": "数据类型转换"
+        },
+        {
+          "id": "D",
+          "text": "重复值处理"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "2.2.4 数据清洗",
+        "page": 9,
+        "endPage": 9,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 27,
+      "type": "single",
+      "prompt": "()就是将数据进行转换或归并，从而构成一个适合数据处理的形式。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据采集"
+        },
+        {
+          "id": "B",
+          "text": "数据存储"
+        },
+        {
+          "id": "C",
+          "text": "数据转化"
+        },
+        {
+          "id": "D",
+          "text": "数据运用"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.2.5 数据集成、转换和脱敏",
+        "page": 10,
+        "endPage": 10,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 28,
+      "type": "boolean",
+      "prompt": "数据脱敏原则必须达成脱敏前后的数据一致性和有效性。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "2.2.5 数据集成、转换和脱敏",
+        "page": 10,
+        "endPage": 10,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 29,
+      "type": "boolean",
+      "prompt": "操作系统中负责管理和存储文件信息的软件机构称为文件管理系统，简称“文件系统”。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.3.1 传统的数据存储和管理技术",
+        "page": 10,
+        "endPage": 10,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 30,
+      "type": "single",
+      "prompt": "()是一种通过网络实现文件在多台主机上进行分布式存储的文件系统。",
+      "options": [
+        {
+          "id": "A",
+          "text": "文件系统"
+        },
+        {
+          "id": "B",
+          "text": "并行数据库"
+        },
+        {
+          "id": "C",
+          "text": "分布式文件系统"
+        },
+        {
+          "id": "D",
+          "text": "数据仓库"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.3.2 分布式文件系统",
+        "page": 10,
+        "endPage": 11,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 31,
+      "type": "boolean",
+      "prompt": "NoSQL 数据库有固定的表结构。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.3.3NewSQL 和 NoSQL 数据库",
+        "page": 11,
+        "endPage": 11,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 32,
+      "type": "multiple",
+      "prompt": "以下选项属于 NoSQL 数据库优点的有()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "灵活的可扩展性"
+        },
+        {
+          "id": "B",
+          "text": "灵活的数据模型"
+        },
+        {
+          "id": "C",
+          "text": "与云计算紧密融合"
+        },
+        {
+          "id": "D",
+          "text": "数据处理模式单一"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "2.3.3NewSQL 和 NoSQL 数据库",
+        "page": 11,
+        "endPage": 11,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 33,
+      "type": "boolean",
+      "prompt": "云数据库可以比较方便、快捷和低成本的存储海量数据。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.3.4 云数据库",
+        "page": 12,
+        "endPage": 12,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 34,
+      "type": "boolean",
+      "prompt": "数据湖的本质，是由“数据存储架构+数据处理工具”组成的解决方案，而不是某个单一独立产品。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.3.5 数据湖",
+        "page": 12,
+        "endPage": 12,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 35,
+      "type": "multiple",
+      "prompt": "数据分析是为了最大化地开发数据的功能，数据分析在日常经营分析中主要有三大作用。()",
+      "options": [
+        {
+          "id": "A",
+          "text": "商业分析"
+        },
+        {
+          "id": "B",
+          "text": "现状分析"
+        },
+        {
+          "id": "C",
+          "text": "原因分析"
+        },
+        {
+          "id": "D",
+          "text": "预测分析"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.4.1 基于统计学方法的数据分析",
+        "page": 12,
+        "endPage": 12,
+        "answer": "BCD"
+      }
+    },
+    {
+      "id": 36,
+      "type": "single",
+      "prompt": "()是指从大量数据中通过算法搜索隐藏于其中信息的过程。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据挖掘"
+        },
+        {
+          "id": "B",
+          "text": "数据描述"
+        },
+        {
+          "id": "C",
+          "text": "数据分析"
+        },
+        {
+          "id": "D",
+          "text": "数据运用"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.4.2 数据挖掘和机器学习算法",
+        "page": 13,
+        "endPage": 13,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 37,
+      "type": "boolean",
+      "prompt": "批处理计算模式主要是针对大规模数据的批量处理。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.4.3 大数据处理与分析技术",
+        "page": 13,
+        "endPage": 13,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 38,
+      "type": "multiple",
+      "prompt": "数据可视化的重要作用有()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "观测、跟踪数据"
+        },
+        {
+          "id": "B",
+          "text": "分析数据"
+        },
+        {
+          "id": "C",
+          "text": "辅助理解数据"
+        },
+        {
+          "id": "D",
+          "text": "增强数据吸引力"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.5.1 概念、发展历程和作用",
+        "page": 13,
+        "endPage": 13,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 39,
+      "type": "boolean",
+      "prompt": "可视化图表主要有柱状图、折线图、饼图、散点图和气泡图和雷达图等。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.5.2 可视化图表",
+        "page": 14,
+        "endPage": 14,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 40,
+      "type": "multiple",
+      "prompt": "以下选项属于数据安全技术的有()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "身份认证技术"
+        },
+        {
+          "id": "B",
+          "text": "防火墙技术"
+        },
+        {
+          "id": "C",
+          "text": "访问控制技术"
+        },
+        {
+          "id": "D",
+          "text": "加密技术"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "2.6 数据安全和隐私保护",
+        "page": 14,
+        "endPage": 14,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 41,
+      "type": "single",
+      "prompt": "()，易于实现，但对用户个性化偏好的描述能力较弱。",
+      "options": [
+        {
+          "id": "A",
+          "text": "专家推荐"
+        },
+        {
+          "id": "B",
+          "text": "基于统计的推荐"
+        },
+        {
+          "id": "C",
+          "text": "基于内容的推荐"
+        },
+        {
+          "id": "D",
+          "text": "协同过滤推荐"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.1 大数据在互联网领域的应用",
+        "page": 14,
+        "endPage": 15,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 42,
+      "type": "multiple",
+      "prompt": "智慧医疗的优点包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "促进优质医疗资源共享"
+        },
+        {
+          "id": "B",
+          "text": "避免患者重复检查"
+        },
+        {
+          "id": "C",
+          "text": "促进医疗智能化"
+        },
+        {
+          "id": "D",
+          "text": "可以利用先进的数据科学知识，更加深入地了解生物学过程"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.2 大数据在生物医学领域的应用",
+        "page": 15,
+        "endPage": 15,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 43,
+      "type": "multiple",
+      "prompt": "()都旨在说明物流活动的模糊性和巨大潜力。",
+      "options": [
+        {
+          "id": "A",
+          "text": "利润中心说"
+        },
+        {
+          "id": "B",
+          "text": "服务中心说"
+        },
+        {
+          "id": "C",
+          "text": "黑大陆说"
+        },
+        {
+          "id": "D",
+          "text": "物流冰山说"
+        }
+      ],
+      "answer": [
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.3 大数据在物流领域的应用",
+        "page": 15,
+        "endPage": 15,
+        "answer": "CD"
+      }
+    },
+    {
+      "id": 44,
+      "type": "boolean",
+      "prompt": "安防领域的数据仅包括视频监控数据、结构化数据、半结构化数据，不包括非结构化数据。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.4 大数据在城市管理领域的应用",
+        "page": 16,
+        "endPage": 16,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 45,
+      "type": "single",
+      "prompt": "()是指从那些人们无法利用的极为短暂的市场变化中寻求获利的计算机化交易。",
+      "options": [
+        {
+          "id": "A",
+          "text": "期货交易"
+        },
+        {
+          "id": "B",
+          "text": "信用交易"
+        },
+        {
+          "id": "C",
+          "text": "高频交易"
+        },
+        {
+          "id": "D",
+          "text": "期权交易"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.5 大数据在金融领域的应用",
+        "page": 16,
+        "endPage": 16,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 46,
+      "type": "boolean",
+      "prompt": "大数据分析技术将帮助无人驾驶系统做出更加智能的驾驶动作决策，比人类驾车更加安全、舒适、节能、环保。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.6 大数据在汽车领域的应用",
+        "page": 16,
+        "endPage": 17,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 47,
+      "type": "single",
+      "prompt": "大数据在零售领域中，“啤酒与尿布“的案例体现了大数据在()方面的成功应用。",
+      "options": [
+        {
+          "id": "A",
+          "text": "专家推荐"
+        },
+        {
+          "id": "B",
+          "text": "供应链管理"
+        },
+        {
+          "id": "C",
+          "text": "客户群体细分"
+        },
+        {
+          "id": "D",
+          "text": "发现关联购买行为"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.7 大数据在零售领域的应用",
+        "page": 17,
+        "endPage": 17,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 48,
+      "type": "single",
+      "prompt": "()模式是指无缝整合线上线下资源，形成以数据驱动的闭环运营模式。",
+      "options": [
+        {
+          "id": "A",
+          "text": "餐饮 O20"
+        },
+        {
+          "id": "B",
+          "text": "餐饮 C2C"
+        },
+        {
+          "id": "C",
+          "text": "餐饮 B2B"
+        },
+        {
+          "id": "D",
+          "text": "餐饮 O2B"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.8 大数据在餐饮领域的应用",
+        "page": 17,
+        "endPage": 17,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 49,
+      "type": "multiple",
+      "prompt": "电信客户离网分析的步骤包括()等。",
+      "options": [
+        {
+          "id": "A",
+          "text": "问题定义"
+        },
+        {
+          "id": "B",
+          "text": "数据准备"
+        },
+        {
+          "id": "C",
+          "text": "建模"
+        },
+        {
+          "id": "D",
+          "text": "应用检验"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.9 大数据在电信领域的应用",
+        "page": 18,
+        "endPage": 18,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 50,
+      "type": "boolean",
+      "prompt": "大数据技术是组成整个智能电网的技术基石。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.10 大数据在能源领域的应用",
+        "page": 18,
+        "endPage": 18,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 51,
+      "type": "boolean",
+      "prompt": "大数据预测仅是基于大数据去预测未来某件事情的概率。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.11 大数据在体育和娱乐领域的应用",
+        "page": 18,
+        "endPage": 18,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 52,
+      "type": "multiple",
+      "prompt": "基于()技术的云杀毒软件，已经广泛应用于企业信息安全保护。",
+      "options": [
+        {
+          "id": "A",
+          "text": "云计算"
+        },
+        {
+          "id": "B",
+          "text": "大数据"
+        },
+        {
+          "id": "C",
+          "text": "物联网"
+        },
+        {
+          "id": "D",
+          "text": "5G"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.12 大数据在安全领域的应用",
+        "page": 19,
+        "endPage": 19,
+        "answer": "AB"
+      }
+    },
+    {
+      "id": 53,
+      "type": "boolean",
+      "prompt": "在信息化社会，我们每个人的一言一行都会留下以数据形式存在的轨迹。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "3.13 大数据在日常生活中的应用",
+        "page": 19,
+        "endPage": 19,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 54,
+      "type": "single",
+      "prompt": "以下不属于机械思维特点的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "认为世界变化的规律是确定的"
+        },
+        {
+          "id": "B",
+          "text": "世界的本质是数据"
+        },
+        {
+          "id": "C",
+          "text": "认为规律不仅是可以被认识的，也可以用简单的公式或语言描述清楚"
+        },
+        {
+          "id": "D",
+          "text": "认为规律可以应用到各种未知领域指导实践"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.1.1 大数据时代需要新的思维方式",
+        "page": 19,
+        "endPage": 19,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 55,
+      "type": "single",
+      "prompt": "以下不属于大数据思维方式的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "全样而非抽样"
+        },
+        {
+          "id": "B",
+          "text": "效率而非精确"
+        },
+        {
+          "id": "C",
+          "text": "因果而非相关"
+        },
+        {
+          "id": "D",
+          "text": "以数据为中心"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.1.2 大数据思维方式",
+        "page": 20,
+        "endPage": 20,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 56,
+      "type": "single",
+      "prompt": "案例“商品比价网站 Decide.com”对应的思维方式是 ()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "全样而非抽样"
+        },
+        {
+          "id": "B",
+          "text": "效率而非精确"
+        },
+        {
+          "id": "C",
+          "text": "因果而非相关"
+        },
+        {
+          "id": "D",
+          "text": "以数据为中心"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.1.3 运用大数据思维的具体实例(一)",
+        "page": 20,
+        "endPage": 20,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 57,
+      "type": "single",
+      "prompt": "基于大数据的药品研发运用了大数据的()思维方式。",
+      "options": [
+        {
+          "id": "A",
+          "text": "全样而非抽样"
+        },
+        {
+          "id": "B",
+          "text": "效率而非精确"
+        },
+        {
+          "id": "C",
+          "text": "相关而非因果"
+        },
+        {
+          "id": "D",
+          "text": "以数据为中心"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.1.4 运用大数据思维的具体实例(二)",
+        "page": 20,
+        "endPage": 20,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 58,
+      "type": "boolean",
+      "prompt": "小数据的复杂算法比大数据的简单算法更有效。 ()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.1.5 运用大数据思维的具体实例(三)",
+        "page": 21,
+        "endPage": 21,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 59,
+      "type": "multiple",
+      "prompt": "政府数据孤岛的产生原因包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "不同类型、不同版本的信息化管理系统"
+        },
+        {
+          "id": "B",
+          "text": "资源占有但无共享"
+        },
+        {
+          "id": "C",
+          "text": "技术标准原因"
+        },
+        {
+          "id": "D",
+          "text": "对大数据缺乏顶层设计"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.2.1 数据孤岛问题和产生的原因",
+        "page": 21,
+        "endPage": 21,
+        "answer": "BCD"
+      }
+    },
+    {
+      "id": 60,
+      "type": "boolean",
+      "prompt": "打通企业之间的数据孤岛，实现不同企业的数据共享，有利于企业获得更好的经营发展能力。 ()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.2.2 消除数据孤岛的重要意义",
+        "page": 21,
+        "endPage": 22,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 61,
+      "type": "single",
+      "prompt": "在企业层面，数据共享面临的挑战不包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "系统孤岛挑战"
+        },
+        {
+          "id": "B",
+          "text": "数据合作挑战"
+        },
+        {
+          "id": "C",
+          "text": "组织架构挑战"
+        },
+        {
+          "id": "D",
+          "text": "不敢共享开放"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.2.3 实现数据共享所面临的挑战",
+        "page": 22,
+        "endPage": 22,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 62,
+      "type": "boolean",
+      "prompt": "建立数据共享联盟是推进企业之间数据共享的重要举措。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.2.4 推进数据共享的举措",
+        "page": 22,
+        "endPage": 22,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 63,
+      "type": "boolean",
+      "prompt": "建立数据共享联盟是推进企业之间数据共享的重要举措。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.2.4 推进数据共享的举措",
+        "page": 22,
+        "endPage": 22,
+        "answer": "对"
+      },
+      "duplicateOf": 62
+    },
+    {
+      "id": 64,
+      "type": "multiple",
+      "prompt": "政府与企业之间的数据共享应遵循的一般性原则包括 ()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "可持续性"
+        },
+        {
+          "id": "B",
+          "text": "协调性"
+        },
+        {
+          "id": "C",
+          "text": "数据实用的相称性"
+        },
+        {
+          "id": "D",
+          "text": "目的限制"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.2.5 数据共享的原则",
+        "page": 23,
+        "endPage": 23,
+        "answer": "AB"
+      }
+    },
+    {
+      "id": 65,
+      "type": "boolean",
+      "prompt": "菜鸟核心作用的发挥，关键在于对多方物流数据的有效整合。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.2.6 数据共享案例",
+        "page": 23,
+        "endPage": 23,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 66,
+      "type": "single",
+      "prompt": "以下关于数据权理论，叙述错误的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据权包括数据主权和数据权利两个方面"
+        },
+        {
+          "id": "B",
+          "text": "数据主权的主体是国家"
+        },
+        {
+          "id": "C",
+          "text": "数据权利是一个国家独立自主对本国数据进行管理和利用的权利"
+        },
+        {
+          "id": "D",
+          "text": "公民的数据权利是信息时代的产物"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.3.1 政府开放数据的理论基础",
+        "page": 23,
+        "endPage": 24,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 67,
+      "type": "single",
+      "prompt": "以下关于政府信息公开与政府数据开放，叙述错误的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "政府信息公开是为了对公众知情权的满足而出现的"
+        },
+        {
+          "id": "B",
+          "text": "政府数据开放是政府信息公开的自然延伸"
+        },
+        {
+          "id": "C",
+          "text": "政府数据开放将开放对象延伸至原始数据的粒度"
+        },
+        {
+          "id": "D",
+          "text": "政府信息公开强调的是数据的再利用"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.3.2 政府信息公开与政府数据开放的联系与区别",
+        "page": 24,
+        "endPage": 24,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 68,
+      "type": "multiple",
+      "prompt": "政府开放数据的()代表着政府开放的程度。",
+      "options": [
+        {
+          "id": "A",
+          "text": "范围"
+        },
+        {
+          "id": "B",
+          "text": "程度"
+        },
+        {
+          "id": "C",
+          "text": "速度"
+        },
+        {
+          "id": "D",
+          "text": "高度"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.3.3 政府数据开放的重要意义",
+        "page": 24,
+        "endPage": 24,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 69,
+      "type": "single",
+      "prompt": "通过开放商业数据，可以()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "提高政府的公信力"
+        },
+        {
+          "id": "B",
+          "text": "驱动经济转型"
+        },
+        {
+          "id": "C",
+          "text": "提高社会信用"
+        },
+        {
+          "id": "D",
+          "text": "促进社会发展科学化"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.3.4 我国政府数据开放制度体系",
+        "page": 25,
+        "endPage": 25,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 70,
+      "type": "single",
+      "prompt": "我国第一部地方性政府数据开放法规是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "北京市数字经济促进条例"
+        },
+        {
+          "id": "B",
+          "text": "上海市数据条例"
+        },
+        {
+          "id": "C",
+          "text": "贵阳市政府数据共享开放条例"
+        },
+        {
+          "id": "D",
+          "text": "深圳经济特区数据条例"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.3.5 当前数据开放存在的主要问题",
+        "page": 25,
+        "endPage": 25,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 71,
+      "type": "single",
+      "prompt": "()是国内首个基于云计算建成省级数据统一管理、支持共享平台的省份。",
+      "options": [
+        {
+          "id": "A",
+          "text": "北京"
+        },
+        {
+          "id": "B",
+          "text": "上海"
+        },
+        {
+          "id": "C",
+          "text": "江苏"
+        },
+        {
+          "id": "D",
+          "text": "贵州"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.3.6 各地政府数据开放实践",
+        "page": 25,
+        "endPage": 25,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 72,
+      "type": "single",
+      "prompt": "中航信将民航相关数据统一委托给航旅纵横属于 ()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "行业数据管理机构授权企业统一运营"
+        },
+        {
+          "id": "B",
+          "text": "地方数据整体授权综合数据运营方"
+        },
+        {
+          "id": "C",
+          "text": "地方数据分类授权垂直领域数据运营方"
+        },
+        {
+          "id": "D",
+          "text": "地方数据整体授权行业管理机构统一运营"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.3.7 公共数据授权运营",
+        "page": 26,
+        "endPage": 26,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 73,
+      "type": "boolean",
+      "prompt": "当前数据开放的重点是加大数据使用、安全和隐私保护等法律法规和规则的制定。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.3.8 政府数据开放的几点启示",
+        "page": 26,
+        "endPage": 26,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 74,
+      "type": "single",
+      "prompt": "是数据交易的起点，也是数据交易 的基础。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据源"
+        },
+        {
+          "id": "B",
+          "text": "大数据硬件层"
+        },
+        {
+          "id": "C",
+          "text": "大数据技术层"
+        },
+        {
+          "id": "D",
+          "text": "大数据应用层"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.4.1 大数据交易形式和发展现状",
+        "page": 26,
+        "endPage": 27,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 75,
+      "type": "boolean",
+      "prompt": "第三方大数据交易平台为用户提供定制化的数据服务，由于需要涉及数据的处理加工，因此，该类型平台的业务相对复杂。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.4.2 大数据交易平台",
+        "page": 27,
+        "endPage": 27,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 76,
+      "type": "multiple",
+      "prompt": "通常可以从()几个纬度来评价数据的价值。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据样本量"
+        },
+        {
+          "id": "B",
+          "text": "数据广度"
+        },
+        {
+          "id": "C",
+          "text": "数据完整性"
+        },
+        {
+          "id": "D",
+          "text": "数据实时性"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.4.3 大数据交易在发展过程中出现的问题",
+        "page": 27,
+        "endPage": 27,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 77,
+      "type": "boolean",
+      "prompt": "目前，政府数据资源开发共享步伐比较缓慢，已经成为制约我国大数据发展的主要障碍。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.4.4 推进大数据交易发展的对策",
+        "page": 28,
+        "endPage": 28,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 78,
+      "type": "multiple",
+      "prompt": "确立数据产权制度，需要解决数据产权在()两大层面清晰的问题。",
+      "options": [
+        {
+          "id": "A",
+          "text": "法律层面"
+        },
+        {
+          "id": "B",
+          "text": "政府层面"
+        },
+        {
+          "id": "C",
+          "text": "经济层面"
+        },
+        {
+          "id": "D",
+          "text": "企业层面"
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.4.5 数据产权制度",
+        "page": 28,
+        "endPage": 28,
+        "answer": "AC"
+      }
+    },
+    {
+      "id": 79,
+      "type": "single",
+      "prompt": "传统的数据安全威胁不包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "计算机病毒"
+        },
+        {
+          "id": "B",
+          "text": "黑客攻击"
+        },
+        {
+          "id": "C",
+          "text": "数据信息储存介质损坏"
+        },
+        {
+          "id": "D",
+          "text": "高级可持续性攻击"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.5.1 大数据安全与传统数据安全的不同及其面临的挑战",
+        "page": 28,
+        "endPage": 28,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 80,
+      "type": "boolean",
+      "prompt": "大数据时代，自媒体平台成为影响国家意识形态安全的重要因素。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.5.2 大数据安全问题",
+        "page": 29,
+        "endPage": 29,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 81,
+      "type": "multiple",
+      "prompt": "大数据基础设施安全威胁包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "面向大数据处理的存储系统架构"
+        },
+        {
+          "id": "B",
+          "text": "信息泄漏或丢失"
+        },
+        {
+          "id": "C",
+          "text": "网络基础设施传输过程中破坏数据的完整性"
+        },
+        {
+          "id": "D",
+          "text": "网络病毒传播"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.5.3 大数据安全威胁",
+        "page": 29,
+        "endPage": 29,
+        "answer": "BCD"
+      }
+    },
+    {
+      "id": 82,
+      "type": "boolean",
+      "prompt": "数据使用风险主要是由数据分类分级不当、数据脱敏质量较低、恶意篡改、误操作等情况导致的。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.5.4 不同形式的大数据安全风险",
+        "page": 29,
+        "endPage": 29,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 83,
+      "type": "single",
+      "prompt": "全球共有()台管理互联网的根服务器。",
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "13"
+        },
+        {
+          "id": "D",
+          "text": "15"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.5.5 典型案例(一)",
+        "page": 30,
+        "endPage": 30,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 84,
+      "type": "boolean",
+      "prompt": "在生物技术快速发展的今天，利用基因重组、基因芯片、细胞工程等技术来扩大某一基因缺陷并非危言耸听。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.5.6 典型案例(二)",
+        "page": 30,
+        "endPage": 30,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 85,
+      "type": "single",
+      "prompt": "是大数据包括的首要原则。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据主权原则"
+        },
+        {
+          "id": "B",
+          "text": "数据保护原则"
+        },
+        {
+          "id": "C",
+          "text": "数据安全原则"
+        },
+        {
+          "id": "D",
+          "text": "数据自由流通原则"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.5.7 大数据保护的基本原则",
+        "page": 30,
+        "endPage": 30,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 86,
+      "type": "boolean",
+      "prompt": "大数据时代，可以从国家法制层面进行管控，从企业端源头进行遏制，以及提高个人意识等方面加强数据安全与隐私保护。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.5.8 大数据时代数据安全与隐私保护的对策",
+        "page": 31,
+        "endPage": 31,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 87,
+      "type": "single",
+      "prompt": "()描述的对象、是数据的业务含义、业务规则等。",
+      "options": [
+        {
+          "id": "A",
+          "text": "技术元数据"
+        },
+        {
+          "id": "B",
+          "text": "业务元数据"
+        },
+        {
+          "id": "C",
+          "text": "操作元数据"
+        },
+        {
+          "id": "D",
+          "text": "管理元数据"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.6.1 数据治理概念",
+        "page": 31,
+        "endPage": 31,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 88,
+      "type": "single",
+      "prompt": "数据治理“三大件”的形成是数据治理进入()的标志。",
+      "options": [
+        {
+          "id": "A",
+          "text": "萌芽期"
+        },
+        {
+          "id": "B",
+          "text": "成长期"
+        },
+        {
+          "id": "C",
+          "text": "成型期"
+        },
+        {
+          "id": "D",
+          "text": "成熟期"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.6.2 数据治理发展历程",
+        "page": 31,
+        "endPage": 31,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 89,
+      "type": "boolean",
+      "prompt": "在组织中，所有的数据都构成数据资产。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.6.3 数据治理在组织中的价值定位",
+        "page": 32,
+        "endPage": 32,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 90,
+      "type": "multiple",
+      "prompt": "数据治理对于企业的重要作用包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "提升运营效率"
+        },
+        {
+          "id": "B",
+          "text": "改善数据质量"
+        },
+        {
+          "id": "C",
+          "text": "控制数据风险"
+        },
+        {
+          "id": "D",
+          "text": "增强数据安全"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.6.4 数据治理对于企业的重要作用",
+        "page": 32,
+        "endPage": 32,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 91,
+      "type": "single",
+      "prompt": "以下关于“治理”和“管理”叙述错误的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "治理负责对管理活动进行评估、指导和监督"
+        },
+        {
+          "id": "B",
+          "text": "管理根据治理所做的决策来具体计划、建设和运营"
+        },
+        {
+          "id": "C",
+          "text": "管理更加关注经营权的分配"
+        },
+        {
+          "id": "D",
+          "text": "管理的重点在于设置一种制度架构"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.6.5 数据治理与数据管理的关系",
+        "page": 32,
+        "endPage": 32,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 92,
+      "type": "single",
+      "prompt": "是数据治理实施的保障。",
+      "options": [
+        {
+          "id": "A",
+          "text": "顶层设计"
+        },
+        {
+          "id": "B",
+          "text": "数据治理环境"
+        },
+        {
+          "id": "C",
+          "text": "数据治理域"
+        },
+        {
+          "id": "D",
+          "text": "数据治理过程"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.6.6 数据治理工作范围",
+        "page": 33,
+        "endPage": 33,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 93,
+      "type": "boolean",
+      "prompt": "在权利层次方面，企业外部的大数据治理强调经营权分配，企业内部的大数据治理强调所有权分配。()",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.6.7 大数据治理概念",
+        "page": 33,
+        "endPage": 33,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 94,
+      "type": "multiple",
+      "prompt": "()属于大数据治理的促成要素。",
+      "options": [
+        {
+          "id": "A",
+          "text": "组织架构"
+        },
+        {
+          "id": "B",
+          "text": "政策与策略"
+        },
+        {
+          "id": "C",
+          "text": "管控风险"
+        },
+        {
+          "id": "D",
+          "text": "大数据质量管理"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.6.8 大数据治理要素和原则",
+        "page": 33,
+        "endPage": 34,
+        "answer": "AB"
+      }
+    },
+    {
+      "id": 95,
+      "type": "single",
+      "prompt": "是大数据架构的基础。",
+      "options": [
+        {
+          "id": "A",
+          "text": "大数据来源"
+        },
+        {
+          "id": "B",
+          "text": "大数据存储"
+        },
+        {
+          "id": "C",
+          "text": "大数据分析"
+        },
+        {
+          "id": "D",
+          "text": "大数据应用和服务"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.6.9 大数据治理的范围",
+        "page": 34,
+        "endPage": 34,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 96,
+      "type": "boolean",
+      "prompt": "大数据治理组织中，服务组织主要是数据管理的专业人员组成，主要负责实施数据治理各个领域的具体工作。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "4.6.10 大数据治理保障机制",
+        "page": 34,
+        "endPage": 34,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 97,
+      "type": "boolean",
+      "prompt": "多元智能理论认为每个人身上最多存在一种类型的智能。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "5.1 什么是人工智能",
+        "page": 35,
+        "endPage": 35,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 98,
+      "type": "multiple",
+      "prompt": "下列关于“人工智能”的表述正确的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "人工智能属于计算机科学的一个分支"
+        },
+        {
+          "id": "B",
+          "text": "人工智能知识体系涉及多个学科"
+        },
+        {
+          "id": "C",
+          "text": "弱人工智能并不具备真正的智能和自主意识"
+        },
+        {
+          "id": "D",
+          "text": "强人工智能不能完全取代人类工作"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "5.1 什么是人工智能",
+        "page": 35,
+        "endPage": 35,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 99,
+      "type": "single",
+      "prompt": "艾伦·图灵在论文《计算机器与智能》的开篇，提出了一个令人深思的问题()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "机器能工作吗?"
+        },
+        {
+          "id": "B",
+          "text": "机器能计算吗?"
+        },
+        {
+          "id": "C",
+          "text": "机器能运转吗?"
+        },
+        {
+          "id": "D",
+          "text": "机器能思考吗?"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "5.2 人工智能的发展历程",
+        "page": 35,
+        "endPage": 35,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 100,
+      "type": "multiple",
+      "prompt": "下列关于“图灵测试”正确的表述是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "它发表在论文《数据与智能》中"
+        },
+        {
+          "id": "B",
+          "text": "图灵测试是为了鉴别机器是否具有智能的方法"
+        },
+        {
+          "id": "C",
+          "text": "其基本思想是测试者与被测试者隔离的情况下，通过一些装置向被测试者随意提问"
+        },
+        {
+          "id": "D",
+          "text": "如果被测试者机器平均让每个测试者做出超过 30%的误差，则认为这台机器具有人工智能"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "5.2 人工智能的发展历程",
+        "page": 35,
+        "endPage": 36,
+        "answer": "BCD"
+      }
+    },
+    {
+      "id": 101,
+      "type": "multiple",
+      "prompt": "人工智能的四要素指的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据"
+        },
+        {
+          "id": "B",
+          "text": "算力"
+        },
+        {
+          "id": "C",
+          "text": "算法"
+        },
+        {
+          "id": "D",
+          "text": "场景"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "5.3 人工智能的要素",
+        "page": 36,
+        "endPage": 36,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 102,
+      "type": "single",
+      "prompt": "人工智能的核心指的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "算力"
+        },
+        {
+          "id": "B",
+          "text": "数据"
+        },
+        {
+          "id": "C",
+          "text": "算法"
+        },
+        {
+          "id": "D",
+          "text": "场景"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "5.3 人工智能的要素",
+        "page": 36,
+        "endPage": 36,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 103,
+      "type": "boolean",
+      "prompt": "人工智能元年指的是 1956 年。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "5.3 人工智能的要素",
+        "page": 36,
+        "endPage": 36,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 104,
+      "type": "boolean",
+      "prompt": "机器学习的三个关键词分别是算法、经验和性能。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "5.4 人工智能关键技术",
+        "page": 37,
+        "endPage": 37,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 105,
+      "type": "single",
+      "prompt": "研究如何使机器“看”的科学属于人工智能关键技术中的哪一种()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "知识图谱"
+        },
+        {
+          "id": "B",
+          "text": "计算机视觉"
+        },
+        {
+          "id": "C",
+          "text": "生物特征识别"
+        },
+        {
+          "id": "D",
+          "text": "人机交互"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "5.4 人工智能关键技术",
+        "page": 37,
+        "endPage": 37,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 106,
+      "type": "single",
+      "prompt": "大模型的优点不包括下列哪一项()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "处理大规模数据能力强"
+        },
+        {
+          "id": "B",
+          "text": "处理复杂问题能力强"
+        },
+        {
+          "id": "C",
+          "text": "具有更高的准确率和性能"
+        },
+        {
+          "id": "D",
+          "text": "接收数据的速度更快"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "5.4 人工智能关键技术",
+        "page": 37,
+        "endPage": 37,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 107,
+      "type": "single",
+      "prompt": "“安防系统”、“室内外监控”、“防盗报警”等属于人工智能的哪种应用?()",
+      "options": [
+        {
+          "id": "A",
+          "text": "智能制造"
+        },
+        {
+          "id": "B",
+          "text": "智能家居"
+        },
+        {
+          "id": "C",
+          "text": "智能金融"
+        },
+        {
+          "id": "D",
+          "text": "智能交通"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "5.5 人工智能应用",
+        "page": 38,
+        "endPage": 38,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 108,
+      "type": "boolean",
+      "prompt": "在人工智能数据采集、存储、处理和分析方面的企业只有数据集提供商这一种。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "5.6 人工智能产业",
+        "page": 38,
+        "endPage": 38,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 109,
+      "type": "multiple",
+      "prompt": "下列关于人工智能与大数据的表述正确的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "大数据技术为人工智能提供了强大的存储能力和计算能力"
+        },
+        {
+          "id": "B",
+          "text": "大数据比人工智能速度更快，错误更少"
+        },
+        {
+          "id": "C",
+          "text": "人工智能是一种计算形式，而大数据是一种传统计算"
+        },
+        {
+          "id": "D",
+          "text": "人工智能和大数据要达成的目标和实现的手段不同"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "5.7 人工智能与大数据的关系",
+        "page": 38,
+        "endPage": 38,
+        "answer": "ACD"
+      }
+    },
+    {
+      "id": 110,
+      "type": "single",
+      "prompt": "小模型的特点不包括下列哪一项()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "轻量级"
+        },
+        {
+          "id": "B",
+          "text": "高效率"
+        },
+        {
+          "id": "C",
+          "text": "重量级"
+        },
+        {
+          "id": "D",
+          "text": "易于部署"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.1.1 大模型的概念",
+        "page": 39,
+        "endPage": 39,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 111,
+      "type": "multiple",
+      "prompt": "相较于小模型，大模型通常具有下列哪些特点()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "参数较多"
+        },
+        {
+          "id": "B",
+          "text": "层数较深"
+        },
+        {
+          "id": "C",
+          "text": "具有更强的表达能力"
+        },
+        {
+          "id": "D",
+          "text": "更低的准确率"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "6.1.1 大模型的概念",
+        "page": 39,
+        "endPage": 39,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 112,
+      "type": "boolean",
+      "prompt": "大模型发展的萌芽期是以卷积神经网络为代表的传统神经网络模型阶段。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.1.2 大模型的发展历程",
+        "page": 39,
+        "endPage": 39,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 113,
+      "type": "boolean",
+      "prompt": "人工智能包含了机器学习，机器学习包含了深度学习。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.1.3 人工智能与大模型的关系",
+        "page": 40,
+        "endPage": 40,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 114,
+      "type": "multiple",
+      "prompt": "大模型在人工智能领域的重要性体现在()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "推动人工智能技术的进步"
+        },
+        {
+          "id": "B",
+          "text": "提升人工智能的应用效果"
+        },
+        {
+          "id": "C",
+          "text": "促进人工智能行业的发展"
+        },
+        {
+          "id": "D",
+          "text": "增加公众对人工智能技术的信任和支持"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.1.4 大模型在人工智能领域的重要性",
+        "page": 40,
+        "endPage": 40,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 115,
+      "type": "boolean",
+      "prompt": "人工智能进入全新发展时期的重要标志是 GAN。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.1.5 大模型与 AIGC 的关系",
+        "page": 40,
+        "endPage": 40,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 116,
+      "type": "multiple",
+      "prompt": "大模型与 AIGC 的关系包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "大模型与 AIGC之间的关系是相互矛盾，相互排斥的"
+        },
+        {
+          "id": "B",
+          "text": "大模型为 AIGC提供了丰富的数据资源和强大的计算能力"
+        },
+        {
+          "id": "C",
+          "text": "AIGC的需求也推动了大模型的发展"
+        },
+        {
+          "id": "D",
+          "text": "大模型与 AIGC的结合，带来了广泛的应用场景"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "6.1.5 大模型与 AIGC 的关系",
+        "page": 41,
+        "endPage": 41,
+        "answer": "BCD"
+      }
+    },
+    {
+      "id": 117,
+      "type": "single",
+      "prompt": "下列关于 ChatGPT 说法错误的一项是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "ChatGPT是一种由 Transformer训练的大语言模型"
+        },
+        {
+          "id": "B",
+          "text": "ChatGPT经过大量文本数据训练而成，能够生成自然、流畅的语言"
+        },
+        {
+          "id": "C",
+          "text": "ChatGPT具备回答问题、生成文本、语言翻译等多种功能"
+        },
+        {
+          "id": "D",
+          "text": "ChatGPT能够理解人类语言，并能够回答各种问题，提供相关的知识和信息"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.2.1 国外的大模型产品",
+        "page": 41,
+        "endPage": 41,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 118,
+      "type": "multiple",
+      "prompt": "Gemini 包括哪三种不同规模的模型()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gemini Ultra"
+        },
+        {
+          "id": "B",
+          "text": "Gemini Plus"
+        },
+        {
+          "id": "C",
+          "text": "Gemini Pro"
+        },
+        {
+          "id": "D",
+          "text": "Gemini Nano"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "6.2.1 国外的大模型产品",
+        "page": 41,
+        "endPage": 41,
+        "answer": "ACD"
+      }
+    },
+    {
+      "id": 119,
+      "type": "single",
+      "prompt": "阿里云推出的超大规模语言模型通义千问具备的能力不包括下列哪一项()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "多轮对话"
+        },
+        {
+          "id": "B",
+          "text": "文案创作"
+        },
+        {
+          "id": "C",
+          "text": "单模态理解"
+        },
+        {
+          "id": "D",
+          "text": "多语言支持"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.2.2 国内的大模型产品",
+        "page": 42,
+        "endPage": 42,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 120,
+      "type": "boolean",
+      "prompt": "在 Transformer 架构中，编码器和解码器是一个核心组件。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.3 大模型的基本原理",
+        "page": 42,
+        "endPage": 42,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 121,
+      "type": "multiple",
+      "prompt": "大模型的基本原理包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据驱动"
+        },
+        {
+          "id": "B",
+          "text": "神经网络"
+        },
+        {
+          "id": "C",
+          "text": "自注意力机制"
+        },
+        {
+          "id": "D",
+          "text": "训练和优化"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "6.3 大模型的基本原理",
+        "page": 42,
+        "endPage": 42,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 122,
+      "type": "single",
+      "prompt": "大模型的特点不包括下列哪一项()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "巨大的规模"
+        },
+        {
+          "id": "B",
+          "text": "涌现能力"
+        },
+        {
+          "id": "C",
+          "text": "单任务学习"
+        },
+        {
+          "id": "D",
+          "text": "更好的性能和泛化能力"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.4 大模型的特点",
+        "page": 43,
+        "endPage": 43,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 123,
+      "type": "boolean",
+      "prompt": "自监督学习使大模型能够从大量数中自动学习到语言的内在结构和模式，不需要人工标注和干预。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "6.4 大模型的特点",
+        "page": 43,
+        "endPage": 43,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 124,
+      "type": "single",
+      "prompt": "大模型的分类不包括下列哪一项()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "语言大模型"
+        },
+        {
+          "id": "B",
+          "text": "视觉大模型"
+        },
+        {
+          "id": "C",
+          "text": "多模态大模型"
+        },
+        {
+          "id": "D",
+          "text": "单模态大模型"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.5 大模型的分类",
+        "page": 43,
+        "endPage": 43,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 125,
+      "type": "boolean",
+      "prompt": "按照应用领域的不同，大模型主要为 L0、L1、L3、L4 四个层级。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "6.5 大模型的分类",
+        "page": 43,
+        "endPage": 43,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 126,
+      "type": "single",
+      "prompt": "为了确保数据的准确性和有效性，对数据进行验证和校验，属于大模型哪个方面的成本()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据收集和处理成本"
+        },
+        {
+          "id": "B",
+          "text": "软件许可成本"
+        },
+        {
+          "id": "C",
+          "text": "人力资源成本"
+        },
+        {
+          "id": "D",
+          "text": "运营和维护成本"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.6 大模型的成本",
+        "page": 44,
+        "endPage": 44,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 127,
+      "type": "single",
+      "prompt": "下列哪一项不属于大模型在计算机视觉领域的应用()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "图像分类"
+        },
+        {
+          "id": "B",
+          "text": "目标检测"
+        },
+        {
+          "id": "C",
+          "text": "翻译系统"
+        },
+        {
+          "id": "D",
+          "text": "人脸识别"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.7 大模型的应用领域",
+        "page": 44,
+        "endPage": 44,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 128,
+      "type": "multiple",
+      "prompt": "大模型对工作的影响主要体现在()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "提高工作效率"
+        },
+        {
+          "id": "B",
+          "text": "优化决策过程"
+        },
+        {
+          "id": "C",
+          "text": "自动化部分工作"
+        },
+        {
+          "id": "D",
+          "text": "创造新的就业机会"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.8 大模型对人们工作和生活的影响",
+        "page": 44,
+        "endPage": 45,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 129,
+      "type": "single",
+      "prompt": "大模型对生活的影响不包括下列哪一项()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "改善生活质量"
+        },
+        {
+          "id": "B",
+          "text": "提高学习效率"
+        },
+        {
+          "id": "C",
+          "text": "增强娱乐体验"
+        },
+        {
+          "id": "D",
+          "text": "获取单一化的学习资源"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "6.8 大模型对人们工作和生活的影响",
+        "page": 45,
+        "endPage": 45,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 130,
+      "type": "boolean",
+      "prompt": "随着全球人工智能研究的不断深入与发展，大模型将成为人工智能领域的重要基石。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "6.9 大模型的挑战与未来发展",
+        "page": 45,
+        "endPage": 45,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 131,
+      "type": "single",
+      "prompt": "下列关于 AIGC 的表述错误的一项是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "AIGC中文翻译为“人工智能”"
+        },
+        {
+          "id": "B",
+          "text": "AIGC是人工智能进入全新发展时期的重要标志"
+        },
+        {
+          "id": "C",
+          "text": "AIGC的核心思想是利用人工智能算法生成具有一定创意和质量的内容"
+        },
+        {
+          "id": "D",
+          "text": "AIGC可以根据输入的条件或指导，生成与之相关的内容"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "7.1 AIGC 概述",
+        "page": 45,
+        "endPage": 46,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 132,
+      "type": "multiple",
+      "prompt": "AIGC 大模型提示词的重要作用包().",
+      "options": [
+        {
+          "id": "A",
+          "text": "降低交互性"
+        },
+        {
+          "id": "B",
+          "text": "引导生成"
+        },
+        {
+          "id": "C",
+          "text": "提高准确性"
+        },
+        {
+          "id": "D",
+          "text": "增强交互性"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "7.1 AIGC 概述",
+        "page": 46,
+        "endPage": 46,
+        "answer": "BCD"
+      }
+    },
+    {
+      "id": 133,
+      "type": "single",
+      "prompt": "下列哪一项不属于文本类 AIGC 应用实践?",
+      "options": [
+        {
+          "id": "A",
+          "text": "新闻报道"
+        },
+        {
+          "id": "B",
+          "text": "广告文案"
+        },
+        {
+          "id": "C",
+          "text": "图像生成"
+        },
+        {
+          "id": "D",
+          "text": "小说故事"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "7.2 文本类 AIGC 应用实践",
+        "page": 46,
+        "endPage": 46,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 134,
+      "type": "boolean",
+      "prompt": "在使用文心一言创作文档的时候，在输入提示词时，应该明确指定希望生成的文容风格。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "7.2 文本类 AIGC 应用实践",
+        "page": 46,
+        "endPage": 46,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 135,
+      "type": "multiple",
+      "prompt": "图片类 AIGC 的应用场景包括哪些方面()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "图像生成"
+        },
+        {
+          "id": "B",
+          "text": "图像修复"
+        },
+        {
+          "id": "C",
+          "text": "图像增强"
+        },
+        {
+          "id": "D",
+          "text": "图像识别"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "7.3 图片类 AIGC 应用实践",
+        "page": 47,
+        "endPage": 47,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 136,
+      "type": "boolean",
+      "prompt": "文心一言提供丰富的 AI 编辑功能，可以对图片进行智能化处理，但是不能进行图片展。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "7.3 图片类 AIGC 应用实践",
+        "page": 47,
+        "endPage": 47,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 137,
+      "type": "single",
+      "prompt": "下列关于语音类 AIGC 应用实践说法错误的一项是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "语音类 AIGC是一种利用人工智能技术自动生成和处理语音内容的技术"
+        },
+        {
+          "id": "B",
+          "text": "语音类 AIGC能够模拟人类语音，实现语音转文本，文本语音合成等功能"
+        },
+        {
+          "id": "C",
+          "text": "自然语言处理技术没有被应用到语音类 AIGC中"
+        },
+        {
+          "id": "D",
+          "text": "语音类 AIGC广泛应用于智能语音助手、智能客服、语音翻译等多个领域"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "7.4 语音类 AIGC 应用实践",
+        "page": 47,
+        "endPage": 47,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 138,
+      "type": "multiple",
+      "prompt": "语音类 AIGC 的应用场景包括()",
+      "options": [
+        {
+          "id": "A",
+          "text": "智能语音助手"
+        },
+        {
+          "id": "B",
+          "text": "智能客服"
+        },
+        {
+          "id": "C",
+          "text": "语音翻译"
+        },
+        {
+          "id": "D",
+          "text": "智能驾驶舱与车载语音助手"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "7.4 语音类 AIGC 应用实践",
+        "page": 48,
+        "endPage": 48,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 139,
+      "type": "multiple",
+      "prompt": "下列关于视频类 AIGC 说法正确的有()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "视频类 AIGC是指利用人工智能技术自动创建或处理视频内容的技术"
+        },
+        {
+          "id": "B",
+          "text": "视频类 AIGC能够根据给定的文本、图像或其他数据自动生成符合描述的视频内容"
+        },
+        {
+          "id": "C",
+          "text": "视频类 AIGC自动生成的视频内容只涵盖文生视频和图生视频两个方向"
+        },
+        {
+          "id": "D",
+          "text": "视频类 AIGC的应用极大提升了视频内容的生产效率和质量"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "7.5 视频类 AIGC 应用实践",
+        "page": 48,
+        "endPage": 48,
+        "answer": "ABD"
+      }
+    },
+    {
+      "id": 140,
+      "type": "single",
+      "prompt": "视频类 AIGC 大模型发端于()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sora"
+        },
+        {
+          "id": "B",
+          "text": "Vidu"
+        },
+        {
+          "id": "C",
+          "text": "可灵"
+        },
+        {
+          "id": "D",
+          "text": "书生·筑梦"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "7.5 视频类 AIGC 应用实践",
+        "page": 48,
+        "endPage": 49,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 141,
+      "type": "boolean",
+      "prompt": "目前国内的视频类 AIGC 大模型都可以免费开放给大众使用。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "7.5 视频类 AIGC 应用实践",
+        "page": 49,
+        "endPage": 49,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 142,
+      "type": "multiple",
+      "prompt": "AIGC 技术在辅助变成中的应用主要包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "代码自动生成"
+        },
+        {
+          "id": "B",
+          "text": "代码优化与重构"
+        },
+        {
+          "id": "C",
+          "text": "代码补全与提示"
+        },
+        {
+          "id": "D",
+          "text": "代码风格统一"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "7.6 AIGC 技术在辅助编程中的应用",
+        "page": 49,
+        "endPage": 49,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 143,
+      "type": "boolean",
+      "prompt": "传统 IT 资源的获取方式是自建机房。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.1.1 云计算概念",
+        "page": 49,
+        "endPage": 49,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 144,
+      "type": "single",
+      "prompt": "下列哪一项不属于云计算的特点()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "超大规模计算"
+        },
+        {
+          "id": "B",
+          "text": "虚拟化"
+        },
+        {
+          "id": "C",
+          "text": "动态扩展性"
+        },
+        {
+          "id": "D",
+          "text": "提高成本"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.1.1 云计算概念",
+        "page": 49,
+        "endPage": 50,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 145,
+      "type": "multiple",
+      "prompt": "云计算服务模式的类型有()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "公有云"
+        },
+        {
+          "id": "B",
+          "text": "私有云"
+        },
+        {
+          "id": "C",
+          "text": "混合云"
+        },
+        {
+          "id": "D",
+          "text": "单一云"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.1.2 云计算服务模式和类型",
+        "page": 50,
+        "endPage": 50,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 146,
+      "type": "single",
+      "prompt": "下列关于云计算数据中心的说法错误的一项是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数据中心是云计算的温床"
+        },
+        {
+          "id": "B",
+          "text": "云计算能够提高 IT、能源和空间成本"
+        },
+        {
+          "id": "C",
+          "text": "云计算推动数据中心向虚拟化和云架构转型"
+        },
+        {
+          "id": "D",
+          "text": "云计算能够不断提高 IT基础架构的灵活性"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.1.3 云计算数据中心",
+        "page": 50,
+        "endPage": 50,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 147,
+      "type": "multiple",
+      "prompt": "云计算的应用有哪些()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "政务云"
+        },
+        {
+          "id": "B",
+          "text": "教育云"
+        },
+        {
+          "id": "C",
+          "text": "中小企业云"
+        },
+        {
+          "id": "D",
+          "text": "医疗云"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.1.4 云计算的应用和产业",
+        "page": 51,
+        "endPage": 51,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 148,
+      "type": "single",
+      "prompt": "下列关于物联网说法错误的一项是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "物联网是互联网的延伸"
+        },
+        {
+          "id": "B",
+          "text": "物联网只利用了局部网的通信技术"
+        },
+        {
+          "id": "C",
+          "text": "它利用局部网络或互联网等通信技术把传感器、控制器、机器、人员等通过新的方式联在一起"
+        },
+        {
+          "id": "D",
+          "text": "物联网形成了人与物、物与物相联，实现信息化和远程管理控制"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.2.1 物联网的概念",
+        "page": 51,
+        "endPage": 51,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 149,
+      "type": "multiple",
+      "prompt": "物联网中的关键技术包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "识别和感知技术"
+        },
+        {
+          "id": "B",
+          "text": "数据存储技术"
+        },
+        {
+          "id": "C",
+          "text": "网络与通信技术"
+        },
+        {
+          "id": "D",
+          "text": "数据挖掘与融合技术"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.2.2 物联网关键技术",
+        "page": 52,
+        "endPage": 52,
+        "answer": "ACD"
+      }
+    },
+    {
+      "id": 150,
+      "type": "boolean",
+      "prompt": "矩阵式二维码更为常见。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.2.2 物联网关键技术",
+        "page": 52,
+        "endPage": 52,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 151,
+      "type": "single",
+      "prompt": "“京东智能分拣”属于物联网在()方面的应用。",
+      "options": [
+        {
+          "id": "A",
+          "text": "智能家居"
+        },
+        {
+          "id": "B",
+          "text": "智慧医疗"
+        },
+        {
+          "id": "C",
+          "text": "智能物流"
+        },
+        {
+          "id": "D",
+          "text": "智能安防"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.2.3 物联网的应用和产业",
+        "page": 52,
+        "endPage": 52,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 152,
+      "type": "multiple",
+      "prompt": "完整的物联网产业包括包含下列哪些环节()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "核心感应器提供商"
+        },
+        {
+          "id": "B",
+          "text": "感知层末端设备提供商"
+        },
+        {
+          "id": "C",
+          "text": "网络提供商"
+        },
+        {
+          "id": "D",
+          "text": "系统集成商"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.2.3 物联网的应用和产业",
+        "page": 52,
+        "endPage": 52,
+        "answer": "abcd"
+      }
+    },
+    {
+      "id": 153,
+      "type": "single",
+      "prompt": "下列关于大数据、云计算以及物联网之间的关系说法错误的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "云计算为大数据提供了数据基础，大数据为云计算提供了用武之地"
+        },
+        {
+          "id": "B",
+          "text": "物联网是大数据的重要来源，大数据技术为物联网数据分析提供支撑"
+        },
+        {
+          "id": "C",
+          "text": "云计算为物联网提供海量数据存储能力，物联网为云计算技术提供广阔应用空间"
+        },
+        {
+          "id": "D",
+          "text": "大数据、云计算和物联网之间差别很大，没有内在联系的关系"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.3 大数据与云计算、物联网的关系",
+        "page": 53,
+        "endPage": 53,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 154,
+      "type": "single",
+      "prompt": "在世界上哪个国家的服务器上生成了第一个比特币区块()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "芬兰"
+        },
+        {
+          "id": "B",
+          "text": "美国"
+        },
+        {
+          "id": "C",
+          "text": "澳大利亚"
+        },
+        {
+          "id": "D",
+          "text": "英国"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.4.1 从比特币说起",
+        "page": 53,
+        "endPage": 53,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 155,
+      "type": "boolean",
+      "prompt": "比特币要解决的第一个问题是防篡改。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.4.2 区块链的原理",
+        "page": 54,
+        "endPage": 54,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 156,
+      "type": "boolean",
+      "prompt": "去中心化记账中，因为网络传播，同一时间，不同记账节点的交易不一定相同。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.4.2 区块链的原理",
+        "page": 54,
+        "endPage": 54,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 157,
+      "type": "multiple",
+      "prompt": "下列关于地址与私钥的表述正确的()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "私钥是一串 256位二进制数字"
+        },
+        {
+          "id": "B",
+          "text": "地址由私钥转化而成，地址不能反推私钥"
+        },
+        {
+          "id": "C",
+          "text": "地址即身份，代表了比特币世界的 ID"
+        },
+        {
+          "id": "D",
+          "text": "个人申请银行卡无限制，但是地址和私钥不能无限生成"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "8.4.2 区块链的原理",
+        "page": 54,
+        "endPage": 54,
+        "answer": "ABC",
+        "missingOptionLabel": "C"
+      },
+      "review": "PDF 第三条选项缺少字母标签，待核实，请按参考答案自评。"
+    },
+    {
+      "id": 158,
+      "type": "single",
+      "prompt": "下列关于区块链的定义说法错误的一项是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "区块链利用块链式数据结构来验证与存储数据"
+        },
+        {
+          "id": "B",
+          "text": "区块链利用了信息学的方式保证数据传输和访问安全"
+        },
+        {
+          "id": "C",
+          "text": "区块链利用分布式节点共识算法来生成和更新数据"
+        },
+        {
+          "id": "D",
+          "text": "区块链是一种全新的分布式基础架构和计算范式"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.4.3 区块链的定义",
+        "page": 54,
+        "endPage": 55,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 159,
+      "type": "multiple",
+      "prompt": "区块链可以分为哪几类()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "公有链"
+        },
+        {
+          "id": "B",
+          "text": "组织链"
+        },
+        {
+          "id": "C",
+          "text": "联盟链"
+        },
+        {
+          "id": "D",
+          "text": "私有链"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.4.4 区块链的分类",
+        "page": 55,
+        "endPage": 55,
+        "answer": "ACD"
+      }
+    },
+    {
+      "id": 160,
+      "type": "boolean",
+      "prompt": "从科技层面来看，区块链涉及数学、密码学/互联网和计算机编程等很多科学技术问题。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.4.5 区块链的应用",
+        "page": 55,
+        "endPage": 55,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 161,
+      "type": "single",
+      "prompt": "区块链 1.0 阶段是区块链技术的开创阶段，以()的出现为标志。",
+      "options": [
+        {
+          "id": "A",
+          "text": "货币"
+        },
+        {
+          "id": "B",
+          "text": "比特币"
+        },
+        {
+          "id": "C",
+          "text": "数字货币"
+        },
+        {
+          "id": "D",
+          "text": "信用货币"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.4.6 区块链的发展阶段",
+        "page": 56,
+        "endPage": 56,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 162,
+      "type": "single",
+      "prompt": "下列关于大数据与区块链的区别表述错误的一项是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "大数据需要的是结构化的数据，而区块链是典型的非结构化数据"
+        },
+        {
+          "id": "B",
+          "text": "区块链的信息相对独立，而大数据是信息的整合分析"
+        },
+        {
+          "id": "C",
+          "text": "区块链是一个分布式账本，而大数据是一种间接的数据"
+        },
+        {
+          "id": "D",
+          "text": "区块链处理的数据更小，是细致的处理方式;而大数据管理的是海量的数据，处理方式更加粗糙"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.4.7 区块链与大数据的关系",
+        "page": 56,
+        "endPage": 56,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 163,
+      "type": "boolean",
+      "prompt": "CAP 理论告诉我们，一个分布式系不可能同时满足一致性、可用性和分区容忍性。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.4.7 区块链与大数据的关系",
+        "page": 56,
+        "endPage": 56,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 164,
+      "type": "boolean",
+      "prompt": "智能合约是一套以电脑语言形式来编写的预定规则，一旦规则以数字形式被签署，便会在区块链上产生具有法律效力的合约。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.4.8 区块链技术的现状与未来展望",
+        "page": 57,
+        "endPage": 57,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 165,
+      "type": "multiple",
+      "prompt": "区块链技术面临的挑战和问题包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "技术成熟度不足"
+        },
+        {
+          "id": "B",
+          "text": "成熟度和标准化程度需进一步提高"
+        },
+        {
+          "id": "C",
+          "text": "数据公开透明"
+        },
+        {
+          "id": "D",
+          "text": "监管和合约问题"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.4.8 区块链技术的现状与未来展望",
+        "page": 57,
+        "endPage": 57,
+        "answer": "ABD"
+      }
+    },
+    {
+      "id": 166,
+      "type": "single",
+      "prompt": "下列关于区块链技术的未来展望说法错误的一项是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "从长远来看，区块链将是下一代价值互联网的基础解决方案"
+        },
+        {
+          "id": "B",
+          "text": "区块链会和当下的热门技术，如物联网、大数据、人工智能等紧密结合"
+        },
+        {
+          "id": "C",
+          "text": "区块链公开的数据可以为大数据和人工智能的发展提供数据支撑"
+        },
+        {
+          "id": "D",
+          "text": "区块链的单一模式、不公开不透明等特点正好美联网的需求"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "8.4.8 区块链技术的现状与未来展望",
+        "page": 57,
+        "endPage": 57,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 167,
+      "type": "boolean",
+      "prompt": "2020 年被称为元宇宙的元年。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.5.1 元宇宙概述",
+        "page": 58,
+        "endPage": 58,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 168,
+      "type": "multiple",
+      "prompt": "下列关于元宇宙的表述正确的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "元宇宙以增强现实为驱动力"
+        },
+        {
+          "id": "B",
+          "text": "元宇宙是数字社会发展的必然"
+        },
+        {
+          "id": "C",
+          "text": "元宇宙与虚拟空间和虚拟经济相同"
+        },
+        {
+          "id": "D",
+          "text": "《Second life》的发布成为元宇宙发展的一个重要里程碑"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.5.1 元宇宙概述",
+        "page": 58,
+        "endPage": 58,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 169,
+      "type": "single",
+      "prompt": "下列关于元宇宙与大数据的关系说法错误的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "元宇宙实质上是以数据方式存在的"
+        },
+        {
+          "id": "B",
+          "text": "大数据技术为元宇宙提供数据存储支撑"
+        },
+        {
+          "id": "C",
+          "text": "目前最适合元宇宙的数据存储技术是集中式存储"
+        },
+        {
+          "id": "D",
+          "text": "大数据技术为元宇宙提供数据处理支撑"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "8.5.1 元宇宙概述",
+        "page": 58,
+        "endPage": 58,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 170,
+      "type": "boolean",
+      "prompt": "满足人类对物质的需求是元宇宙存在的根本原因。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.5.2 元宇宙的基本特征",
+        "page": 58,
+        "endPage": 59,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 171,
+      "type": "boolean",
+      "prompt": "在元宇宙的世界中，虚拟并不等于虚幻。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.5.2 元宇宙的基本特征",
+        "page": 59,
+        "endPage": 59,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 172,
+      "type": "multiple",
+      "prompt": "元宇宙的核心技术包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "区块链技术"
+        },
+        {
+          "id": "B",
+          "text": "人工智能技术"
+        },
+        {
+          "id": "C",
+          "text": "大数据技术"
+        },
+        {
+          "id": "D",
+          "text": "物联网技术"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.5.3 元宇宙的核心技术",
+        "page": 59,
+        "endPage": 59,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 173,
+      "type": "single",
+      "prompt": "元宇宙最基础的保障技术是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "人工智能技术"
+        },
+        {
+          "id": "B",
+          "text": "大数据技术"
+        },
+        {
+          "id": "C",
+          "text": "数字孪生技术"
+        },
+        {
+          "id": "D",
+          "text": "区块链技术"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.5.3 元宇宙的核心技术",
+        "page": 59,
+        "endPage": 59,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 174,
+      "type": "multiple",
+      "prompt": "元宇宙在数字货币与金融领域的应用主要体现在()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数字货币交易"
+        },
+        {
+          "id": "B",
+          "text": "智能仓储管理"
+        },
+        {
+          "id": "C",
+          "text": "数字资产确权与认证"
+        },
+        {
+          "id": "D",
+          "text": "金融创新与合作"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.5.4 元宇宙的典型应用场景",
+        "page": 60,
+        "endPage": 60,
+        "answer": "ACD"
+      }
+    },
+    {
+      "id": 175,
+      "type": "single",
+      "prompt": "“虚拟公共交通”属于元宇宙在哪个领域的具体应用()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "医疗领域"
+        },
+        {
+          "id": "B",
+          "text": "公共服务领域"
+        },
+        {
+          "id": "C",
+          "text": "社交娱乐与游戏领域"
+        },
+        {
+          "id": "D",
+          "text": "供应链管理与物流领域"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.5.4 元宇宙的典型应用场景",
+        "page": 60,
+        "endPage": 60,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 176,
+      "type": "single",
+      "prompt": "元宇宙在技术风险与挑战方面面临的问题不包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "技术成本"
+        },
+        {
+          "id": "B",
+          "text": "技术法规与伦理"
+        },
+        {
+          "id": "C",
+          "text": "用户行为模式变化"
+        },
+        {
+          "id": "D",
+          "text": "技术成熟度"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.5.5 元宇宙的风险与挑战",
+        "page": 60,
+        "endPage": 60,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 177,
+      "type": "single",
+      "prompt": "元宇宙在社会接受度上面临的问题于下列哪个方面的挑战与风险()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "技术风险与挑战"
+        },
+        {
+          "id": "B",
+          "text": "社会风险与挑战"
+        },
+        {
+          "id": "C",
+          "text": "法律与监管风险"
+        },
+        {
+          "id": "D",
+          "text": "经济风险与挑战"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.5.5 元宇宙的风险与挑战",
+        "page": 61,
+        "endPage": 61,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 178,
+      "type": "single",
+      "prompt": "关于元宇宙的描述，以下哪项是正确的?",
+      "options": [
+        {
+          "id": "A",
+          "text": "元宇宙就是虚拟现实技术"
+        },
+        {
+          "id": "B",
+          "text": "元宇宙包括虚拟现实技术，但不包括人工智能"
+        },
+        {
+          "id": "C",
+          "text": "元宇宙是一个更广泛、更综合的概念，包括了虚拟现实技术、人工智能、区块链和云计算等"
+        },
+        {
+          "id": "D",
+          "text": "元宇宙与区块链技术无关"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.5.6 虚拟现实",
+        "page": 61,
+        "endPage": 61,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 179,
+      "type": "multiple",
+      "prompt": "虚拟数字人按照应用分类，可以分为哪几类()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "表演型"
+        },
+        {
+          "id": "B",
+          "text": "服务型"
+        },
+        {
+          "id": "C",
+          "text": "身份型"
+        },
+        {
+          "id": "D",
+          "text": "智能驱动型"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.5.7 虚拟数字人",
+        "page": 62,
+        "endPage": 62,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 180,
+      "type": "single",
+      "prompt": "智能驱动型虚拟数字人最大的特点是() 。",
+      "options": [
+        {
+          "id": "A",
+          "text": "自主性"
+        },
+        {
+          "id": "B",
+          "text": "智能性"
+        },
+        {
+          "id": "C",
+          "text": "安全性"
+        },
+        {
+          "id": "D",
+          "text": "自主性与智能性"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "8.5.7 虚拟数字人",
+        "page": 62,
+        "endPage": 62,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 181,
+      "type": "multiple",
+      "prompt": "数字孪生行业面临的挑战包括()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "技术成熟度不高"
+        },
+        {
+          "id": "B",
+          "text": "数据采集与处理难"
+        },
+        {
+          "id": "C",
+          "text": "应用场景复杂性"
+        },
+        {
+          "id": "D",
+          "text": "投资成本高"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "8.5.8 数字孪生",
+        "page": 62,
+        "endPage": 62,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 182,
+      "type": "boolean",
+      "prompt": "撞库攻击是因为很多用户在不同网站使用的是相同的账户密码，这才让黑客有了可乘之机。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.1.1 大数据伦理典型案例",
+        "page": 63,
+        "endPage": 63,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 183,
+      "type": "single",
+      "prompt": "同样的商品和服务，新顾客比老顾客更便宜这属于大数据伦理案例中的哪一种()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "隐形偏差"
+        },
+        {
+          "id": "B",
+          "text": "大数据杀熟"
+        },
+        {
+          "id": "C",
+          "text": "撞库事件"
+        },
+        {
+          "id": "D",
+          "text": "信息茧房"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "9.1.1 大数据伦理典型案例",
+        "page": 63,
+        "endPage": 63,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 184,
+      "type": "multiple",
+      "prompt": "大数据的伦理问题主要包含哪几种()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "数字鸿沟问题"
+        },
+        {
+          "id": "B",
+          "text": "数据独裁问题"
+        },
+        {
+          "id": "C",
+          "text": "数据安全问题"
+        },
+        {
+          "id": "D",
+          "text": "资本垄断问题"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.1.2 大数据的伦理问题",
+        "page": 63,
+        "endPage": 63,
+        "answer": "ABC"
+      }
+    },
+    {
+      "id": 185,
+      "type": "single",
+      "prompt": "信息时代的“马太效应”会造成什么后果?",
+      "options": [
+        {
+          "id": "A",
+          "text": "富者穷者都越穷"
+        },
+        {
+          "id": "B",
+          "text": "富者穷者都越富"
+        },
+        {
+          "id": "C",
+          "text": "富者越穷，穷者越富"
+        },
+        {
+          "id": "D",
+          "text": "富者越富，穷者越穷"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "9.1.2 大数据的伦理问题",
+        "page": 63,
+        "endPage": 64,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 186,
+      "type": "multiple",
+      "prompt": "大数据伦理问题产生的原因有()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "人类社会价值观的转变"
+        },
+        {
+          "id": "B",
+          "text": "数据伦理责任主题不明确"
+        },
+        {
+          "id": "C",
+          "text": "法律体系不健全"
+        },
+        {
+          "id": "D",
+          "text": "大数据技术本身的缺陷"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.1.3 大数据伦理问题产生的原因",
+        "page": 64,
+        "endPage": 64,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 187,
+      "type": "multiple",
+      "prompt": "如何实现以技术治理大数据伦理问题()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "防火墙和过滤技术"
+        },
+        {
+          "id": "B",
+          "text": "完善大数据立法"
+        },
+        {
+          "id": "C",
+          "text": "网上监控"
+        },
+        {
+          "id": "D",
+          "text": "数字水印技术"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.1.4 大数据伦理问题的治理",
+        "page": 64,
+        "endPage": 64,
+        "answer": "ACD"
+      }
+    },
+    {
+      "id": 188,
+      "type": "single",
+      "prompt": "下列关于提高个人隐私保护数据库意识的表述不正确的是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "要加强培养个人的信息权利意识，调整自我隐"
+        },
+        {
+          "id": "B",
+          "text": "个人隐私数据与公民的利益并不相关，公民不需要维护"
+        },
+        {
+          "id": "C",
+          "text": "遇到侵权行为的时候，要敢于维护自己的利益"
+        },
+        {
+          "id": "D",
+          "text": "公民应当积极履行监督的义务，若发现企业有侵犯隐私的行为，及时向有关部门举报"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "9.1.4 大数据伦理问题的治理",
+        "page": 64,
+        "endPage": 65,
+        "answer": "B"
+      }
+    },
+    {
+      "id": 189,
+      "type": "single",
+      "prompt": "下列关于人工智能伦理的说法错误的一项是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "人工智能伦理只涉及到计算机学科的研究领域"
+        },
+        {
+          "id": "B",
+          "text": "人工智能伦理涉及到对机器智能的规范和监管，以确保其符合人类的价值观和社会利益"
+        },
+        {
+          "id": "C",
+          "text": "人工智能伦理涉及到许多问题，如数据隐私、透明度和责任、权利和公平性等问题"
+        },
+        {
+          "id": "D",
+          "text": "人工智能伦理也是一个复杂的议题，涉及到的许多问题和挑战尚未达成共识"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.2.1 人工智能伦理概念",
+        "page": 65,
+        "endPage": 65,
+        "answer": "A"
+      }
+    },
+    {
+      "id": 190,
+      "type": "boolean",
+      "prompt": "传统的伦理秩序中，机器是人类的附属品，由人类决定其运作方式。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.2.2 人工智能的伦理问题",
+        "page": 66,
+        "endPage": 66,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 191,
+      "type": "multiple",
+      "prompt": "AI 系统的不稳定性和风险性主要体现在哪些方面 ()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "算法更新"
+        },
+        {
+          "id": "B",
+          "text": "硬件故障"
+        },
+        {
+          "id": "C",
+          "text": "软件故障"
+        },
+        {
+          "id": "D",
+          "text": "数据波动"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "9.2.2 人工智能的伦理问题",
+        "page": 66,
+        "endPage": 66,
+        "answer": "ABD"
+      }
+    },
+    {
+      "id": 192,
+      "type": "single",
+      "prompt": "人工智能伦理中的一个核心议题是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "公平正义问题"
+        },
+        {
+          "id": "B",
+          "text": "社会效益问题"
+        },
+        {
+          "id": "C",
+          "text": "责任归属问题"
+        },
+        {
+          "id": "D",
+          "text": "公共舆论问题"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "9.2.2 人工智能的伦理问题",
+        "page": 66,
+        "endPage": 66,
+        "answer": "C"
+      }
+    },
+    {
+      "id": 193,
+      "type": "boolean",
+      "prompt": "如果行为人为了悼念目的，用 AI“复活”自己的亲人原则上不构成侵权。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.2.3 人工智能伦理典型案例",
+        "page": 66,
+        "endPage": 66,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 194,
+      "type": "boolean",
+      "prompt": "人工智能伦理的原则是人工智能伦理的核心。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.2.4 人工智能伦理的基本原则",
+        "page": 67,
+        "endPage": 67,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 195,
+      "type": "multiple",
+      "prompt": "人工智能伦理必须坚持公正性的基本原则，原因有()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "避免偏见和歧视是人工智能伦理的核心"
+        },
+        {
+          "id": "B",
+          "text": "公正性是人工智能技术可持续发展的关键"
+        },
+        {
+          "id": "C",
+          "text": "公正性是人工智能技术被广泛接受和应用的前提"
+        },
+        {
+          "id": "D",
+          "text": "人工智能可以对小部分人产生不公正的待遇和，"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "9.2.4 人工智能伦理的基本原则",
+        "page": 67,
+        "endPage": 67,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 196,
+      "type": "multiple",
+      "prompt": "解决人工智能伦理问题的策略包括下列哪几项 ()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "制定和执行相关的法规和政策"
+        },
+        {
+          "id": "B",
+          "text": "加强 AI技术的透明度和可解释性"
+        },
+        {
+          "id": "C",
+          "text": "加强国际合作和交流，共同解决 AI伦理问题"
+        },
+        {
+          "id": "D",
+          "text": "建立 AI伦理审查机制"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.2.5 解决人工智能伦理问题的策略",
+        "page": 67,
+        "endPage": 67,
+        "answer": "ABCD"
+      }
+    },
+    {
+      "id": 197,
+      "type": "boolean",
+      "prompt": "透明度是确保人工智能系统行为可预测和可解释的关键。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "true"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "9.2.5 解决人工智能伦理问题的策略",
+        "page": 68,
+        "endPage": 68,
+        "answer": "对"
+      }
+    },
+    {
+      "id": 198,
+      "type": "single",
+      "prompt": "下列关于提高公众对 AI 伦理问题的认识和意识的说法错误的一项是()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "提高公众对 AI伦理问题的认识和意识是预防和解决 AI伦理问题的关键"
+        },
+        {
+          "id": "B",
+          "text": "只有当公众充分认识到 AI伦理问题的重要性，才能更好地推动 AI技术的健康发展"
+        },
+        {
+          "id": "C",
+          "text": "提高公众对 AI问题的认识和意识有助于增强公众对 AI技术的信任和使用意愿"
+        },
+        {
+          "id": "D",
+          "text": "公众是 AI技术的使用者和受益者，技术开放人员 AI技术的监督者"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "source": {
+        "number": 3,
+        "chapter": "9.2.5 解决人工智能伦理问题的策略",
+        "page": 68,
+        "endPage": 68,
+        "answer": "D"
+      }
+    },
+    {
+      "id": 199,
+      "type": "boolean",
+      "prompt": "区块链技术本身具备价值判断能力。",
+      "options": [
+        {
+          "id": "true",
+          "text": "正确"
+        },
+        {
+          "id": "false",
+          "text": "错误"
+        }
+      ],
+      "answer": [
+        "false"
+      ],
+      "source": {
+        "number": 1,
+        "chapter": "9.3 区块链伦理问题",
+        "page": 68,
+        "endPage": 68,
+        "answer": "错"
+      }
+    },
+    {
+      "id": 200,
+      "type": "multiple",
+      "prompt": "区块链技术的伦理问题包括下列哪几项()。",
+      "options": [
+        {
+          "id": "A",
+          "text": "隐私保护与数据安全"
+        },
+        {
+          "id": "B",
+          "text": "权力下放与中心化"
+        },
+        {
+          "id": "C",
+          "text": "价值取向与道德评判"
+        },
+        {
+          "id": "D",
+          "text": "责任界定与追责机制"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source": {
+        "number": 2,
+        "chapter": "9.3 区块链伦理问题",
+        "page": 68,
+        "endPage": 68,
+        "answer": "ABCD"
+      }
+    }
+  ]
+}
