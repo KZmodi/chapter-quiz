@@ -40,6 +40,10 @@ function freshState() {
   };
 }
 
+function byQuestionNumber(byId) {
+  return (a, b) => byId.get(a).number - byId.get(b).number;
+}
+
 function normalizeState(raw) {
   if (raw?.version !== 1 || !courseIds.includes(raw.course)) {
     throw new Error('无法识别备份版本');
@@ -71,10 +75,10 @@ function normalizeState(raw) {
       const allowed = number => byId.has(number) &&
         (mode !== 'wrong' || record.wrong.includes(number));
       const prefix = new Set(round.ids.slice(0, round.index).filter(allowed));
-      const ids = [...new Set(round.ids.filter(allowed))];
+      let ids = [...new Set(round.ids.filter(allowed))];
       if (!ids.length) continue;
 
-      const index = prefix.size;
+      let index = prefix.size;
       const attempts = {};
       for (const number of ids) {
         if (legacy && prefix.has(number)) {
@@ -91,6 +95,15 @@ function normalizeState(raw) {
             revealed: entry.revealed === true,
             selfResult: typeof entry.selfResult === 'boolean' ? entry.selfResult : null
           };
+        }
+      }
+      if (mode === 'ordered') {
+        const sorted = [...ids].sort(byQuestionNumber(byId));
+        if (sorted.some((number, position) => number !== ids[position])) {
+          const pending = sorted.findIndex(number =>
+            !attempts[number]?.legacy && resultFor(byId.get(number), attempts[number]) === null);
+          index = pending === -1 ? sorted.length : pending;
+          ids = sorted;
         }
       }
       record.rounds[mode] = { ids, index, attempts };
@@ -145,6 +158,7 @@ function start(mode, reset = false) {
   const saved = current.rounds[mode];
   if (reset || !saved || saved.index >= saved.ids.length) {
     let ids = course().questions.map(question => question.id);
+    if (mode === 'ordered') ids.sort(byQuestionNumber(course().byId));
     if (mode === 'random') {
       ids = shuffled(course().questions.filter(question => !question.duplicateOf).map(question => question.id));
     }
