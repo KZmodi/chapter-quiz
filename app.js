@@ -82,7 +82,9 @@ function normalizeState(raw) {
         selfResult: sameQuestion && typeof round.selfResult === 'boolean' ? round.selfResult : null
       };
     }
-    if (record.rounds[incoming.last]) record.last = incoming.last;
+    if (Object.keys(modeNames).includes(incoming.last) && record.rounds[incoming.last]) {
+      record.last = incoming.last;
+    }
   }
   return clean;
 }
