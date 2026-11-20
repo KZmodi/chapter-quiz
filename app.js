@@ -61,8 +61,10 @@ function normalizeState(raw) {
     for (const mode of Object.keys(modeNames)) {
       const round = incoming.rounds[mode];
       if (!round) continue;
+      const legacy = round.attempts === undefined;
       if (!Array.isArray(round.ids) || !Number.isInteger(round.index) ||
-          round.index < 0 || round.index > round.ids.length || !Array.isArray(round.selected)) {
+          round.index < 0 || round.index > round.ids.length ||
+          (legacy ? !Array.isArray(round.selected) : !round.attempts || typeof round.attempts !== 'object')) {
         throw new Error('备份中的练习进度有误');
       }
 
@@ -73,14 +75,25 @@ function normalizeState(raw) {
       if (!ids.length) continue;
 
       const index = prefix.size;
-      const sameQuestion = ids[index] !== undefined && ids[index] === round.ids[round.index];
-      const labels = sameQuestion ? byId.get(ids[index]).options.map(o => o.id) : [];
-      record.rounds[mode] = {
-        ids, index,
-        selected: [...new Set(round.selected.filter(value => labels.includes(value)))],
-        revealed: sameQuestion && round.revealed === true,
-        selfResult: sameQuestion && typeof round.selfResult === 'boolean' ? round.selfResult : null
-      };
+      const attempts = {};
+      for (const number of ids) {
+        if (legacy && prefix.has(number)) {
+          attempts[number] = { legacy: true };
+          continue;
+        }
+        const entry = legacy ? (number === round.ids[round.index] ? round : null) : round.attempts[number];
+        if (entry?.legacy === true) {
+          attempts[number] = { legacy: true };
+        } else if (Array.isArray(entry?.selected)) {
+          const labels = byId.get(number).options.map(option => option.id);
+          attempts[number] = {
+            selected: [...new Set(entry.selected.filter(value => labels.includes(value)))],
+            revealed: entry.revealed === true,
+            selfResult: typeof entry.selfResult === 'boolean' ? entry.selfResult : null
+          };
+        }
+      }
+      record.rounds[mode] = { ids, index, attempts };
     }
     if (Object.keys(modeNames).includes(incoming.last) && record.rounds[incoming.last]) {
       record.last = incoming.last;
@@ -103,6 +116,7 @@ const record = () => state.courses[state.course];
 const round = () => record().rounds[record().last];
 const selfCheck = question => question.type === 'short' || Boolean(question.review);
 const questionKey = question => question.duplicateOf ?? question.id;
+const emptyAttempt = () => ({ selected: [], revealed: false, selfResult: null });
 
 function navigate(nextView) {
   view = nextView;
@@ -136,7 +150,7 @@ function start(mode, reset = false) {
     }
     if (mode === 'wrong') ids = [...current.wrong];
     if (!ids.length) return navigate('wrong');
-    current.rounds[mode] = { ids, index: 0, selected: [], revealed: false, selfResult: null };
+    current.rounds[mode] = { ids, index: 0, attempts: {} };
   }
   current.last = mode;
   save();
@@ -174,6 +188,8 @@ function renderHome() {
   if (pending && pending.index < pending.ids.length) {
     const description = modeNames[record().last] + ' · ' + (pending.index + 1) + '/' + pending.ids.length;
     actions.insertBefore(button('继续上次 · ' + description, () => navigate('practice'), 'secondary full'), actions.children[1]);
+  } else if (pending?.ids.length) {
+    actions.append(button('查看上轮答题卡', () => navigate('practice'), 'secondary full'));
   }
 
   const backups = group('div', 'row',
@@ -186,15 +202,27 @@ function matches(question, selected) {
   return selected.length === question.answer.length && selected.every(id => question.answer.includes(id));
 }
 
+function resultFor(question, attempt) {
+  if (!attempt?.revealed) return null;
+  return selfCheck(question) ? attempt.selfResult : matches(question, attempt.selected);
+}
+
+function statusFor(id, active) {
+  const attempt = active.attempts[id];
+  if (attempt?.legacy) return 'legacy';
+  const result = resultFor(course().byId.get(id), attempt);
+  return result === null ? 'unanswered' : result ? 'correct' : 'incorrect';
+}
+
 function rememberWrong(question) {
   const id = questionKey(question);
   if (!record().wrong.includes(id)) record().wrong.push(id);
 }
 
-function submit(question) {
-  const active = round();
-  active.revealed = true;
-  if (!selfCheck(question) && !matches(question, active.selected)) rememberWrong(question);
+function submit(question, attempt) {
+  attempt.revealed = true;
+  round().attempts[question.id] = attempt;
+  if (resultFor(question, attempt) === false) rememberWrong(question);
   save();
   render();
   document.querySelector('#feedback')?.focus({ preventScroll: true });
@@ -209,27 +237,28 @@ function answerText(question) {
   }).join('；');
 }
 
-function renderOptions(question, active) {
+function renderOptions(question, attempt) {
   const buttons = question.options.map(option => {
-    const picked = active.selected.includes(option.id);
+    const picked = attempt.selected.includes(option.id);
     let style = picked ? 'option selected' : 'option';
-    if (active.revealed && !selfCheck(question)) {
+    if (attempt.revealed && !selfCheck(question)) {
       if (question.answer.includes(option.id)) style = 'option correct';
       else if (picked) style = 'option incorrect';
     }
     const node = button('', () => {
       if (question.type === 'multiple') {
-        active.selected = picked ? active.selected.filter(id => id !== option.id) : [...active.selected, option.id];
+        attempt.selected = picked ? attempt.selected.filter(id => id !== option.id) : [...attempt.selected, option.id];
+        round().attempts[question.id] = attempt;
         save();
         render();
         document.getElementById(node.id)?.focus({ preventScroll: true });
       } else {
-        active.selected = [option.id];
-        submit(question);
+        attempt.selected = [option.id];
+        submit(question, attempt);
       }
     }, style);
     node.id = 'opt-' + option.id;
-    node.disabled = active.revealed || selfCheck(question);
+    node.disabled = attempt.revealed || selfCheck(question);
     if (question.type === 'multiple') node.setAttribute('aria-pressed', String(picked));
     if (question.type !== 'boolean') {
       const label = option.id === question.source.missingOptionLabel ? '·' : option.id;
@@ -241,29 +270,52 @@ function renderOptions(question, active) {
   return group('div', 'stacked', ...buttons);
 }
 
-function next() {
-  const active = round();
-  active.index++;
-  active.selected = [];
-  active.revealed = false;
-  active.selfResult = null;
+function jumpTo(index) {
+  round().index = index;
   save();
   navigate('practice');
+}
+
+function renderAnswerCard(active, statuses) {
+  const statusLabels = { unanswered: '未答', correct: '答对', incorrect: '答错', legacy: '旧记录' };
+  const title = element('h2', '', '答题卡');
+  title.id = 'answer-card-title';
+  title.tabIndex = -1;
+  const legend = group('div', 'row metadata',
+    ...Object.entries(statusLabels).filter(([status]) => status !== 'legacy' || statuses.includes(status))
+      .map(([status, label]) => group('span', 'answer-key',
+        element('span', 'answer-swatch ' + status), label)));
+  const grid = group('div', 'answer-grid', ...statuses.map((status, index) => {
+    const position = index + 1;
+    const cell = button(position, () => jumpTo(index), 'answer-number ' + status);
+    cell.setAttribute('aria-label', '第 ' + position + ' 题，' + statusLabels[status]);
+    if (index === active.index) cell.setAttribute('aria-current', 'true');
+    return cell;
+  }));
+  const card = group('section', 'card stack',
+    title, legend, element('p', 'muted', '点击题号可跳转'), grid);
+  card.setAttribute('aria-labelledby', title.id);
+  return card;
 }
 
 function renderPractice() {
   const mode = record().last;
   const active = round();
   const back = button(mode === 'wrong' ? '返回错题本' : '返回首页', () => navigate(mode === 'wrong' ? 'wrong' : 'home'));
+  const statuses = active?.ids.map(id => statusFor(id, active)) ?? [];
+  const answerCard = statuses.length ? renderAnswerCard(active, statuses) : null;
   if (!active || active.index >= active.ids.length) {
     return group('div', 'stack', back,
       group('section', 'card stack',
         heading('本轮完成'),
-        element('p', 'muted', '已完成 ' + (active?.ids.length ?? 0) + ' 道题'),
-        button('再练一轮', () => start(mode, true), 'primary full')));
+        element('p', 'muted', '已完成 ' + statuses.filter(status => status !== 'unanswered').length + ' 道题'),
+        button('再练一轮', () => start(mode, true), 'primary full')),
+      ...(answerCard ? [answerCard] : []));
   }
 
   const question = course().byId.get(active.ids[active.index]);
+  const savedAttempt = active.attempts[question.id];
+  const attempt = savedAttempt?.selected ? savedAttempt : emptyAttempt();
   const title = heading(question.prompt);
   title.className = 'prompt';
   const position = (active.index + 1) + ' / ' + active.ids.length;
@@ -275,18 +327,29 @@ function renderPractice() {
     element('p', 'metadata', typeNames[question.type] + ' · 题库 #' + question.id),
     title);
   if (question.review) content.append(element('p', 'feedback review', question.review));
-  if (question.options.length) content.append(renderOptions(question, active));
+  if (question.options.length) content.append(renderOptions(question, attempt));
 
-  if (!active.revealed) {
-    if (selfCheck(question)) content.append(button('查看参考答案', () => submit(question), 'primary full'));
+  const firstUnanswered = statuses.indexOf('unanswered');
+  const atEnd = active.index === active.ids.length - 1;
+  const nextButton = () => {
+    if (firstUnanswered === -1) return button('完成本轮', () => jumpTo(active.ids.length), 'primary full');
+    if (!atEnd) return button('下一题', () => jumpTo(active.index + 1), 'primary full');
+    return button('去做未答题', () => jumpTo(firstUnanswered), 'primary full');
+  };
+
+  if (!attempt.revealed) {
+    if (selfCheck(question)) content.append(button('查看参考答案', () => submit(question, attempt), 'primary full'));
     else if (question.type === 'multiple') {
-      const confirm = button('提交答案', () => submit(question), 'primary full');
-      confirm.disabled = active.selected.length === 0;
+      const confirm = button('提交答案', () => submit(question, attempt), 'primary full');
+      confirm.disabled = attempt.selected.length === 0;
       content.append(confirm);
+    }
+    if (savedAttempt?.legacy) {
+      content.append(element('p', 'muted', '旧进度已保存，这道题没有可恢复的作答结果。'), nextButton());
     }
   } else {
     const manual = selfCheck(question);
-    const correct = manual ? active.selfResult : matches(question, active.selected);
+    const correct = resultFor(question, attempt);
     const result = correct === null ? '参考答案' : correct ? '回答正确' : '回答错误';
     const style = correct === null ? 'feedback' : correct ? 'feedback correct' : 'feedback incorrect';
     const feedback = group('div', style, element('strong', '', result),
@@ -297,7 +360,7 @@ function renderPractice() {
     content.append(feedback);
     if (manual && correct === null) {
       function assess(value) {
-        active.selfResult = value;
+        attempt.selfResult = value;
         if (!value) rememberWrong(question);
         save();
         render();
@@ -306,14 +369,22 @@ function renderPractice() {
       content.append(group('div', 'row',
         button('答对了', () => assess(true)), button('记为错题', () => assess(false))));
     } else {
-      const label = active.index + 1 === active.ids.length ? '完成本轮' : '下一题';
-      content.append(button(label, next, 'primary full'));
+      content.append(group('div', 'practice-actions',
+        button('重新作答', () => {
+          delete active.attempts[question.id];
+          jumpTo(active.index);
+        }), nextButton()));
     }
   }
 
+  const showCard = button('答题卡', () => {
+    const title = document.querySelector('#answer-card-title');
+    title.focus({ preventScroll: true });
+    title.scrollIntoView({ block: 'start' });
+  });
   return group('div', 'stack',
-    group('div', 'row between', back, element('span', 'metadata', modeNames[mode] + ' · ' + position)),
-    bar, content);
+    group('div', 'row between', back, element('span', 'metadata', modeNames[mode] + ' · ' + position), showCard),
+    bar, content, answerCard);
 }
 
 function removeWrong(id) {
@@ -324,10 +395,10 @@ function removeWrong(id) {
     const removed = active.ids.indexOf(id);
     active.ids.splice(removed, 1);
     if (removed < active.index) active.index--;
-    if (removed === active.index) {
-      active.selected = [];
-      active.revealed = false;
-      active.selfResult = null;
+    delete active.attempts[id];
+    if (active.index >= active.ids.length) {
+      const pending = active.ids.findIndex(number => statusFor(number, active) === 'unanswered');
+      if (pending !== -1) active.index = pending;
     }
   }
   save();
@@ -360,6 +431,11 @@ function render() {
     banners.push(status);
   }
   screen.replaceChildren(...banners, content);
+  const currentCell = screen.querySelector('.answer-number[aria-current]');
+  if (currentCell) {
+    const grid = currentCell.parentElement;
+    grid.scrollTop = currentCell.offsetTop - grid.clientHeight / 2 + currentCell.offsetHeight / 2;
+  }
   screen.removeAttribute('aria-busy');
 }
 
