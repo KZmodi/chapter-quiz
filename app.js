@@ -285,15 +285,35 @@ function renderAnswerCard(active, statuses) {
     ...Object.entries(statusLabels).filter(([status]) => status !== 'legacy' || statuses.includes(status))
       .map(([status, label]) => group('span', 'answer-key',
         element('span', 'answer-swatch ' + status), label)));
-  const grid = group('div', 'answer-grid', ...statuses.map((status, index) => {
+  const cellsByType = Object.fromEntries(Object.keys(typeNames).map(type => [type, []]));
+  active.ids.forEach((id, index) => {
+    const { type } = course().byId.get(id);
+    const status = statuses[index];
     const position = index + 1;
     const cell = button(position, () => jumpTo(index), 'answer-number ' + status);
     cell.setAttribute('aria-label', '第 ' + position + ' 题，' + statusLabels[status]);
     if (index === active.index) cell.setAttribute('aria-current', 'true');
-    return cell;
-  }));
+    cellsByType[type].push(cell);
+  });
+  const shortcuts = group('div', 'row answer-shortcuts');
+  const sections = group('div', 'answer-sections stacked');
+  for (const [type, cells] of Object.entries(cellsByType)) {
+    if (!cells.length) continue;
+    const label = element('h3', 'answer-type', typeNames[type]);
+    label.id = 'answer-type-' + type;
+    label.tabIndex = -1;
+    const section = group('section', 'stacked', label, group('div', 'answer-grid', ...cells));
+    section.setAttribute('aria-labelledby', label.id);
+    sections.append(section);
+    const shortcut = button(typeNames[type], () => {
+      sections.scrollTop = label.offsetTop;
+      label.focus({ preventScroll: true });
+    }, 'secondary answer-shortcut');
+    shortcut.setAttribute('aria-controls', label.id);
+    shortcuts.append(shortcut);
+  }
   const card = group('section', 'card stack',
-    title, legend, element('p', 'muted', '点击题号可跳转'), grid);
+    title, legend, element('p', 'muted', '点击题号可跳转'), shortcuts, sections);
   card.setAttribute('aria-labelledby', title.id);
   return card;
 }
@@ -433,8 +453,8 @@ function render() {
   screen.replaceChildren(...banners, content);
   const currentCell = screen.querySelector('.answer-number[aria-current]');
   if (currentCell) {
-    const grid = currentCell.parentElement;
-    grid.scrollTop = currentCell.offsetTop - grid.clientHeight / 2 + currentCell.offsetHeight / 2;
+    const sections = currentCell.closest('.answer-sections');
+    sections.scrollTop = currentCell.offsetTop - sections.clientHeight / 2 + currentCell.offsetHeight / 2;
   }
   screen.removeAttribute('aria-busy');
 }
