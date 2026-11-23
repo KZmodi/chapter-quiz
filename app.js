@@ -73,7 +73,8 @@ function normalizeState(raw) {
       }
 
       const allowed = number => byId.has(number) &&
-        (mode !== 'wrong' || record.wrong.includes(number));
+        (mode !== 'wrong' || record.wrong.includes(number) ||
+          (!legacy && round.attempts[number]?.removedFromWrong === true));
       const prefix = new Set(round.ids.slice(0, round.index).filter(allowed));
       let ids = [...new Set(round.ids.filter(allowed))];
       if (!ids.length) continue;
@@ -95,6 +96,9 @@ function normalizeState(raw) {
             revealed: entry.revealed === true,
             selfResult: typeof entry.selfResult === 'boolean' ? entry.selfResult : null
           };
+          if (mode === 'wrong' && entry.removedFromWrong === true) {
+            attempts[number].removedFromWrong = true;
+          }
         }
       }
       if (mode === 'ordered') {
@@ -131,13 +135,45 @@ const selfCheck = question => question.type === 'short' || Boolean(question.revi
 const questionKey = question => question.duplicateOf ?? question.id;
 const emptyAttempt = () => ({ selected: [], revealed: false, selfResult: null });
 
-function navigate(nextView) {
+function showView(nextView, clearNotice = true) {
   view = nextView;
-  notice = '';
+  if (clearNotice) notice = '';
   render();
   window.scrollTo(0, 0);
   document.querySelector('h1')?.focus({ preventScroll: true });
 }
+
+function navigate(nextView) {
+  if (nextView !== view) {
+    if (view === 'home' && nextView === 'practice' && record().last === 'wrong') {
+      history.pushState({ quizView: 'wrong', course: state.course }, '');
+    }
+    history.pushState({ quizView: nextView, course: state.course, mode: record().last }, '');
+  }
+  showView(nextView);
+}
+
+function restoreView(clearNotice = true) {
+  const route = history.state;
+  if (courseIds.includes(route?.course) && ['practice', 'wrong'].includes(route.quizView)) {
+    state.course = route.course;
+    if (route.quizView === 'practice' && Object.keys(modeNames).includes(route.mode) &&
+        record().rounds[route.mode]?.ids.length) {
+      record().last = route.mode;
+      showView('practice', clearNotice);
+      return;
+    }
+    if (route.quizView === 'wrong' || route.mode === 'wrong') {
+      showView('wrong', clearNotice);
+      return;
+    }
+  }
+  showView('home', clearNotice);
+}
+
+window.addEventListener('popstate', () => {
+  if (state) restoreView();
+});
 
 function heading(text) {
   const node = element('h1', '', text);
@@ -163,7 +199,10 @@ function start(mode, reset = false) {
       ids = shuffled(course().questions.filter(question => !question.duplicateOf).map(question => question.id));
     }
     if (mode === 'wrong') ids = [...current.wrong];
-    if (!ids.length) return navigate('wrong');
+    if (!ids.length) {
+      if (view === 'practice') history.back();
+      return;
+    }
     current.rounds[mode] = { ids, index: 0, attempts: {} };
   }
   current.last = mode;
@@ -235,8 +274,17 @@ function rememberWrong(question) {
 
 function submit(question, attempt) {
   attempt.revealed = true;
+  saveAttempt(question, attempt);
+}
+
+function saveAttempt(question, attempt) {
   round().attempts[question.id] = attempt;
-  if (resultFor(question, attempt) === false) rememberWrong(question);
+  const result = resultFor(question, attempt);
+  if (result === false) rememberWrong(question);
+  if (result === true && record().last === 'wrong') {
+    attempt.removedFromWrong = true;
+    record().wrong = record().wrong.filter(id => id !== questionKey(question));
+  }
   save();
   render();
   document.querySelector('#feedback')?.focus({ preventScroll: true });
@@ -335,7 +383,7 @@ function renderAnswerCard(active, statuses) {
 function renderPractice() {
   const mode = record().last;
   const active = round();
-  const back = button(mode === 'wrong' ? '返回错题本' : '返回首页', () => navigate(mode === 'wrong' ? 'wrong' : 'home'));
+  const back = button(mode === 'wrong' ? '返回错题本' : '返回首页', () => history.back());
   const statuses = active?.ids.map(id => statusFor(id, active)) ?? [];
   const answerCard = statuses.length ? renderAnswerCard(active, statuses) : null;
   if (!active || active.index >= active.ids.length) {
@@ -343,7 +391,8 @@ function renderPractice() {
       group('section', 'card stack',
         heading('本轮完成'),
         element('p', 'muted', '已完成 ' + statuses.filter(status => status !== 'unanswered').length + ' 道题'),
-        button('再练一轮', () => start(mode, true), 'primary full')),
+        ...(mode === 'wrong' && !record().wrong.length ? [] :
+          [button('再练一轮', () => start(mode, true), 'primary full')])),
       ...(answerCard ? [answerCard] : []));
   }
 
@@ -391,21 +440,23 @@ function renderPractice() {
     feedback.id = 'feedback';
     feedback.tabIndex = -1;
     feedback.setAttribute('role', 'status');
+    if (correct && attempt.removedFromWrong) feedback.append(element('p', '', '已移出错题本'));
     content.append(feedback);
     if (manual && correct === null) {
       function assess(value) {
         attempt.selfResult = value;
-        if (!value) rememberWrong(question);
-        save();
-        render();
-        document.querySelector('#feedback')?.focus({ preventScroll: true });
+        saveAttempt(question, attempt);
       }
       content.append(group('div', 'row',
         button('答对了', () => assess(true)), button('记为错题', () => assess(false))));
     } else {
       content.append(group('div', 'practice-actions',
         button('重新作答', () => {
-          delete active.attempts[question.id];
+          if (attempt.removedFromWrong) {
+            active.attempts[question.id] = { ...emptyAttempt(), removedFromWrong: true };
+          } else {
+            delete active.attempts[question.id];
+          }
           jumpTo(active.index);
         }), nextButton()));
     }
@@ -450,7 +501,7 @@ function renderWrong() {
   const controls = button('练习错题', () => start('wrong'), 'primary full');
   controls.disabled = count === 0;
   return group('section', 'stack',
-    group('div', 'row', button('返回首页', () => navigate('home'))),
+    group('div', 'row', button('返回首页', () => history.back())),
     group('div', 'card stack', header, count ? controls : element('p', 'muted', '当前课程还没有错题。')),
     group('ul', 'stack wrong-list', ...items));
 }
@@ -533,7 +584,7 @@ async function init() {
   } catch {
     storageError = true;
   }
-  render();
+  restoreView(false);
 }
 
 init();
