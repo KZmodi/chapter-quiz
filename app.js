@@ -36,7 +36,7 @@ function freshState() {
   return {
     version: 1,
     course: courseIds[0],
-    courses: Object.fromEntries(courseIds.map(id => [id, { wrong: [], rounds: {}, last: null }]))
+    courses: Object.fromEntries(courseIds.map(id => [id, { wrong: [], wrongCounts: {}, rounds: {}, last: null }]))
   };
 }
 
@@ -61,6 +61,12 @@ function normalizeState(raw) {
     record.wrong = [...new Set(incoming.wrong
       .filter(number => byId.has(number))
       .map(number => byId.get(number).duplicateOf ?? number))];
+    for (const [number, question] of byId) {
+      const count = incoming.wrongCounts?.[number];
+      if (!question.duplicateOf && Number.isSafeInteger(count) && count > 0) {
+        record.wrongCounts[number] = count;
+      }
+    }
 
     for (const mode of Object.keys(modeNames)) {
       const round = incoming.rounds[mode];
@@ -133,6 +139,8 @@ const record = () => state.courses[state.course];
 const round = () => record().rounds[record().last];
 const selfCheck = question => question.type === 'short' || Boolean(question.review);
 const questionKey = question => question.duplicateOf ?? question.id;
+const wrongCount = question => record().wrongCounts[questionKey(question)] ?? 0;
+const wrongCountLabel = question => '错 ' + wrongCount(question) + ' 次';
 const emptyAttempt = () => ({ selected: [], revealed: false, selfResult: null });
 
 function showView(nextView, clearNotice = true) {
@@ -269,6 +277,7 @@ function statusFor(id, active) {
 
 function rememberWrong(question) {
   const id = questionKey(question);
+  record().wrongCounts[id] = Math.min(wrongCount(question) + 1, Number.MAX_SAFE_INTEGER);
   if (!record().wrong.includes(id)) record().wrong.push(id);
 }
 
@@ -350,10 +359,13 @@ function renderAnswerCard(active, statuses) {
   const cellsByType = Object.fromEntries(Object.keys(typeNames).map(type => [type, []]));
   const entries = active.ids.map((id, index) => ({ question: course().byId.get(id), index }));
   entries.sort((a, b) => a.question.number - b.question.number);
-  for (const { question: { type, number }, index } of entries) {
+  for (const { question, index } of entries) {
+    const { number, type } = question;
     const status = statuses[index];
-    const cell = button(number, () => jumpTo(index), 'answer-number ' + status);
-    cell.setAttribute('aria-label', '第 ' + number + ' 题，' + statusLabels[status]);
+    const count = wrongCountLabel(question);
+    const cell = button('', () => jumpTo(index), 'answer-number ' + status);
+    cell.append(element('span', 'answer-id', number), element('span', 'answer-wrong-count', count));
+    cell.setAttribute('aria-label', '第 ' + number + ' 题，' + statusLabels[status] + '，累计' + count);
     if (index === active.index) cell.setAttribute('aria-current', 'true');
     cellsByType[type].push(cell);
   }
@@ -407,7 +419,7 @@ function renderPractice() {
   bar.value = active.index + 1;
   bar.setAttribute('aria-label', '练习进度');
   const content = group('article', 'card stack',
-    element('p', 'metadata', typeNames[question.type] + ' · 题库 #' + question.number),
+    element('p', 'metadata', typeNames[question.type] + ' · 题库 #' + question.number + ' · ' + wrongCountLabel(question)),
     title);
   if (question.review) content.append(element('p', 'feedback review', question.review));
   if (question.options.length) content.append(renderOptions(question, attempt));
@@ -495,7 +507,7 @@ function renderWrong() {
   const header = group('div', 'row between', heading('错题本'), element('span', 'metadata', count + ' 道'));
   const items = course().questions.filter(q => record().wrong.includes(q.id)).map(question =>
     group('li', 'card wrong-item',
-      element('p', 'metadata', '题库 #' + question.number + ' · ' + typeNames[question.type]),
+      element('p', 'metadata', '题库 #' + question.number + ' · ' + wrongCountLabel(question) + ' · ' + typeNames[question.type]),
       element('h2', '', question.prompt),
       button('移出错题本', () => removeWrong(question.id))));
   const controls = button('练习错题', () => start('wrong'), 'primary full');
