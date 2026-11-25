@@ -36,7 +36,9 @@ function freshState() {
   return {
     version: 1,
     course: courseIds[0],
-    courses: Object.fromEntries(courseIds.map(id => [id, { wrong: [], wrongCounts: {}, rounds: {}, last: null }]))
+    courses: Object.fromEntries(courseIds.map(id => [id, {
+      wrong: [], wrongCounts: {}, lastOptionOrders: {}, rounds: {}, last: null
+    }]))
   };
 }
 
@@ -66,6 +68,8 @@ function normalizeState(raw) {
       if (!question.duplicateOf && Number.isSafeInteger(count) && count > 0) {
         record.wrongCounts[number] = count;
       }
+      const order = incoming.lastOptionOrders?.[number];
+      if (validOptionOrder(question, order)) record.lastOptionOrders[number] = order;
     }
 
     for (const mode of Object.keys(modeNames)) {
@@ -105,6 +109,9 @@ function normalizeState(raw) {
           if (mode === 'wrong' && entry.removedFromWrong === true) {
             attempts[number].removedFromWrong = true;
           }
+        }
+        if (attempts[number] && validOptionOrder(byId.get(number), entry?.optionOrder)) {
+          attempts[number].optionOrder = entry.optionOrder;
         }
       }
       if (mode === 'ordered') {
@@ -195,6 +202,55 @@ function shuffled(ids) {
     [ids[i], ids[j]] = [ids[j], ids[i]];
   }
   return ids;
+}
+
+function canShuffleOptions(question) {
+  return (question.type === 'single' || question.type === 'multiple') && !question.review;
+}
+
+function fixedOption(option) {
+  return option.text.startsWith('以上');
+}
+
+function validOptionOrder(question, order) {
+  return canShuffleOptions(question) && Array.isArray(order) && order.length === question.options.length &&
+    new Set(order).size === order.length &&
+    question.options.every((option, index) => fixedOption(option) ? order[index] === option.id : order.includes(option.id));
+}
+
+function sameOrder(order, previous) {
+  return previous !== undefined && order.every((id, index) => id === previous[index]);
+}
+
+function newOptionOrder(question, previous) {
+  const movable = question.options.filter(option => !fixedOption(option)).map(option => option.id);
+  const order = shuffled([...movable]);
+  const assemble = () => {
+    let next = 0;
+    return question.options.map(option => fixedOption(option) ? option.id : order[next++]);
+  };
+  if (order.length > 1 && sameOrder(assemble(), previous)) {
+    [order[0], order[1]] = [order[1], order[0]];
+  }
+  return assemble();
+}
+
+function prepareAttempt(question, active) {
+  const existing = active.attempts[question.id];
+  const attempt = existing?.selected ? existing : emptyAttempt();
+  if (!canShuffleOptions(question)) return attempt;
+
+  const last = record().lastOptionOrders[question.id];
+  const original = question.options.map(option => option.id);
+  const optionOrder = existing?.optionOrder ?? (attempt.revealed || attempt.selected.length
+    ? original : newOptionOrder(question, last ?? original));
+  attempt.optionOrder = optionOrder;
+  if (!existing?.optionOrder || !sameOrder(optionOrder, last)) {
+    active.attempts[question.id] = existing?.legacy ? { ...existing, optionOrder } : attempt;
+    record().lastOptionOrders[question.id] = optionOrder;
+    save();
+  }
+  return attempt;
 }
 
 function start(mode, reset = false) {
@@ -299,17 +355,22 @@ function saveAttempt(question, attempt) {
   document.querySelector('#feedback')?.focus({ preventScroll: true });
 }
 
-function answerText(question) {
-  if (question.type === 'short') return question.answer ?? '资料未给出答案';
-  if (!question.answer) return '资料未给出答案';
-  return question.answer.map(id => {
-    const option = question.options.find(item => item.id === id);
-    return question.type === 'boolean' ? option.text : id + '．' + option.text;
-  }).join('；');
+function displayedOptions(question, attempt) {
+  const options = attempt.optionOrder
+    ? attempt.optionOrder.map(id => question.options.find(option => option.id === id))
+    : question.options;
+  return options.map((option, index) => ({ ...option, label: question.options[index].id }));
 }
 
-function renderOptions(question, attempt) {
-  const buttons = question.options.map(option => {
+function answerText(question, options) {
+  if (question.type === 'short') return question.answer ?? '资料未给出答案';
+  if (!question.answer) return '资料未给出答案';
+  return options.filter(option => question.answer.includes(option.id))
+    .map(option => question.type === 'boolean' ? option.text : option.label + '．' + option.text).join('；');
+}
+
+function renderOptions(question, attempt, options) {
+  const buttons = options.map(option => {
     const picked = attempt.selected.includes(option.id);
     let style = picked ? 'option selected' : 'option';
     if (attempt.revealed && !selfCheck(question)) {
@@ -332,7 +393,7 @@ function renderOptions(question, attempt) {
     node.disabled = attempt.revealed || selfCheck(question);
     if (question.type === 'multiple') node.setAttribute('aria-pressed', String(picked));
     if (question.type !== 'boolean') {
-      const label = option.id === question.source.missingOptionLabel ? '·' : option.id;
+      const label = option.id === question.source.missingOptionLabel ? '·' : option.label;
       node.append(element('span', 'option-id', label));
     }
     node.append(element('span', '', option.text));
@@ -410,7 +471,8 @@ function renderPractice() {
 
   const question = course().byId.get(active.ids[active.index]);
   const savedAttempt = active.attempts[question.id];
-  const attempt = savedAttempt?.selected ? savedAttempt : emptyAttempt();
+  const attempt = prepareAttempt(question, active);
+  const options = displayedOptions(question, attempt);
   const title = heading(question.prompt);
   title.className = 'prompt';
   const position = (active.index + 1) + ' / ' + active.ids.length;
@@ -422,7 +484,7 @@ function renderPractice() {
     element('p', 'metadata', typeNames[question.type] + ' · 题库 #' + question.number + ' · ' + wrongCountLabel(question)),
     title);
   if (question.review) content.append(element('p', 'feedback review', question.review));
-  if (question.options.length) content.append(renderOptions(question, attempt));
+  if (options.length) content.append(renderOptions(question, attempt, options));
 
   const firstUnanswered = statuses.indexOf('unanswered');
   const atEnd = active.index === active.ids.length - 1;
@@ -448,7 +510,7 @@ function renderPractice() {
     const result = correct === null ? '参考答案' : correct ? '回答正确' : '回答错误';
     const style = correct === null ? 'feedback' : correct ? 'feedback correct' : 'feedback incorrect';
     const feedback = group('div', style, element('strong', '', result),
-      element('p', '', (manual ? '' : '正确答案 · ') + answerText(question)));
+      element('p', '', (manual ? '' : '正确答案 · ') + answerText(question, options)));
     feedback.id = 'feedback';
     feedback.tabIndex = -1;
     feedback.setAttribute('role', 'status');
