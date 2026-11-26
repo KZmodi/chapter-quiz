@@ -29,7 +29,6 @@
 - 判断用 `["true"]` 表示正确，用 `["false"]` 表示错误。
 - 简答的 `answer` 是一段字符串。
 - `source.answer` 用于记录原 PDF 的答案，保留原值以便追溯。`source.page`、`source.chapter`、`source.number` 对应 PDF 页码、小节及原题号。保留已有 `id`，避免旧进度和错题失去对应关系。
-- 对厦大 #117，确认源资料缺失的标签和答案后，删除该题的 `review` 和 `source.missingOptionLabel` 即可启用正常选项显示和自动判分。
 
 ## 运行与发布
 

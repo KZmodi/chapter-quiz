@@ -100,11 +100,14 @@ function normalizeState(raw) {
         if (entry?.legacy === true) {
           attempts[number] = { legacy: true };
         } else if (Array.isArray(entry?.selected)) {
-          const labels = byId.get(number).options.map(option => option.id);
+          const question = byId.get(number);
+          const labels = question.options.map(option => option.id);
+          const selected = [...new Set(entry.selected.filter(value => labels.includes(value)))];
+          const selfResult = typeof entry.selfResult === 'boolean' ? entry.selfResult : null;
           attempts[number] = {
-            selected: [...new Set(entry.selected.filter(value => labels.includes(value)))],
-            revealed: entry.revealed === true,
-            selfResult: typeof entry.selfResult === 'boolean' ? entry.selfResult : null
+            selected,
+            revealed: entry.revealed === true && (selfCheck(question) || selected.length > 0 || selfResult !== null),
+            selfResult
           };
           if (mode === 'wrong' && entry.removedFromWrong === true) {
             attempts[number].removedFromWrong = true;
@@ -321,7 +324,7 @@ function matches(question, selected) {
 
 function resultFor(question, attempt) {
   if (!attempt?.revealed) return null;
-  return selfCheck(question) ? attempt.selfResult : matches(question, attempt.selected);
+  return selfCheck(question) || !attempt.selected.length ? attempt.selfResult : matches(question, attempt.selected);
 }
 
 function statusFor(id, active) {
@@ -631,7 +634,7 @@ importFile.addEventListener('change', async () => {
 async function init() {
   try {
     await Promise.all(courseIds.map(async id => {
-      const response = await fetch('./data/' + id + '.json?v=4', { cache: 'no-cache' });
+      const response = await fetch('./data/' + id + '.json?v=5', { cache: 'no-cache' });
       if (!response.ok) throw new Error('题库加载失败');
       const bank = await response.json();
       courses[id] = { ...bank, byId: new Map(bank.questions.map(q => [q.id, q])) };
