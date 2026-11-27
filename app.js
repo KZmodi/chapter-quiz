@@ -1,7 +1,16 @@
 const STORAGE = 'chapter-quiz:v2';
 const courseIds = ['fudan', 'xmu'];
 const courseLabels = { fudan: '复旦 · 人工智能，语言与伦理', xmu: '厦大 · 大数据与人工智能导论' };
-const modeNames = { ordered: '顺序刷题', random: '随机刷题', wrong: '错题练习' };
+const countGroups = {
+  wrongHigh: { label: '错 2 次及以上', matches: count => count > 1 },
+  wrongOnce: { label: '错 1 次', matches: count => count === 1 },
+  wrongZero: { label: '错 0 次', matches: count => count === 0 }
+};
+const modeNames = {
+  ordered: '顺序刷题', random: '随机刷题', wrong: '错题练习',
+  ...Object.fromEntries(Object.entries(countGroups).map(([mode, group]) => [mode, group.label]))
+};
+const fromWrongBook = mode => mode === 'wrong' || Object.keys(countGroups).includes(mode);
 const typeNames = { single: '单选题', multiple: '多选题', boolean: '判断题', short: '简答题' };
 
 const screen = document.querySelector('#screen');
@@ -109,7 +118,7 @@ function normalizeState(raw) {
             revealed: entry.revealed === true && (selfCheck(question) || selected.length > 0 || selfResult !== null),
             selfResult
           };
-          if (mode === 'wrong' && entry.removedFromWrong === true) {
+          if (fromWrongBook(mode) && entry.removedFromWrong === true) {
             attempts[number].removedFromWrong = true;
           }
         }
@@ -151,6 +160,10 @@ const selfCheck = question => question.type === 'short' || Boolean(question.revi
 const questionKey = question => question.duplicateOf ?? question.id;
 const wrongCount = question => record().wrongCounts[questionKey(question)] ?? 0;
 const wrongCountLabel = question => '错 ' + wrongCount(question) + ' 次';
+const byWrongCount = (a, b) => wrongCount(b) - wrongCount(a) || a.number - b.number;
+const questionsInGroup = mode => course().questions
+  .filter(question => !question.duplicateOf && countGroups[mode].matches(wrongCount(question)))
+  .sort(byWrongCount);
 const emptyAttempt = () => ({ selected: [], revealed: false, selfResult: null });
 
 function showView(nextView, clearNotice = true) {
@@ -163,7 +176,7 @@ function showView(nextView, clearNotice = true) {
 
 function navigate(nextView) {
   if (nextView !== view) {
-    if (view === 'home' && nextView === 'practice' && record().last === 'wrong') {
+    if (view === 'home' && nextView === 'practice' && fromWrongBook(record().last)) {
       history.pushState({ quizView: 'wrong', course: state.course }, '');
     }
     history.pushState({ quizView: nextView, course: state.course, mode: record().last }, '');
@@ -181,7 +194,7 @@ function restoreView(clearNotice = true) {
       showView('practice', clearNotice);
       return;
     }
-    if (route.quizView === 'wrong' || route.mode === 'wrong') {
+    if (route.quizView === 'wrong' || fromWrongBook(route.mode)) {
       showView('wrong', clearNotice);
       return;
     }
@@ -265,7 +278,10 @@ function start(mode, reset = false) {
     if (mode === 'random') {
       ids = shuffled(course().questions.filter(question => !question.duplicateOf).map(question => question.id));
     }
-    if (mode === 'wrong') ids = [...current.wrong];
+    if (mode === 'wrong') {
+      ids = current.wrong.map(id => course().byId.get(id)).sort(byWrongCount).map(question => question.id);
+    }
+    if (countGroups[mode]) ids = questionsInGroup(mode).map(question => question.id);
     if (!ids.length) {
       if (view === 'practice') history.back();
       return;
@@ -349,7 +365,7 @@ function saveAttempt(question, attempt) {
   round().attempts[question.id] = attempt;
   const result = resultFor(question, attempt);
   if (result === false) rememberWrong(question);
-  if (result === true && record().last === 'wrong') {
+  if (result === true && fromWrongBook(record().last) && record().wrong.includes(questionKey(question))) {
     attempt.removedFromWrong = true;
     record().wrong = record().wrong.filter(id => id !== questionKey(question));
   }
@@ -459,7 +475,7 @@ function renderAnswerCard(active, statuses) {
 function renderPractice() {
   const mode = record().last;
   const active = round();
-  const back = button(mode === 'wrong' ? '返回错题本' : '返回首页', () => history.back());
+  const back = button(fromWrongBook(mode) ? '返回错题本' : '返回首页', () => history.back());
   const statuses = active?.ids.map(id => statusFor(id, active)) ?? [];
   const answerCard = statuses.length ? renderAnswerCard(active, statuses) : null;
   if (!active || active.index >= active.ids.length) {
@@ -467,7 +483,8 @@ function renderPractice() {
       group('section', 'card stack',
         heading('本轮完成'),
         element('p', 'muted', '已完成 ' + statuses.filter(status => status !== 'unanswered').length + ' 道题'),
-        ...(mode === 'wrong' && !record().wrong.length ? [] :
+        ...((mode === 'wrong' && !record().wrong.length) ||
+          (countGroups[mode] && !questionsInGroup(mode).length) ? [] :
           [button('再练一轮', () => start(mode, true), 'primary full')])),
       ...(answerCard ? [answerCard] : []));
   }
@@ -570,16 +587,23 @@ function removeWrong(id) {
 function renderWrong() {
   const count = record().wrong.length;
   const header = group('div', 'row between', heading('错题本'), element('span', 'metadata', count + ' 道'));
-  const items = course().questions.filter(q => record().wrong.includes(q.id)).map(question =>
+  const items = course().questions.filter(q => record().wrong.includes(q.id)).sort(byWrongCount).map(question =>
     group('li', 'card wrong-item',
       element('p', 'metadata', '题库 #' + question.number + ' · ' + wrongCountLabel(question) + ' · ' + typeNames[question.type]),
       element('h2', '', question.prompt),
       button('移出错题本', () => removeWrong(question.id))));
   const controls = button('练习错题', () => start('wrong'), 'primary full');
   controls.disabled = count === 0;
+  const countButtons = Object.entries(countGroups).map(([mode, { label }]) => {
+    const size = questionsInGroup(mode).length;
+    const entry = button(label + ' · ' + size + ' 道', () => start(mode, true), 'secondary full');
+    entry.disabled = size === 0;
+    return entry;
+  });
   return group('section', 'stack',
     group('div', 'row', button('返回首页', () => history.back())),
     group('div', 'card stack', header, count ? controls : element('p', 'muted', '当前课程还没有错题。')),
+    group('section', 'card stack', element('h2', '', '按累计错题次数练习'), ...countButtons),
     group('ul', 'stack wrong-list', ...items));
 }
 
