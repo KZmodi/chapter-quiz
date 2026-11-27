@@ -11,7 +11,7 @@ const modeNames = {
   ...Object.fromEntries(Object.entries(countGroups).map(([mode, group]) => [mode, group.label]))
 };
 const fromWrongBook = mode => mode === 'wrong' || Object.keys(countGroups).includes(mode);
-const typeNames = { single: '单选题', multiple: '多选题', boolean: '判断题', short: '简答题' };
+const typeNames = { single: '单选题', multiple: '多选题', boolean: '判断题' };
 
 const screen = document.querySelector('#screen');
 const importFile = document.querySelector('#import-file');
@@ -126,6 +126,11 @@ function normalizeState(raw) {
           attempts[number].optionOrder = entry.optionOrder;
         }
       }
+      if (index === ids.length && round.index < round.ids.length) {
+        const pending = ids.findIndex(number =>
+          !attempts[number]?.legacy && resultFor(byId.get(number), attempts[number]) === null);
+        if (pending !== -1) index = pending;
+      }
       if (mode === 'ordered') {
         const sorted = [...ids].sort(byQuestionNumber(byId));
         if (sorted.some((number, position) => number !== ids[position])) {
@@ -156,7 +161,7 @@ function save() {
 const course = () => courses[state.course];
 const record = () => state.courses[state.course];
 const round = () => record().rounds[record().last];
-const selfCheck = question => question.type === 'short' || Boolean(question.review);
+const selfCheck = question => Boolean(question.review);
 const questionKey = question => question.duplicateOf ?? question.id;
 const wrongCount = question => record().wrongCounts[questionKey(question)] ?? 0;
 const wrongCountLabel = question => '错 ' + wrongCount(question) + ' 次';
@@ -382,7 +387,6 @@ function displayedOptions(question, attempt) {
 }
 
 function answerText(question, options) {
-  if (question.type === 'short') return question.answer ?? '资料未给出答案';
   if (!question.answer) return '资料未给出答案';
   return options.filter(option => question.answer.includes(option.id))
     .map(option => question.type === 'boolean' ? option.text : option.label + '．' + option.text).join('；');
@@ -658,7 +662,7 @@ importFile.addEventListener('change', async () => {
 async function init() {
   try {
     await Promise.all(courseIds.map(async id => {
-      const response = await fetch('./data/' + id + '.json?v=5', { cache: 'no-cache' });
+      const response = await fetch('./data/' + id + '.json?v=6', { cache: 'no-cache' });
       if (!response.ok) throw new Error('题库加载失败');
       const bank = await response.json();
       courses[id] = { ...bank, byId: new Map(bank.questions.map(q => [q.id, q])) };
